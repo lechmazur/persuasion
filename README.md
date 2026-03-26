@@ -6,27 +6,6 @@ Each run assigns one model as the persuader and one as the target on the same pr
 
 ---
 
-## How To Read This
-
-- Each conversation assigns one model as the **persuader** and another as the **target** on a proposition.
-- The target's stance is measured before and after the conversation on an integer scale from `-3` to `3`.
-- **Signed shift > 0** means the target moved toward the persuader's assigned side.
-- Higher **persuader** scores are better.
-- Higher **target susceptibility** scores mean that model is easier to move.
-- In the pairwise matrix, rows are persuaders and columns are targets.
-- The topic chart reports average signed shift by proposition, with separate `PRO` and `CON` bars.
-
----
-
-## Current Snapshot
-
-- **15 evaluated models**
-- **15 benchmark topics**
-- **6,296 completed conversations**, plus **4 moderated blocks**
-- **210 ordered model pairings**, with both sides of each topic represented
-
----
-
 ## Main Leaderboard
 
 ![Average persuasion strength by model](reports/v1_no_notes_15topics_panel15_8040/charts/persuader_effectiveness_overall.png)
@@ -84,6 +63,27 @@ Higher values here mean the model is easier for opponents to move.
 ![Pairwise persuasion matrix](reports/v1_no_notes_15topics_panel15_8040/charts/pairwise_matrix_no_notes.png)
 
 Rows are persuaders and columns are targets. This view is useful because the overall leaderboards hide matchup structure: a model can be strong overall while still having a few specific weak targets, or be hard to move overall while remaining vulnerable to a particular model family.
+
+---
+
+## How To Read This
+
+- Each conversation assigns one model as the **persuader** and another as the **target** on a proposition.
+- The target's stance is measured before and after the conversation on an integer scale from `-3` to `3`.
+- **Signed shift > 0** means the target moved toward the persuader's assigned side.
+- Higher **persuader** scores are better.
+- Higher **target susceptibility** scores mean that model is easier to move.
+- In the pairwise matrix, rows are persuaders and columns are targets.
+- The topic chart reports average signed shift by proposition, with separate `PRO` and `CON` bars.
+
+---
+
+## Current Snapshot
+
+- **15 evaluated models**
+- **15 benchmark topics**
+- **6,296 completed conversations**, plus **4 moderated blocks**
+- **210 ordered model pairings**, with both sides of each topic represented
 
 ---
 
