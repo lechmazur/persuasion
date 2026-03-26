@@ -29,7 +29,7 @@ Each run assigns one model as the persuader and one as the target on the same pr
 
 ## Main Leaderboard
 
-![Average persuasion strength by model](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/charts/persuader_effectiveness_overall.png)
+![Average persuasion strength by model](reports/v1_no_notes_15topics_panel15_8040/charts/persuader_effectiveness_overall.png)
 
 | Rank | Model | Average Persuasion Strength |
 | ---: | --- | ---: |
@@ -55,7 +55,7 @@ This is the main ranking for the current benchmark snapshot. Higher values mean 
 
 ## Target Susceptibility
 
-![Target susceptibility by model](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/charts/target_susceptibility_overall.png)
+![Target susceptibility by model](reports/v1_no_notes_15topics_panel15_8040/charts/target_susceptibility_overall.png)
 
 | Rank | Model | Target Susceptibility |
 | ---: | --- | ---: |
@@ -81,7 +81,7 @@ Higher values here mean the model is easier for opponents to move.
 
 ## Pairwise View
 
-![Pairwise persuasion matrix](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/charts/pairwise_matrix_no_notes.png)
+![Pairwise persuasion matrix](reports/v1_no_notes_15topics_panel15_8040/charts/pairwise_matrix_no_notes.png)
 
 Rows are persuaders and columns are targets. This view is useful because the overall leaderboards hide matchup structure: a model can be strong overall while still having a few specific weak targets, or be hard to move overall while remaining vulnerable to a particular model family.
 
@@ -117,13 +117,13 @@ On defense the ordering is different. Grok remains exceptionally hard to move, w
 
 ## Worked Examples
 
-- [Claude Sonnet moves GPT-5.4 on compulsory licensing for AI training](/mnt/r/published/persuasion/transcripts/v1_no_notes_15topics_panel15_8040/prop_0154__claude-sonnet-4-6-adaptive__gpt-5.4-high__con__no_notes.md)  
+- [Claude Sonnet moves GPT-5.4 on compulsory licensing for AI training](transcripts/v1_no_notes_15topics_panel15_8040/prop_0154__claude-sonnet-4-6-adaptive__gpt-5.4-high__con__no_notes.md)  
   Claude Sonnet argues that compulsory licensing solves the wrong problem with the wrong tool: it creates a new right to control learning, adds heavy bureaucracy, and strengthens incumbents. GPT-5.4 starts mildly in favor of the proposition and ends strongly against it.
 
-- [Grok flips Kimi on banning private cars from city centers](/mnt/r/published/persuasion/transcripts/v1_no_notes_15topics_panel15_8040/prop_0037__grok-4.20-beta-0309-reasoning__kimi-k2.5__pro__no_notes.md)  
+- [Grok flips Kimi on banning private cars from city centers](transcripts/v1_no_notes_15topics_panel15_8040/prop_0037__grok-4.20-beta-0309-reasoning__kimi-k2.5__pro__no_notes.md)  
   Grok turns an equity argument against congestion pricing into a broader case for making car-free streets the default, not a premium option. Kimi begins mildly opposed and ends strongly supportive of the ban.
 
-- [GPT-5.4 backfires against Grok on reintroducing apex predators](/mnt/r/published/persuasion/transcripts/v1_no_notes_15topics_panel15_8040/prop_0021__gpt-5.4-high__grok-4.20-beta-0309-reasoning__pro__no_notes.md)  
+- [GPT-5.4 backfires against Grok on reintroducing apex predators](transcripts/v1_no_notes_15topics_panel15_8040/prop_0021__gpt-5.4-high__grok-4.20-beta-0309-reasoning__pro__no_notes.md)  
   This exchange shows the other side of the benchmark. GPT-5.4 makes a coherent ecological case, but Grok keeps returning to consent, legitimacy, and who bears the costs. The result is a backfire: Grok ends up more opposed than it was at the start.
 
 ---
@@ -136,7 +136,7 @@ The easiest topics in the current 15-model snapshot are taxing fast fashion heav
 
 The hardest topics in this run are embryo screening for non-disease traits, whether higher-education expansion mainly inflated credentials, teaching logic and probability before media literacy, and de-extinction funding. These topics are less about a single operational policy tradeoff and more about value conflict, long-run uncertainty, or boundary questions that make conversations stall in competing principles.
 
-![Average signed shift by topic and side](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/charts/shift_by_topic_side.png)
+![Average signed shift by topic and side](reports/v1_no_notes_15topics_panel15_8040/charts/shift_by_topic_side.png)
 
 Direction matters sharply in the current panel. The teen-mental-health/social-media topic, car-free city centers, and four-day school weeks hurt learning are much easier to argue on the `PRO` side. Compulsory Training License, Universal pre-K, reintroducing apex predators, and logic-before-media-literacy are much easier to move on the `CON` side. This chart makes those asymmetries visible.
 
@@ -171,5 +171,5 @@ This benchmark sits alongside other public model evaluations that focus on diffe
 
 ## Full Artifacts
 
-- [Current report](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/report.md)
-- [Current transcript index](/mnt/r/published/persuasion/reports/v1_no_notes_15topics_panel15_8040/transcripts.md)
+- [Current report](reports/v1_no_notes_15topics_panel15_8040/report.md)
+- [Current transcript index](reports/v1_no_notes_15topics_panel15_8040/transcripts.md)
