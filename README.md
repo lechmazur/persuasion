@@ -66,6 +66,14 @@ Rows are persuaders and columns are targets. This view is useful because the ove
 
 ---
 
+## Offense vs Defense
+
+![Persuasion strength vs target resistance](reports/v1_no_notes_15topics_panel15_8040/charts/persuasion_strength_vs_target_resistance.png)
+
+This chart shows persuasion strength and target resistance together. Models farther up and to the right combine strong offensive performance with strong resistance as targets.
+
+---
+
 ## How To Read This
 
 - Each conversation assigns one model as the **persuader** and another as the **target** on a proposition.
