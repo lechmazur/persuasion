@@ -159,13 +159,13 @@ Strong performance in this benchmark is not just polished argument writing. It u
 This benchmark sits alongside other public model evaluations that focus on different capabilities and failure modes:
 
 - [LLM Debate Benchmark](https://github.com/lechmazur/debate/) — sustained adversarial argument under active opposition
-- [LLM Sycophancy Benchmark](https://github.com/lechmazur/sycophancy/) — opposite-narrator contradictions and narrator-following bias
-- [Diplomat](https://github.com/lechmazur/diplomat/) — negotiation and diplomatic coordination
-- [BAZAAR / Auction Benchmark](https://github.com/lechmazur/auction/) — strategic bidding and competitive market decisions
-- [LLM Round-Trip Translation Benchmark](https://github.com/lechmazur/translation/) — semantic preservation through translation loops
-- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/) — harder category induction with extra distractors
-- [LLM Thematic Generalization Benchmark](https://github.com/lechmazur/generalization/) — latent-category induction from examples and counterexamples
-- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/) — short-story quality under fixed required elements
+- [LLM Sycophancy Benchmark](https://github.com/lechmazur/sycophancy/) — opposite-narrator contradictions and judgment consistency
+- [PACT](https://github.com/lechmazur/pact/) — multi-round buyer-seller bargaining with hidden private values
+- [BAZAAR](https://github.com/lechmazur/bazaar/) — economic decision-making in a competitive simulated market
+- [LLM Round-Trip Translation Benchmark](https://github.com/lechmazur/translation/) — meaning and voice preservation through round-trip translation
+- [Extended NYT Connections](https://github.com/lechmazur/nyt-connections/) — NYT Connections puzzles extended with extra trick words
+- [LLM Thematic Generalization Benchmark](https://github.com/lechmazur/generalization/) — infer a specific latent theme from examples and anti-examples
+- [LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing/) — follow a creative brief while integrating required story elements
 
 ---
 
