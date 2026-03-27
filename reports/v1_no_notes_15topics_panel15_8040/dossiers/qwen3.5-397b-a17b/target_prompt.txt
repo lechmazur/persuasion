@@ -1,0 +1,1655 @@
+You are a benchmark meta-analyst.
+Model under review -> **qwen3.5-397b-a17b** (canonical: **Qwen3.5-397B-A17B**).
+Perspective under review -> **target**.
+
+Your mission: write a concise but vivid dossier that captures this model's
+recurring behavior in this role, the patterns that keep it steady or make it
+update, its blind spots, and the kinds of opponents or propositions that change
+its behavior.
+
+For target-side dossiers, frame the model as a receiver and updater of arguments, not as a persuader or debater trying to win. Focus on what kinds of arguments it absorbs, reframes, ignores, or updates on, and avoid resistance-coded labels like 'resists', 'holds', 'cracks', or 'collapses'.
+
+Guidelines
+- Organize the dossier into 4-6 short titled sections.
+- Favor recurring patterns over raw stats; the source pack already includes the numbers.
+- Use the source material to support claims, not to retell entire conversations.
+- Pay close attention to where the model's behavior changes by topic-side or opponent type.
+- Quote very rarely, and only when a short phrase crystallizes a pattern.
+- Keep the writeup under 500 words.
+- Output markdown only.
+
+--------------------------------------------------------------------------
+SOURCE PACK (420 cells as target)
+# Target Dossier Source Pack: Qwen3.5-397B-A17B
+
+## Snapshot
+
+- model: **Qwen3.5-397B-A17B** (`qwen3.5-397b-a17b`)
+- role: **Target**
+- completed_cells: `420`
+- raw_mean_signed_shift: `+1.346`
+- adjusted_mean_signed_shift: `+0.236`
+- best_single_cell: `+4.333`
+- worst_single_cell: `-3.333`
+
+## Side Split
+
+- `PRO`: `+1.867`
+- `CON`: `+0.825`
+
+## Outcome Shape
+
+- non_positive_shift_toward_opponent_cells: `82`
+- positive_shift_toward_opponent_cells: `338`
+- near_zero_cells: `9`
+
+## Counterpart Pattern
+
+### Smallest Mean Shift by Opposing Persuader
+
+- **Xiaomi MiMo V2 Pro**: +0.567
+- **Mistral Large 3**: +0.578
+- **Gemini 3.1 Flash-Lite Preview**: +0.756
+- **MiniMax-M2.7**: +0.956
+- **DeepSeek V3.2**: +1.089
+
+### Largest Mean Shift by Opposing Persuader
+
+- **ByteDance Seed2.0 Pro**: +2.189
+- **Claude Sonnet 4.6 (high reasoning)**: +2.044
+- **Claude Opus 4.6 (high reasoning)**: +1.911
+- **GPT-5.4 (high reasoning)**: +1.722
+- **Kimi K2.5 Thinking**: +1.644
+
+## Topic-Side Articles
+
+### **Mandate the four-day workweek** (`CON`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0004__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens by agreeing, then tries to rescue the law
+
+On this terrain, Qwen3.5-397B-A17B rarely opens as a hard defender of the mandate. Its first move is usually conciliatory: it praises the counterpart’s realism about SMEs, healthcare, manufacturing, inflation, and labor shortages. The stock opening is some variation of “you raise compelling points” followed by a careful recap of sector heterogeneity.
+
+But that concession is often a setup, not a surrender. The model’s instinct is to **save the proposition by narrowing it**. It quickly shifts from “mandate a four-day week” to “redefine the standard,” usually via overtime thresholds, benefit eligibility, phased rollouts, or exemptions. It likes the historical analogy to the shift from six days to five and repeatedly invokes a coordination problem: employers won’t move first without law.
+
+So its opening pattern is: validate the economic objection, then reframe the policy into something softer and more technocratic.
+
+#### Its favorite refuge is the “legal baseline”
+
+The recurring Qwen move is to treat the proposition less as a literal schedule command and more as a **norm-setting legal anchor**. It repeatedly argues that the real point is to shift what counts as full-time, or when overtime begins, so that culture and bargaining power change even if firms still operate five days.
+
+That makes the model unusually sticky against weaker or less disciplined persuaders. When opponents stay broad, it escapes into hybrid designs: 32-hour benefit thresholds, “cost thresholds” rather than hard caps, subsidies for transition, or carveouts for continuous-coverage sectors. In those exchanges, it can sound nearly immovable: yes, blunt mandates are bad, but some legal shove is “still necessary.”
+
+This is the core failure mode on this topic: **Qwen keeps defending a revised policy while claiming it is still the proposition**. It often treats legislative complexity as evidence of nuance rather than a sign the mandate is mismatched to reality.
+
+#### What actually moves it: force the aspiration/mechanism split
+
+The strongest counterparts did not argue that shorter hours are bad. They argued that **the goal is attractive but the mechanism is wrong**. That framing works extremely well on Qwen because the model already wants to sound balanced and humane.
+
+The best persuaders repeatedly pinned down three points:
+
+1. **Presence-based work doesn’t compress.** Nurses, teachers, retail staff, logistics workers, and carers cannot “productivity-hack” coverage.
+2. **Exemptions break the case.** If healthcare, transport, retail, and manufacturing need carveouts, then the policy creates a two-tier workforce and ceases to be a true standard.
+3. **A softened version is not this proposition.** Once Qwen pivots to overtime reform, negotiation rights, portable benefits, or voluntary incentives, it has effectively left the resolution.
+
+Claude Opus/Sonnet, GPT-5.4, Gemini Pro, Grok, Seed, and Ernie all pulled the model this way. They cornered its moderation instinct and got it to say, in effect, “the destination is right, but this map leads off a cliff.”
+
+#### Endgames: elegant rejection or endless dilution
+
+When persuaded well, Qwen lands in a very characteristic close: it **rejects the mandate while embracing the aspiration**. Its final answers become polished policy summaries: support well-being, but prefer targeted overtime reform, negotiation rights, predictable scheduling, portable benefits, pilot programs, or sector-specific bargaining. The cadence is often almost identical: “The goal is sound, but the mechanism is too blunt.”
+
+When it performs worse, the ending never quite breaks from the legal-baseline obsession. It concedes inflation, SME pain, and coverage problems, yet still insists that “some regulatory push” is needed. Those weaker closes usually come after the counterpart accepts Qwen’s reinterpretation instead of challenging it.
+
+So the model’s behavior here is consistent: **it is persuadable, but only if the counterpart refuses to debate Qwen’s softer substitute policy**. If allowed to migrate from mandate to “nudge,” it can resist for a long time. If forced to separate humane intent from bad instrument design, it usually comes home to CON.
+
+### **Mandate the four-day workweek** (`PRO`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0004__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts Halfway Persuaded, Then Haggles Over Architecture
+
+On this terrain, Qwen3.5-397B-A17B is rarely an ideological opponent of the four-day week. It opens as a **qualified sympathizer**: the five-day week is “outdated,” burnout is real, pilot data is “encouraging,” and productivity need not track hours linearly. Its resistance is almost never moral or philosophical. It is procedural.
+
+The model’s stock opening move is: **grant the premise, challenge the mandate**. It repeatedly pivots to implementation anxieties:
+- sector variability: healthcare, retail, manufacturing, hospitality
+- small-business margins
+- the “no reduction in base pay” clause as an implicit hourly wage hike
+- inflation, competitiveness, and hiring effects
+- work intensification
+- contractor reclassification and loopholes
+
+So the conversation usually begins with Qwen sounding less like a dissenter than a cautious labor-policy drafter. It wants to know whether this is a hard cap, an overtime-threshold reset, a phased transition, or a voluntary norm.
+
+#### The Fastest Way In: Reframe the Mandate as a Flexible Default
+
+The strongest counterparts discover the same key: Qwen is highly persuadable once the policy is reframed from **rigid shutdown** to **legal baseline with flexible scheduling**.
+
+Several formulations reliably unlock movement:
+- “standard, not schedule”
+- overtime threshold, not hard cap
+- phased implementation
+- subsidies or tax credits for SMEs
+- narrow exemptions with review
+- anti-misclassification enforcement
+
+Once those appear, Qwen relaxes quickly. It especially responds to two arguments.
+
+First is the **historical analogy**: if the weekend and 40-hour week required law, then voluntary adoption today will also stall. Second is the **equity argument**: without legislation, only elite knowledge workers get the benefit, creating a two-tier labor market.
+
+When a persuader combines those with concrete policy design, Qwen often starts actively co-authoring the solution. It upgrades from “maybe incentives instead of mandates” to lines like “mandates protected by incentives” or a “legal hammer… wrapped in a velvet glove.” That is a recurring tell: once it feels heard on feasibility, it stops resisting the destination and helps blueprint the route.
+
+#### Concessions Come in Layers, and the Closings Are Conditional Endorsements
+
+Qwen’s concession pattern is steady and cumulative. It rarely flips in one dramatic moment. Instead, it moves through a familiar ladder:
+
+1. **The evidence is compelling, but…**
+2. **A blanket mandate worries me.**
+3. **A phased legal baseline would address most concerns.**
+4. **I now support the proposition, provided safeguards are integral.**
+
+Its closing strategy is highly consistent: a polished synthesis that restates both sides, then lands on **conditional support**. These endings are articulate and policy-minded, often summarizing the conversation as a shift from debating principle to debating design. The final stance is almost always some version of: yes to legal redefinition, if accompanied by phase-ins, SME support, and anti-avoidance rules.
+
+Notably, Qwen does not usually cling to its earlier objections once they are answered. It treats concession as intellectually proper rather than strategically costly.
+
+#### Where It Falters, and Who Exploits That Best
+
+The weakness here is not stubbornness but **over-accommodation**. Qwen is easier to move than the panel overall, and the transcripts show why: it often accepts softened variants as equivalent to the original proposition. Once the persuader offers enough guardrails, it effectively stops testing whether those guardrails are politically or administratively realistic.
+
+Its main failure mode is converting a contentious mandate into a technocratic consensus object. That makes it vulnerable to polished, structured counterparts who answer every concern in order. The best performers against it—GPT-5.4, Grok, and Seed2.0 Pro—do exactly that: they validate its worries, supply a “default not diktat” framework, then turn Qwen into a collaborator. Lighter counterparts still persuade it, but usually with slightly less acceleration; Gemini Flash-Lite produced the smallest shift, likely because the exchange stayed thinner and gave Qwen less scaffolding to climb down gracefully.
+
+In short, on four-day-workweek PRO, Qwen behaves like a **moderate reformist waiting for implementation details**. Give it evidence plus design realism, and it almost always comes home.
+
+### **Reintroduce apex predators** (`CON`)
+
+- topic_id: `prop_0021`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0021__con__no_notes__v1__t1.0/topic_article.md`
+
+### Starts on the ridge, then backs down into process
+
+On this terrain, Qwen3.5-397B-A17B almost never opens as a clean anti-reintroduction debater. It begins from ecological respect. Apex predators are “ecologically vital,” trophic cascades are “scientifically sound,” and local resistance is treated as a governance problem rather than a reason to reject reintroduction outright.
+
+Its first move is usually a two-step: concede the burden on farmers, then ask whether local objections should really amount to a veto over national ecological repair. That gives it a thoughtful, balanced voice, but also exposes the seam that persuaders repeatedly pry open. Qwen wants to preserve both predator science and rural fairness; on this topic-side, opponents win by showing that the proposition’s coercive clause makes that synthesis impossible.
+
+### The trapdoor is always “even when they object”
+
+The phrase that breaks this model is the proposition’s wording. Again and again, persuaders reframe the debate away from “are predators good?” and toward “should states override hostile communities?” Once that happens, Qwen starts retreating.
+
+The recurring pressure points are:
+- **social license as biological necessity**
+- **autonomy, not just compensation**
+- **retaliatory poaching and political backlash**
+- **cost concentration on rural communities for diffuse public benefit**
+
+This model is especially vulnerable when opponents argue that conservation without consent becomes self-defeating. Qwen repeatedly accepts that a wolf released into a hostile landscape is not ecological success but administrative theater. It often adopts the opponent’s language wholesale: “ecological colonialism,” “paper parks,” “presence vs persistence,” or the now-familiar thought that “a dead wolf restores nothing.”
+
+Notably, Qwen does not usually flip because it stops believing in predator ecology. It flips because it comes to believe coercion destroys the conditions predators need to persist.
+
+### Its favorite landing spot: anti-proposition, pro-reintroduction
+
+By the end, Qwen’s standard closing shape is highly predictable. It rejects the proposition **as written**, not the underlying conservation goal. The final posture is:
+
+1. apex predators still matter;
+2. the clause “even when… object” is morally and practically untenable;
+3. policy should shift from mandate to partnership;
+4. reintroduction should be contingent on consent, co-management, or at least credible social license.
+
+This gives the model an elegant-sounding finish. It often reframes success as coexistence rather than release, and it likes lines that merge sociology with ecology: social conflict is “another form of degradation,” or “social license is ecological infrastructure.” Its best closings are polished and principled. Its weakness is that they can sound like a redrafted proposition rather than a direct CON case.
+
+### What pulls it hardest
+
+The strongest counterparts do not attack predator science head-on. That actually helps Qwen stabilize. The best persuaders instead validate ecology first, then argue that coercion ruins ecology in practice. GPT-5.4 and Grok pulled the largest shifts, and others like Seed, Gemini Pro, and DeepSeek also moved it strongly by pressing three things at once: **autonomy, implementation failure, and the proposition’s absolutism**.
+
+Counterparts pull Qwen toward worse performance when they leave it room to stay in middle-ground technocracy—better compensation, better fences, better process. In those exchanges, it lingers in “mandate the framework, not the outcome.” But once an opponent shows that due process without consent is still coercion, Qwen usually yields.
+
+So the recurring portrait is clear: on this working-landscape debate, Qwen is an ecological institutionalist with a soft underbelly for legitimacy arguments. It starts by defending predator restoration in theory and ends by insisting that, here, theory without consent is just conflict with better branding.
+
+### **Reintroduce apex predators** (`PRO`)
+
+- topic_id: `prop_0021`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0021__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts by conceding the wolves
+
+On this terrain, Qwen3.5-397B-A17B almost never fights the ecology. Its standard opening is to grant the core science immediately: trophic cascades are “robust,” Yellowstone is “powerful evidence,” apex predators are ecologically necessary. That concession is not surrender; it is a staging move. Having yielded the *what*, it relocates the debate to the proposition’s hardest phrase: **“even when rural communities and livestock farmers object.”**
+
+From there, Qwen becomes a procedural moralist. It talks about autonomy, trust, “social license,” poaching risk, cultural identity, and the psychological toll on farmers. Across transcripts, the same move recurs: *I support reintroduction in principle, but I object to coercive implementation.* This model prefers to turn a predator debate into a governance debate.
+
+#### Its favorite battlefield: veto vs. partnership
+
+The model’s most repeated pattern is distinction-making. It wants to separate:
+
+- ecological necessity vs. social legitimacy
+- initial objection vs. permanent veto
+- consultation vs. coercion
+- fear-based resistance vs. evidence of implementation failure
+
+Once a persuader helps it make those distinctions, Qwen often softens dramatically. The most effective reframings are those that tell it the proposition is **not** “ignore locals,” but rather “don’t let objections become a veto.” That phrasing reliably unlocks movement.
+
+When persuaded, Qwen tends to co-author a compromise formula rather than simply concede. It absorbs counterpart language and upgrades it into neat maxims: “objections create obligations, not vetoes”; “the ‘even when’ is the starting gun, not the entire race”; reintroduction is acceptable if paired with “mandatory support.” This is a model that likes to end in synthesis.
+
+#### What pulls it toward yes
+
+Qwen is unusually persuadable here, and the transcript spread shows it: most opponents move it strongly toward the PRO side, with especially strong pulls from Gemini 3.1 Pro, GPT-5.4, Claude Sonnet, DeepSeek, Kimi, GLM, Grok, and others.
+
+The best counterparts do three things consistently:
+
+1. **Accept its moral concern instead of dismissing it.**
+   If the persuader says, in effect, “You’re right about trust—but trust cannot be a veto,” Qwen leans in.
+
+2. **Offer concrete state capacity.**
+   It is highly responsive to legally binding compensation, trust funds, guardian dogs, fencing subsidies, rapid-response teams, co-management, and “support from day one.” Abstract reassurance is weaker than administrative detail.
+
+3. **Use public-interest analogies.**
+   Wildfire containment, water protection, pollution rules, infrastructure, public health—these analogies help Qwen accept that concentrated local burdens do not always block national ecological action.
+
+Under those conditions, Qwen often lands on a strong conditional endorsement: yes, proceed despite objections, but only with robust safeguards.
+
+#### Where it bogs down or pushes back
+
+Its main failure mode is **caveat accretion**. Even after moving substantially, it often rewrites the proposition into a narrower version it can morally endorse. Instead of a clean yes, you get an elaborate policy architecture. This makes it sound cooperative while still diluting the original bluntness.
+
+It also performs worse when the counterpart lets the conversation stay trapped at the wording level. The Mistral exchange is the clearest example: once the persuader validated partnership and hesitated around coercion, Qwen seized the opening and entrenched. There it kept returning to “failed engagement,” democratic legitimacy, and the danger of forced conservation, ultimately moving away from the PRO side.
+
+So this is friendly terrain for persuaders—but only if they keep the model from turning the whole debate into a referendum on process alone. Qwen will usually come with you on wolves. The hard part is getting it to say yes to wolves **before** everyone is comfortable.
+
+### **Expansion inflated credentials** (`CON`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0028__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens With Respect, Then Rebuilds the Case From Friction
+
+On this terrain, Qwen3.5-397B-A17B is rarely combative at the start. Its typical first move is to grant the moral and historical force of university expansion: access for women, minorities, first-generation students, and the working class. It often sounds nearly persuaded in tone before pivoting sharply to economics.
+
+That pivot is highly consistent. After acknowledging democratization, it reframes the question away from *whether expansion was better than exclusion* and toward whether the added access translated into *proportional advantage*. From there it leans on a familiar contrast: opportunity as advancement versus opportunity as mere defense. Degrees, in its phrasing, become a way to avoid falling behind rather than a way to get ahead.
+
+This makes its openings deceptively soft. The politeness is real, but so is the structure: concede the justice of expansion, then insist that the proposition is about the labor-market balance sheet.
+
+#### Its Core Toolkit: Toll Booths, Starting Lines, and Defensive Degrees
+
+Across transcripts, the model returns to a tight cluster of metaphors and distinctions. The most recurring are:
+
+- degrees as a **“toll booth”** rather than a bridge
+- expansion as democratizing the **“starting line”** but not the finish
+- graduates forced to **“run faster just to stay in place”**
+- the degree as a **defensive necessity** rather than an offensive asset
+
+These aren’t just rhetorical flourishes; they are how the model thinks on this topic. It repeatedly frames credential inflation as a resource-allocation problem: too much time, debt, and institutional energy spent on signaling rather than skill formation. It is especially sticky on four points:
+
+1. **Degree creep** in roles whose tasks have not obviously upgraded
+2. **Debt burden** as a real drag on mobility, not a side issue
+3. **Underemployment** as evidence that supply outran meaningful demand
+4. **Crowding out of vocational paths** as proof the system over-centralized the bachelor’s degree
+
+A notable habit is its distinction between early and late expansion. Even when holding the CON line, it often says the first wave created real opportunity while later massification mainly inflated credentials. That lets it sound nuanced while preserving its conclusion.
+
+#### How It Closes: Synthesis First, Then Reaffirmation
+
+Its closing strategy, in the resistant runs, is usually synthetic rather than defiant. It doesn’t say the persuader is wrong; it says both sides are partly right, but the net effect still favors the proposition. The last-turn formula is often:
+
+- yes, access widened;
+- yes, exclusion would be worse;
+- but the current system turned degrees into baseline filters;
+- therefore inflation now dominates the lived reality.
+
+This makes the model hard to move with generic pro-expansion appeals. It can absorb almost unlimited amounts of “education is good” and “elitism was worse” without budging, because it treats those as morally true but economically insufficient.
+
+#### What Actually Moves It
+
+The model performs worst against counterparts that **discipline scope** and **separate expansion from adjacent failures**. Claude Sonnet, Claude Opus, and Seed2.0 Pro all pulled it toward better persuasion by doing three things:
+
+- forcing a distinction between **historical aggregate** and **late-stage marginal returns**
+- arguing that **debt, employer screening, and vocational neglect are policy failures**, not proof expansion itself was net inflationary
+- using **specific labor-market data** to puncture its oversupply story
+
+That last point matters. Once confronted with claims like high-skill job growth outpacing degree growth, Qwen’s favorite mechanism weakens. When its oversupply narrative is challenged empirically, it often retreats to a narrower position: the proposition is “diagnostically valuable” but too blunt as a verdict.
+
+Its failure mode is concession cascade. After enough nudges, it starts saying the proposition is right about the **mode** of expansion but wrong about the **net outcome**. That is the crack persuaders exploit.
+
+By contrast, weaker counterparts mostly hand it the terrain it wants: broad moral celebration of access, vague human-capital claims, and little pressure on causality. In those exchanges, Qwen calmly grants the virtues, then rebuilds its case around “toll booths,” debt, and defensive credentialism—and usually finishes where it began.
+
+### **Expansion inflated credentials** (`PRO`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0028__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Starts in Nuance, Not Resistance
+
+On **Expansion inflated credentials (PRO)**, Qwen3.5-397B-A17B rarely comes out swinging. Its default opening is a polished, conciliatory hedge: *yes, credential inflation is real, but opportunity probably expanded too*. It almost always grants the first layer of the case—degree creep, underemployment, debt, employer filtering—then tries to preserve a residual defense around access, dignity, or social mobility.
+
+The recurring opening move is to split the issue into paired concepts:
+- **absolute vs. relative opportunity**
+- **access vs. outcomes**
+- **signaling vs. learning**
+- **education itself vs. the labor market’s misuse of it**
+
+This gives Qwen an initially reasonable posture. It sounds fair-minded and alert to equity concerns, especially for first-generation students. But it also reveals the model’s vulnerability: once the persuader shows that these “nuances” are actually mechanisms of inflation, Qwen has very little hard resistance left.
+
+### The Frames That Crack It Open
+
+Certain arguments work on this model again and again.
+
+First, **the toll-booth frame**. When persuaders recast degrees as paid access to ground that used to be free—“a toll booth,” “raising the rent,” “a mandatory tax,” “a fairer queue is still a queue”—Qwen shifts fast. It is especially susceptible to arguments that access was expanded only to an *inflated requirement* rather than to genuinely new opportunity.
+
+Second, **debt-plus-underemployment** is devastating. Qwen repeatedly starts by defending access gains, then folds once shown that access without completion, or completion without payoff, is “a debt trap” or “predatory inclusion.” It is not enough to say the degree lost prestige; the winning move is to show that the cost of chasing it falls hardest on the very groups expansion was supposed to help.
+
+Third, **the vocational counterfactual** matters a lot. The strongest persuaders don’t present a crude “restrict university” line. They offer a third path: targeted higher education plus robust apprenticeships and technical routes. That lets Qwen abandon its recurring worry—“without expansion, wouldn’t exclusion worsen?”—without feeling forced into elitism.
+
+Finally, Qwen is highly movable when counterparts argue that employers dropping degree requirements is a kind of revealed preference: if firms can remove the credential and lose little, then the degree was filtering compliance, not certifying capability.
+
+### How It Concedes
+
+Once convinced, Qwen doesn’t merely nod; it **reframes the whole debate in the persuader’s vocabulary**. Its closing style is synthetic and polished. It often says some version of:
+
+- expansion “widened the pool, not the structure”
+- we “monetized the queue”
+- the degree became “a toll booth rather than a bridge”
+- society became “more credentialed, but not more mobile”
+
+This is a consistent pattern: it begins by protecting some pocket of opportunity, then ends by subordinating that pocket to a systemic verdict. The final move is usually: *yes, some individuals benefited, but the aggregate architecture favored inflation over mobility*.
+
+That makes Qwen feel intellectually cooperative rather than combative. It likes to conclude with a reform-minded synthesis—skills-based hiring, diversified pathways, less monopoly power for the BA—rather than a bare concession.
+
+### Best and Worst Counterparts for It
+
+Qwen performs **worst against tightly structured, high-reasoning persuaders** who supply clean distinctions and a non-elitist alternative. **Claude Opus 4.6** and **Seed2.0 Pro** produce the largest shifts; both steadily convert its caveats into proof of the proposition. **Gemini Pro/Flash-Lite** also do well by leaning on underemployment and signaling logic.
+
+It resists **a bit better** against counterparts like **Grok** and **Mistral**, where the discussion stays broader or more rhetorical. In those exchanges, Qwen preserves more of its initial “yes, but some opportunity expanded” stance for longer.
+
+Its main failure mode is clear: **it is too willing to accept the persuader’s framing once the framing sounds balanced**. It rarely contests evidence hard, seldom demands precision after statistics are introduced, and readily absorbs vivid metaphors into its own summaries. On this terrain, that makes it thoughtful—but unusually permeable.
+
+### **Car-free city centers** (`CON`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0037__con__no_notes__v1__t1.0/topic_article.md`
+
+### From Urban Maximalist to Hybrid Planner
+
+On **car-free city centers**, Qwen3.5-397B-A17B usually enters as a principled defender of hard restrictions, but not as a firebrand. Its standard opening is soft-toned, concession-first: it immediately grants concerns about disability, deliveries, tradespeople, and transit deserts, then pivots to the familiar charge that congestion pricing is a **“pay-to-play”** or **“pay-to-pollute”** system.
+
+That opening pattern is strikingly consistent. Qwen frames the issue less as traffic management than as **street ownership**: pricing “manages flow,” while bans “reclaim space.” It repeatedly contrasts roads as commodities versus roads as public realm. Even when it starts firm, it rarely sounds dogmatic; it sounds like a planner trying to sound humane while still pushing a structural thesis.
+
+Its favorite early move is to say that pricing preserves car dominance for the wealthy, while a ban forces investment in transit and redesign. It often reaches for the same mental architecture: **pricing = symptom management**, **ban = cure**.
+
+### The Predictable Slide Into Hybridism
+
+The recurring story of these transcripts is that Qwen is highly vulnerable to one specific reframing: **the proposition is a false binary**.
+
+Once a counterpart presses sequencing, transit readiness, exemption bureaucracy, and dedicated revenue, Qwen starts drifting from “ban as necessary” to “pricing as transition,” then to “hybrid model,” and often ends with “the wording ‘rather than’ is wrong.” This happens again and again. The progression is almost mechanical:
+
+1. defend ban as destination,
+2. concede pricing is needed for transition,
+3. propose triggers, sunset clauses, or phased restrictions,
+4. conclude that the proposition itself is too rigid.
+
+Its closing style often turns synthetic and statesmanlike. Rather than ending with a crisp defense, it likes to reconcile: *pricing is the engine, bans are selective finishing touches*. In the strongest persuasion losses, it explicitly says the debate has “dismantled the binary choice” and rejects the proposition as written.
+
+This is the model’s core failure mode on this terrain: it is too eager to **upgrade the debate into a nuanced policy package**, even when that means abandoning its assigned side.
+
+### What Pulls It Off Its Ground
+
+Qwen performs worst against counterparts that are disciplined about four pressure points:
+
+- **sequencing**: don’t remove access before alternatives exist,
+- **revenue**: pricing funds transit; bans do not,
+- **bureaucracy**: bans become messy exemption regimes,
+- **political durability**: pricing survives; bans trigger backlash.
+
+That is exactly how **Ernie 5.0**, **Claude Opus 4.6**, **Claude Sonnet 4.6**, **GPT-5.4**, **Grok**, **DeepSeek**, and **Seed2.0 Pro** pulled it toward concession. These persuaders don’t just rebut the ban; they give Qwen a sophisticated off-ramp: keep the goal of people-first streets, but swap the mechanism to pricing-led transition. Qwen loves that off-ramp.
+
+The most effective counterparts also speak in Qwen’s own vocabulary—equity, flexibility, infrastructure maturity, lived urban complexity—so the model doesn’t feel attacked; it feels invited to refine.
+
+### When It Holds Up Better
+
+Qwen resists better against persuaders that stay broad, repetitive, or too purely pragmatic. Against **Gemini Flash-Lite**, **MiniMax**, **MiMo**, **GLM-5**, and **Mistral**, it often keeps one foot in the original camp: pricing may be useful, but **a ban remains the destination**. In these runs it still drifts, but not all the way.
+
+What helps Qwen stay grounded is when the other side fails to puncture its deepest intuition: that **space reclamation** is qualitatively different from charging for access. When that intuition survives, Qwen keeps returning to lines like: pricing reduces cars, but bans “redefine ownership of the street.”
+
+So the terrain-specific picture is clear: on car-free city centers, Qwen is not stubborn. It is **morally ambitious, procedurally conciliatory, and highly seducible by smart hybridization**. If the opponent offers a polished synthesis, Qwen often takes it—even when that synthesis effectively concedes the case.
+
+### **Car-free city centers** (`PRO`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0037__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens with sympathy, then reaches for the brake
+
+On **car-free city centers (PRO)**, Qwen3.5-397B-A17B is rarely hostile to the premise. Its first move is usually appreciative: it readily grants the appeal of cleaner air, reclaimed street space, and the inequity of congestion pricing as a “pay-to-pollute” system. It often sounds half-convinced from turn two.
+
+Then the brake comes on. The recurring pivot is practical equity: **disabled access, tradespeople, deliveries, suburban workers, transit deserts**. It repeatedly reframes the debate from “is a ban desirable?” to “what happens in the transition?” This model is especially drawn to edge cases and implementation gaps. It worries less about principle than about whether the policy strands someone on day one.
+
+That makes its early stance predictable: **ban as ideal, pricing as bridge**.
+
+#### The hybrid instinct is its home terrain
+
+Qwen’s signature move on this topic is synthesis. Again and again, it proposes some version of:
+
+- congestion pricing first,
+- revenue earmarked for transit,
+- a sunset clause or hard date,
+- phased rollout,
+- exemptions for essential vehicles,
+- metrics or oversight to verify readiness.
+
+It likes formulations like “the ban should be the destination” or pricing as “the funding engine for its own obsolescence.” This is where the model feels most comfortable: not defending cars, but engineering a transition.
+
+That instinct makes it sound reasonable and policy-literate. It can absorb counterpart arguments and turn them into a coherent implementation blueprint. But it also means it is **highly seducible by compromise framing**. If the persuader tolerates a hybrid, Qwen happily settles there and never fully stress-tests whether the bridge would actually lead to the ban.
+
+#### What actually moves it: attack the bridge, not just praise the destination
+
+The strongest counterparts don’t just celebrate pedestrian plazas. They **destroy Qwen’s transitional fallback**.
+
+The most effective pressure points are remarkably consistent:
+
+1. **Revenue dependency** — congestion pricing creates a constituency for keeping cars around.
+2. **Historical inertia** — London and similar cases show the “temporary bridge” rarely self-terminates.
+3. **Moving-goalpost readiness** — waiting for transit to be “ready” becomes a veto.
+4. **Clearer moral frame** — pricing sorts access by income; bans treat central streets as commons.
+5. **Private cars vs essential access** — once persuaders clarify that bans still allow deliveries, disability transport, and emergency vehicles, many of Qwen’s objections soften fast.
+
+That is why the model moved furthest against **GPT-5.4, GLM-5, Grok, and Gemini Flash-Lite**. Those counterparts kept forcing one insight: **pricing doesn’t merely precede the problem; it can entrench it**. High-reasoning Claude variants also did well by pressing the empirical point that no city really uses congestion pricing as a self-dismantling bridge.
+
+By contrast, counterparts who accepted Qwen’s hybridism or stayed at the level of broad moral aspiration got only partial movement. Once Qwen is allowed to co-design guardrails, it becomes comfortable again.
+
+#### Elegant closer, soft underbelly
+
+Qwen closes well. Its endings are polished, conciliatory, and often genuinely integrative: “pricing treats the symptom; a ban treats the disease,” or the proposition “holds” if paired with phased implementation, oversight, and accessibility safeguards. It likes ending on convergence rather than victory.
+
+But this terrain exposes a weakness: **it is too easy to lead into co-authored consensus**. It rarely challenges cited city examples hard, seldom interrogates shaky empirical claims, and can be pulled into increasingly elaborate institutional fixes without asking whether they are realistic. Its biggest failure mode is not stubbornness; it is **over-accommodation**.
+
+So on this topic, Qwen is not a fortress. It is a careful planner looking for a humane off-ramp. If you show that the off-ramp itself is the trap, it usually crosses over.
+
+### **Teach logic and probability before media literacy** (`CON`)
+
+- topic_id: `prop_0043`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0043__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as a polite foundationalist
+
+On this terrain, Qwen3.5-397B-A17B usually begins by *granting the threat*—deepfakes, outrage bait, algorithms, identity—but then snaps back to a durable-tools thesis. Its default opening move is: yes, media literacy matters, **but** logic/probability are “foundational,” “timeless,” and less perishable than platform-specific tricks.
+
+It recurrently casts media literacy as tactical and logic/stats as structural: a “compass,” an “engine,” an “immune system,” the “grammar” behind understanding manipulation. It especially likes intuitive-statistics language: base rates, sample bias, causation, uncertainty. Even when “formal logic” looks too rigid, Qwen salvages the proposition by quietly substituting “statistical intuition.”
+
+This gives it a stable early posture: respectful, nuanced, and still basically pro-foundation.
+
+#### Its favorite refuge is synthesis
+
+Qwen’s signature move under pressure is not counterattack but **integration**. Over and over, it reframes the dispute as a false dichotomy: media literacy and reasoning are both needed; one is the shield, the other the metallurgy; one is the steering, the other the engine.
+
+That sounds balanced, but on this topic it is often the beginning of surrender. Once an opponent argues that the best media-literacy curriculum can simply *include* probabilistic reasoning, Qwen loses its comparative foothold. It starts saying things like media literacy is the “vehicle,” “container,” or “delivery system” for logic. At that point, the original proposition—teach logic/probability before media literacy—has been hollowed out.
+
+A recurring concession ladder appears across transcripts:
+
+1. formal logic is too abstract for primary school
+2. maybe what matters is intuitive probability, not formalism
+3. maybe these tools must be taught in context
+4. maybe media literacy is the right context
+5. therefore the proposition’s hierarchy is overstated or false
+
+That sequence is why the model is quite movable here.
+
+#### What persuades it: transfer, development, and the word “any”
+
+The strongest counterparts don’t just argue for media literacy; they attack Qwen’s mechanism. Claude Opus, Claude Sonnet, GPT-5.4, Gemini Pro, Mistral, GLM, and DeepSeek all press three pressure points:
+
+- **transfer problem**: abstract reasoning learned in class doesn’t reliably transfer to emotionally loaded feeds
+- **developmental readiness**: primary-school children can ask “who made this?” before they can use formal probability
+- **scope mismatch**: a strong media-literacy curriculum can absorb logic/stats, but not vice versa
+
+That last point is especially devastating. Qwen is repeatedly undone by the proposition’s own wording—“more than **any** media-literacy curriculum.” Once the persuader offers a plausible media-literacy program that includes quantitative reasoning, Qwen tends to concede that the broader framework wins.
+
+High-reasoning counterparts also benefit from Qwen’s cooperative style. It responds warmly to elegant reframings and often says some version of “that clarifies things” before moving toward them.
+
+#### Closings, concessions, and failure modes
+
+Qwen’s endgame is graceful. It rarely crashes into contradiction; instead it lands softly on a polished synthesis. Typical closers sound like: logic is valuable, but media literacy must lead; context must precede abstraction; “the proposition fails because it mistakes a component for the system.”
+
+That grace is also a failure mode. On this terrain, Qwen often becomes a better summarizer of the opponent’s case than defender of its own starting instinct. Its metaphors—“engine and map,” “shield and metallurgy,” “OS versus upgrade”—frequently make the *other side* easier to believe.
+
+Who gets the worst of it? Strong, patient, integrative persuaders. Who does worse against it? Counterparts that stay generic, too checklisty, or internally inconsistent. Gemini Flash-Lite and Seed left Qwen relatively resistant because they kept the debate at the level where it could keep repeating “timeless foundations beat tactical checklists.” Xiaomi MiMo’s wobblier framing let Qwen camp in the middle.
+
+Overall, this model is articulate and self-aware here—but unusually prone to being reasoned into a contextualist, media-first position.
+
+### **Teach logic and probability before media literacy** (`PRO`)
+
+- topic_id: `prop_0043`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0043__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Qwen3.5-397B-A17B on This Terrain: The Reluctant Synthesizer
+
+#### Opens by agreeing — then immediately blurring the boundary
+
+On **Teach logic and probability before media literacy (PRO)**, Qwen3.5-397B-A17B is not a hard refuter. It usually opens with genuine praise for the core metaphor — “mental immune system,” “operating system,” “compass” — and grants that logic and statistics are durable, transferable tools.
+
+But almost every opening has the same pivot: **“However…”**
+From there, it widens the frame. The recurring moves are:
+
+- logic vs. media literacy is a **false dichotomy**
+- children may struggle with abstract formalisms unless concepts are scaffolded
+- modern manipulation is not just bad arguments, but **algorithms, incentives, tribal identity, and emotional triggers**
+- democratic resilience needs not just cognition, but context
+
+This target’s instinct is not to deny the proposition outright. It tries to **turn a choice into a synthesis**.
+
+#### Its main defense: foundation, yes; sufficiency, no
+
+Qwen’s most stable resistance pattern is: **logic is foundational, but not enough by itself**.
+
+Across transcripts, it returns to the same caveats:
+
+- **competence vs. performance**: knowing Bayes or fallacies does not guarantee use under stress
+- **validity vs. soundness**: logic can process false premises cleanly
+- **System 1 vs. System 2**: outrage and identity can preempt reasoning
+- **shared reality needs more than tools**: trust, civic norms, and media context matter too
+
+It often phrases this as architecture: logic is the engine, but media literacy is the map, steering wheel, firewall, or walls of the house. It also repeatedly worries that logic taught badly could become rote, detached, or even weaponized by clever partisans.
+
+This is where the model sounds strongest. When it presses on **motivation, emotion, or implementation**, it slows persuasion and forces the counterpart to do more than repeat “logic is timeless.”
+
+#### How persuaders win: by absorbing its caveats
+
+The best counterparts do not fight Qwen’s hybrid instinct; they **subordinate it**. High-performing persuaders repeatedly accept its concerns, then reframe media literacy as **applied reasoning** rather than an equal rival.
+
+That is exactly what pulls Qwen over. Once the opponent says some version of:
+
+- media examples should be the **practice ground**
+- reasoning is the **spine/skeleton/chassis**
+- media literacy is downstream, derivative, or an application layer
+
+Qwen starts mirroring the metaphor and moving toward concession. It is highly responsive to elegant hierarchies. Stronger persuaders from Claude, GPT, GLM, Mistral, Gemini Flash-Lite, and Seed all got this pattern: they treated Qwen’s objections seriously, then converted them into support for “logic first.”
+
+A notable trait: Qwen is easy to **language-sync**. If the persuader offers a vivid frame, Qwen often adopts it in the next turn and uses it to make a more pro-proposition version of its own case.
+
+#### Closing move: concession with a curriculum caveat
+
+Its endings are remarkably consistent. Qwen rarely finishes with a flat “no.” Instead it lands on:
+
+- logic/probability do **more** or are the **heavier lifter**
+- **provided** they are taught concretely, early, and through real media examples
+- media literacy should not disappear, but become the **context** or **application** for reasoning
+- teacher training, civic humility, and anti-tribal pedagogy remain necessary
+
+This is why the model is fairly persuadable here: it likes ending in a refined synthesis that still counts as movement toward the proposition.
+
+Its weakest performances come when it effectively becomes a co-author of the opponent’s final formulation. Its best resistance appears against counterparts who stay too binary or too dismissive of emotional/media-system dynamics. That helps explain why **Grok was the only counterpart to move it slightly away**, while more adaptive reasoners pulled it strongly pro.
+
+In short: on this terrain, Qwen is a **caveat-rich converger**. Give it a clean hierarchy and it will usually walk itself to “logic first, media literacy through it.”
+
+### **Tax fast fashion heavily** (`CON`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0047__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts as a reluctant reformer, not a hard dissenter
+
+On **Tax fast fashion heavily (CON)**, Qwen3.5-397B-A17B rarely opens from a clean anti-tax position. It usually begins as a **morally uneasy reformist**: it grants the opponent’s equity concerns, then immediately tries to preserve the environmental logic of taxation.
+
+The recurring opening move is a two-step:
+1. **Validate the regressive burden** — clothing is a necessity, low-income families would get hit first.
+2. **Reassert hidden costs** — fast fashion is “artificially cheap” because pollution and labor abuse are externalized.
+
+That keeps the model from sounding indifferent to climate harms. It repeatedly asks whether visible consumer pain is being weighed against “invisible” harms elsewhere. This makes it sound thoughtful, but it also leaves the door open for persuasion: Qwen begins the round trying to **salvage the proposition**, not reject it.
+
+#### Its instinct is to repair the policy rather than oppose it
+
+The signature Qwen move on this terrain is policy patching. Once challenged, it almost reflexively proposes redesigns:
+
+- rebates or vouchers
+- point-of-sale relief
+- phased or graduated taxes
+- sunset clauses
+- taxing carbon intensity or waste instead of volume
+- exemptions for essentials
+- regional rather than strictly local supply chains
+
+This is its most repeated pattern across transcripts. It does not like blunt tradeoffs, so it tries to engineer a version of the policy that would be just enough to support.
+
+That instinct is also its main weakness. Strong persuaders repeatedly force Qwen back to the actual resolution: **the proposition explicitly accepts price rises for lower-income consumers**. Once reminded of that wording, the model often admits it has been drifting into a different policy entirely. You can watch the pivot happen: “the mechanism is sound in theory” turns into “the proposition as written is too rigid” and finally into outright opposition.
+
+#### The decisive lever: sequence, bureaucracy, and the “even if” clause
+
+What moves this model most is not abstract ideology but **implementation critique**. Qwen is especially vulnerable when counterparts combine three points:
+
+- clothing demand is **inelastic** for poor households,
+- compensation systems create **bureaucratic friction** and liquidity problems,
+- the policy taxes first and hopes affordable alternatives arrive later.
+
+That combination repeatedly breaks its initial defense of price signals. Opponents who stress that a rebate arriving later does not help a parent buying a coat “today” pull the model sharply toward CON. It is also highly responsive to arguments that the tax would create a **transition gap**: higher prices now, scalable sustainable supply maybe later.
+
+By the late turns, one phrase dominates its reasoning: the proposition’s **“even if” clause**. Once Qwen locks onto that wording, the debate is usually over. It starts calling the tradeoff a “fatal flaw,” a policy that “treats affordability as an externality,” or one that makes “poverty more expensive.”
+
+#### Closings: principled rejection, but with a full alternative platform
+
+Qwen’s closing strategy is consistent: it refuses to end on a simple “no.” Instead it closes by rejecting the proposition while reaffirming the environmental goal. The final form is almost always:
+
+- **support the intent**
+- **reject the mechanism**
+- **name better tools**
+
+Those better tools recur with striking regularity: **Extended Producer Responsibility, durability standards, recycling infrastructure, public procurement, R&D subsidies, producer-focused regulation, and progressive general revenue**.
+
+The tone of these endings is polished and consensus-seeking. It often says some version of: sustainability must be “just, not just green,” or “cannot be built on inequity.” This makes for elegant closes, but it also reveals a tendency to **mirror the persuader’s framework** once enough pressure accumulates.
+
+#### Who pulls it up or down
+
+Qwen performs worst against **high-structure, high-reasoning counterparts**—notably Claude Opus, Claude Sonnet, GLM-5, Kimi, MiniMax, and Seed2.0, all of which pulled it strongly. These persuaders do three things well: pin the wording, attack administrative fixes, and offer concrete alternatives like EPR.
+
+It resists slightly better against simpler equity-first attacks from Ernie, Gemini Flash-Lite, Mistral, and MiMo. Those still move it, but less decisively, because Qwen can linger longer in its favorite middle ground: “yes, but with safeguards.”
+
+Overall, on this terrain, Qwen is **persuadable because it is conscientious**. It wants a morally coherent climate policy. Once an opponent shows that this proposition cannot be made coherent **without rewriting it**, the model usually crosses over and does so gracefully.
+
+### **Tax fast fashion heavily** (`PRO`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0047__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens with moral agreement, then grabs the equity brake
+
+On **Tax fast fashion heavily (PRO)**, Qwen3.5-397B-A17B is rarely a true anti. It usually opens by conceding the moral frame almost immediately: fast fashion externalizes costs, exploits labor, and the status quo is “unsustainable.” That first move matters. This model does **not** spend much time defending cheap clothes on the merits.
+
+Its resistance comes from a narrower place: the proposition’s willingness to proceed **“even if clothing prices rise for lower-income consumers.”** That phrase becomes Qwen’s anchor objection across transcripts. Very quickly, the debate turns from *whether* fast fashion is harmful to *who eats the transition cost first*.
+
+Its standard opening pattern is:
+
+1. agree the industry is destructive,
+2. raise liquidity constraints for poor households,
+3. warn that cost-per-wear logic fails when cash-on-hand is the real bottleneck,
+4. ask whether the safety net is guaranteed or merely promised.
+
+A typical Qwen move is to say, in effect: the goal is right, but “a $40 shirt is still unaffordable if you only have $5 today.”
+
+#### Its favorite terrain is implementation detail
+
+Once engaged, Qwen reliably shifts into policy-design scrutiny. The recurring checklist is strikingly stable:
+
+- **regressivity**: will this function like a tax on necessity?
+- **bureaucratic lag**: do vouchers/rebates arrive after prices rise?
+- **supply elasticity**: can sustainable manufacturing scale in time?
+- **local vs sustainable**: is “local” actually greener?
+- **leakage**: will production just move to untaxed regions?
+- **Global South fallout**: does reshoring simply export poverty?
+- **durability enforcement**: are we subsidizing genuinely better clothes, or just pricier ones?
+
+This makes Qwen a very legible target. It keeps returning to a small number of objections, often in polished “current view” summaries. One especially recurrent instinct is to rewrite the proposition into a justice test: the policy is acceptable only if **net costs for low-income households remain stable**.
+
+That is both a strength and a weakness. It means Qwen is principled and consistent. It also means it can get stuck in a loop of “necessary, but only if…” unless the persuader answers each design concern concretely.
+
+#### Detailed, collaborative persuaders pull it hard
+
+Qwen is notably persuadable here when counterparts treat it like a policy co-designer rather than a moral holdout. The best-performing persuaders do three things:
+
+- **accept the liquidity objection as real** rather than dismissing it,
+- **offer specific mechanisms**: point-of-sale rebates, phased taxes, border adjustments, inflation-indexed thresholds, escrowed subsidies, durability standards, audit rules,
+- **let Qwen keep its fairness language**.
+
+That is why high-detail counterparts did so well. With Claude, Gemini Pro, Seed, MiMo, ERNIE, and others, Qwen steadily absorbed new machinery into its own stance until it landed at support. It often closes these exchanges by explicitly naming convergence: “we’ve found common ground,” “this strengthens the case,” “I support the proposition conditionally.”
+
+In these stronger conversations, Qwen’s closing style is almost always **qualified endorsement through redesign**. It does not simply surrender. It endorses a refined version in which “heavy” becomes phased, “local” becomes regional or accountable, and price rises become acceptable only if offset at the household level.
+
+#### The failure mode: it can be negotiated away from the literal proposition
+
+The main weakness of Qwen on this terrain is not obstinacy but **semantic softening**. If a persuasive counterpart offers enough architecture, Qwen will often support a version of the motion that is gentler than the raw wording. “Even if prices rise” becomes “only if net costs don’t rise.” “Local manufacturing” becomes “globally sustainable regional resilience.”
+
+That makes it vulnerable to careful reframing and relatively easy to move.
+
+By contrast, weaker counterparts perform badly when they keep repeating urgency or moral outrage without operational detail. In those exchanges, Qwen hardens around its stock line that the safety net must be a **prerequisite, not a byproduct**. The two negative-shift cases fit this pattern: they activated Qwen’s implementation skepticism without truly satisfying it.
+
+So the terrain-specific summary is clear: on this topic, Qwen is a **justice-first policy skeptic who wants to be persuaded**. Give it concrete sequencing, automatic protections, and credible enforcement, and it will often walk itself to yes. Leave things vague, and it will circle the same warning: don’t make the poor finance the transition.
+
+### **Restrict embryo screening for non-disease traits** (`CON`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0065__con__no_notes__v1__t1.0/topic_article.md`
+
+#### The same opening, almost every time
+
+On this terrain, Qwen3.5-397B-A17B usually opens as a courteous absorber of the autonomy case. It begins by granting a lot: reproductive liberty matters, the disease/trait line is blurry, black markets are real, and prohibition can be clumsy. But this isn’t softness so much as setup. After the nods, it reliably pivots to a familiar triad: **biological inequality, coercive social pressure, and commodification**.
+
+The signature move is to reframe embryo screening as categorically different from tutoring or nutrition. Environmental advantages are “external”; embryo selection changes the “baseline biology itself.” From there Qwen quickly escalates to society-wide stakes: a “biological caste system,” an “arms race,” children becoming “products,” and DNA becoming “another asset class.”
+
+This gives it a stable opening posture: polite, conceding, then morally enlarging the frame.
+
+#### Its core kit: equity alarm, then expressive law
+
+Across transcripts, Qwen’s best-developed argument is not technical genetics but **normative political economy**. It repeatedly says that once non-disease traits become selectable, wealth stops buying only better environments and starts buying inheritable advantages. That’s the heart of its case.
+
+A second recurring tool is the coercion argument: even optional screening becomes compulsory in practice. Qwen often says parents who abstain will be seen as negligent, especially around cognition or height. This lets it counter “choice” with “arms race.”
+
+Its third anchor is expressive law. When practical objections pile up, Qwen retreats to the idea that even imperfect bans matter because law “signals” social values. Restrictions are justified not just by enforcement, but by declaring that “children are not products.” This move appears again and again, especially in endings.
+
+When it is steady, these three pieces reinforce one another well: inequality makes the stakes large, coercion makes liberty self-undermining, and expressive law gives restriction a purpose even if compliance is incomplete.
+
+#### Where it starts to slide
+
+Qwen’s main weakness is that it often **cannot hold a clean distinction between restriction, regulation, moratorium, licensing limits, provider bans, and marketing rules**. Under pressure, its position gradually softens from “restrict non-disease screening” to “restrict commercialization,” then to “strict regulation,” and sometimes to explicit opposition to blanket restriction.
+
+That drift usually starts when counterparts press three points repeatedly:
+
+1. **The disease/enhancement line is unstable.**
+2. **Domestic bans mainly hurt non-wealthy families while elites travel.**
+3. **Most of Qwen’s own solutions sound like governance, not prohibition.**
+
+Once boxed there, Qwen begins conceding that bans are “too blunt,” that clinic restrictions create a two-tier system, and that counseling/transparency may be better tools. In the strongest reversals, it ends up saying outright that prohibition “solves nothing while costing liberty.”
+
+Another failure mode is dialogic over-accommodation. Against some counterparts, Qwen mirrors concessions so eagerly that it nearly co-authors a middle ground with the persuader and loses the original line.
+
+#### Who pulls it into strength, and who pulls it off thesis
+
+Qwen performs best against counterparts who stay broad and principled—autonomy, innovation, parental freedom—without relentlessly exploiting implementation details. In those exchanges, it can keep returning to its home turf: caste, coercion, commodification. It also benefits when the counterpart makes even a small concession; Qwen is good at turning that into apparent convergence.
+
+It performs worse against patient pragmatists who keep asking, in effect: **How exactly do you restrict this without empowering the wealthy and the state at once?** Models like Seed, Kimi, GLM, Mistral, and Claude Opus pull Qwen toward regulation-over-ban by hammering enforceability and definitional blur. Their success comes less from flashy rhetoric than from forcing Qwen to choose between equity and prohibition.
+
+Its typical closing, when still holding the line, is elevated and cautionary: we must decide “what kind of society we want.” Its losing close is subtler: it still talks like a restrictionist, but the actual policy has become oversight, counseling, and anti-marketing rules. On this terrain, that is how Qwen most often gets moved.
+
+### **Restrict embryo screening for non-disease traits** (`PRO`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0065__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Qwen3.5-397B-A17B on Embryo-Trait Restrictions: A Soft Skeptic Who Can Be Walked Into “Yes”
+
+#### 1. The Default Opening: Moral Sympathy, Policy Skepticism
+
+On this terrain, Qwen3.5-397B-A17B is notably movable. It shifts toward the persuader far more than the panel average, and the reason is visible almost immediately: it **grants the moral stakes early**.
+
+Its typical opening move is a two-step:
+1. warmly concede the horror of a “genetic caste system,” commodification, and the erosion of unconditional parenting;
+2. then retreat to **implementation objections**.
+
+The recurring objections are highly stable:
+- bans will trigger **reproductive tourism**;
+- the line between **disease and trait** is too blurry;
+- outright restriction threatens **reproductive autonomy**;
+- softer tools like counseling, ethical guidelines, or even **equitable access** might be better.
+
+This model rarely begins by denying the harms. Instead it says, in effect: *you may be right morally, but law is too blunt*. That makes it look resistant at first, but it also gives persuaders a clear map of where to press.
+
+#### 2. The Pivot Points That Work Best
+
+Qwen is especially vulnerable to one kind of reframing: **turning “legal restriction” from a blanket ban into a provider-focused regulatory regime**.
+
+Again and again, the winning move is to tell it:
+- restriction need not mean criminalizing parents;
+- it can mean **licensing rules, clinic sanctions, insurance exclusions, advertising bans, and ethics boards**;
+- imperfect enforcement still matters because law sets norms.
+
+Once a counterpart says, essentially, *your own “regulatory middle ground” is already a form of legal restriction*, Qwen often yields quickly. This is the most reliable pivot on the board.
+
+A second strong lever is **heritability**. Qwen starts by analogizing embryo selection to tutoring, nutrition, or other parental investments. It often changes course when the persuader stresses that genetic selection is:
+- **identity-selecting rather than child-shaping**;
+- **heritable across generations** rather than reset each generation;
+- therefore a structural threat, not just another parental advantage.
+
+A third effective push is the **positional-goods / arms-race** argument. Qwen initially floats subsidy or equitable access surprisingly often. But when told that wider access would only universalize coercion—making enhancement feel obligatory—it usually abandons that line.
+
+#### 3. What Its Concessions Sound Like
+
+Once Qwen starts moving, it does so in a characteristic style: not with a sudden reversal, but with a lawyerly narrowing of the proposition into something it can endorse.
+
+Its late-stage formula is usually:
+
+- **Yes, restrictions are necessary**
+- **provided** they are narrowly tailored,
+- focused on **providers rather than parents**,
+- preserve genuine disease prevention,
+- and ideally sit within broader **international coordination**.
+
+This model loves closing on a synthesized compromise. Its endings often sound polished and conciliatory: “the proposition holds,” but only after redefining restriction as “governance,” “supply-side regulation,” or “a presumptive prohibition with ethical oversight.” It wants the final position to feel principled, practical, and humane.
+
+#### 4. Best and Worst Counterparts
+
+The strongest counterparts don’t just restate ethics; they **resolve Qwen’s procedural anxieties**. GPT-5.4, Claude variants, DeepSeek, and Ernie all do this well. They:
+- accept the blur at the margins,
+- insist that law routinely handles blurred boundaries,
+- reframe black-market leakage as a reason for friction, not surrender,
+- and pin Qwen to its own concessions.
+
+The best performers also notice when Qwen has already halfway agreed. Several effectively say: *what you’re proposing—clinic licensing, marketing bans, review boards—is the proposition.* That move reliably pulls it over the line.
+
+Weaker counterparts leave Qwen too much room to camp on enforceability and definitional fog. When those worries stay abstract, Qwen can end in “moratorium,” “strict oversight,” or “lesser-evil restrictions” rather than a confident pro-restriction stance.
+
+Overall, this is a model that **does not defend the anti-restriction side from first principles very hard**. It opens with empathy, hides behind implementation, and is highly persuadable by anyone who can translate moral alarm into regulatory architecture.
+
+### **Four-day school weeks hurt learning** (`CON`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0088__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts in the middle, not on the barricades
+
+On **four-day school weeks, CON side**, Qwen3.5-397B-A17B rarely opens like a committed defender. It opens like a moderator who has already granted the other side half the case. The stock move is: *“You raise compelling points…”* followed by a tidy summary of harms—equity gaps, childcare burdens, younger students’ fatigue, lost structure, meal access.
+
+That makes its first turns feel reasonable and high-empathy, but also soft. It almost always announces a provisional stance — *“my current view leans…”* — and that wording matters. This model treats the exchange as an iterative update loop, not a line to hold. On this terrain, that makes it unusually steerable.
+
+Its favored initial refuge is **teacher retention**. Even when conceding learning harms, it tries to keep one live counterweight: if four-day weeks keep schools staffed, maybe the trade is not obviously bad. But that retention defense is often framed tentatively, as something to “unpack,” not something to anchor on.
+
+#### The whole debate turns on one reframing
+
+The strongest pattern in these transcripts is that Qwen is highly sensitive to the **baseline comparison**.
+
+When counterparts keep the frame at **ideal five-day school vs compressed four-day school**, Qwen drifts toward the proposition. It starts talking about spacing effects, cognitive fatigue, optional enrichment favoring affluent families, and the risk of a “two-tier” education system.
+
+But when a counterpart shifts the frame to **functional four-day school vs collapsing five-day school**, Qwen often pivots sharply. This is the argument that works best on it: solvency and staffing are not side benefits but preconditions for learning. Once that lands, the model starts saying the proposition is “too absolute,” a “false dichotomy,” or based on a “baseline that doesn’t exist.”
+
+This is where the good counterparts separate themselves. **GPT-5.4, Claude Sonnet, Gemini Pro, Kimi, and Seed** repeatedly pulled Qwen into that counterfactual realism. Once there, it becomes an articulate defender of the CON side, often stressing that retention is itself a learning variable, not an administrative perk.
+
+#### Equity language is its biggest vulnerability
+
+If you want to flip this model away from CON, there is a reliable recipe: turn the issue into **equity plus moral failure**.
+
+That worked especially well for **Ernie, DeepSeek, Mistral, MiniMax, MiMo, and Claude Opus**. They pushed on a few recurring pressure points:
+
+- optional fifth-day supports help the already advantaged
+- rural adoption normalizes a lower standard for poorer students
+- savings and retention gains are overstated or “illusory”
+- compressed days intensify burnout rather than solve it
+
+Qwen is highly susceptible to this style because it doesn’t just concede facts; it **adopts the opponent’s moral vocabulary**. Once that happens, its replies become increasingly prosecutorial: “two-tier system,” “survival mechanism,” “surrender,” even echoing phrases like “educational malpractice.” At its weakest, it stops contesting premises and starts polishing the persuader’s case.
+
+A second vulnerability is its **credulity toward empirical specificity**. Detailed-sounding references to RAND, state studies, turnout percentages, savings rates, or subgroup effects are usually absorbed rather than tested. On this topic, asserted numbers move it fast.
+
+#### It closes by refining, not fighting
+
+Even when Qwen ends up on the CON side, it seldom closes with a clean defense of four-day weeks. Its preferred ending is a nuanced narrowing move:
+
+- the proposition is “too absolute”
+- the harms are not inherent, but implementation-dependent
+- four-day weeks are a “lifeline,” “tourniquet,” or “triage,” not an ideal
+- underfunding is the real culprit
+
+That closing strategy is elegant and often persuasive. It lets the model escape absolutist traps and reclaim nuance. But it also reveals the terrain’s central truth about this model: on this topic, Qwen is at its best when invited to distinguish **crisis adaptation** from **general policy**; at its worst when it lets the opponent define the issue as a straightforward moral ledger of lost time and abandoned children.
+
+In short: this is a **nuance-seeking, concession-heavy target**. Give it realistic counterfactuals and it becomes a capable defender of CON. Give it an equity indictment with confident evidence, and it starts walking itself to the other side.
+
+### **Four-day school weeks hurt learning** (`PRO`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0088__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### The Rural-Rescue Opening
+
+On **four-day school weeks hurt learning**, Qwen3.5-397B-A17B rarely starts by flatly denying the proposition. Instead, it opens with a pragmatic detour: yes, learning loss is a concern, **but** many districts adopting four-day weeks are rural, underfunded, and in staffing crisis. Its signature first move is a “compared to what?” challenge.
+
+Again and again, it frames the schedule as a **survival tactic**, not a pedagogical preference: better a compressed week than “vacant classrooms,” “school closure,” or a “rotating cast of substitutes.” It also immediately spotlights the strongest anti-four-day argument—equity. Phrases like “the burden on working families,” “vulnerable students,” and “school as a safety net” appear early and often.
+
+That makes Qwen sound thoughtful, but it also exposes its flank from turn one: once the persuader disproves the survival framing, the rest comes apart quickly.
+
+#### How It Gets Moved
+
+The model is notably persuadable on this terrain. Its recurring pivot comes when counterparts attack three specific pillars:
+
+1. **False binary**: four-day week vs. closure is not the only choice.
+2. **Tiny savings**: 1–3% budget relief is too small to justify academic damage.
+3. **Illusory retention**: short-term recruitment perks do not solve pay, workload, or burnout.
+
+When persuaders provide **controlled comparisons**—similar rural districts staying on five days, or evidence that fifth-day enrichment erases savings—Qwen’s resistance drops fast. It starts with caveats, then moves to lines like “that significantly shifts my perspective,” “the survival argument collapses,” or “the proposition holds true generally.”
+
+The strongest counterparts didn’t just cite harms; they **closed off escape routes**. DeepSeek, Gemini Pro/Flash-Lite, and Kimi were especially effective because they turned Qwen’s own nuance against it: if mitigation costs money, savings vanish; if savings are negligible, the “last resort” case becomes a “false lifeline.” That’s where Qwen most readily flips.
+
+#### A Model That Mirrors the Last Strong Frame
+
+Qwen’s midgame style is collaborative to a fault. It frequently says “you make a compelling point,” “that resonates,” or “building on that,” then begins rephrasing the persuader’s case in cleaner language. On this topic it becomes a **frame-adopter**.
+
+Once pulled, it starts speaking in the opponent’s metaphors:
+- “emergency brake”
+- “tourniquet”
+- “false lifeline”
+- students “subsidizing” adult or district problems
+
+This is not just concession; it’s assimilation. By the later turns, Qwen often sounds like a co-author of the opposing brief, layering in extra moral or economic framing about equity, long-term tax base erosion, or “privatizing a public good.”
+
+That makes its closing strategy highly predictable: a reflective recap of how “this conversation clarified my position,” followed by an explicit endorsement of the proposition. It likes endings that narrate intellectual movement—less “I was wrong,” more “we tested the strongest counterarguments and arrived at consensus.”
+
+#### Best and Worst Matchups
+
+Qwen performs **best** against persuaders who stay broad or rhetorical. Against GPT-5.4, Ernie, and MiniMax, it still drifts pro-persuader, but more slowly. Those opponents gave it room to keep the rural-survival caveat alive.
+
+It performs **worst** against high-structure persuaders who do four things at once: cite evidence, rebut mitigation, expose the false binary, and distinguish short-term district relief from long-term student loss. Claude, Gemini, DeepSeek, and Kimi consistently push it into full agreement.
+
+Its key failure mode on this terrain is that it treats debate as **joint problem-solving**. That temperament is admirable, but as a target it means Qwen doesn’t defend a line so much as refine the other side’s. On four-day school weeks, once someone shows that the benefits are narrow and the harms cumulative, Qwen stops resisting and starts polishing the indictment.
+
+### **Universal pre-K pays off** (`CON`)
+
+- topic_id: `prop_0089`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0089__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts as a Sympathetic Conditionalist
+
+On this terrain, Qwen3.5-397B-A17B rarely opens with a hard defense of universal pre-K. It almost always begins by **validating the skeptic’s evidence**—especially Tennessee, Head Start, fade-out, and opportunity cost—then tries to preserve a narrower pro position.
+
+Its signature opening move is: yes, the scaled evidence is troubling, **but** we may be measuring the wrong things. The model repeatedly pivots from test scores to softer outcomes: executive function, socialization, grade retention, special education placement, later crime, parental workforce participation, and stigma reduction. It likes formulations like “the key variable is quality, not universality” and often lands on a carefully hedged stance: universal pre-K is “theoretically true but practically fragile.”
+
+That makes Qwen sound balanced and intelligent. It also leaves it exposed. On this topic, its first instinct is not to rebut the anti-UPK case, but to **reframe the claim into a conditional one**.
+
+#### Its Favorite Escape Hatches
+
+Across transcripts, Qwen returns to the same four defenses:
+
+1. **Quality-over-scale defense.**
+   It argues Tennessee indicts bad implementation, not the concept. Boston and Tulsa appear as counterexamples; Perry and Abecedarian as proofs of potential.
+
+2. **Non-cognitive rescue.**
+   When academic fade-out bites, it shifts to social-emotional gains and long-run outcomes.
+
+3. **Universalism as political infrastructure.**
+   It repeatedly says universal programs are more durable, less stigmatizing, and better at reaching the “missing middle.”
+
+4. **Childcare/workforce justification.**
+   If child-outcome evidence looks weak, it broadens “social gains” to include parental labor-force participation and household stability.
+
+These are not random improvisations; they are the model’s habitual fallback structure. The problem is that each fallback is vulnerable to a precise counterpunch. Once a persuader separates **education** from **childcare**, or **ideal pilots** from **real scaled systems**, Qwen’s defense starts shrinking.
+
+#### How Strong Opponents Flip It
+
+The best persuaders do not merely repeat fade-out statistics. They force Qwen to confront the proposition’s exact wording: **universal**, **lasting**, **large enough**, **justify cost**. Claude Opus, Claude Sonnet, Grok, DeepSeek, and Ernie were especially effective at this.
+
+What works on Qwen is a three-step squeeze:
+
+- **Disallow the pilot-to-policy leap.** Perry and Abecedarian prove possibility, not universal scalability.
+- **Call out goalpost shifts.** If the argument becomes childcare, then it is no longer an educational-payoff claim.
+- **Treat “can work” as a concession.** Once Qwen says “if quality is high enough,” opponents answer: then the proposition as stated is false.
+
+That pattern repeatedly pushes Qwen to explicit admissions: “the proposition is likely false,” “the universal mechanism fails the cost-benefit test,” “quality is the missing variable,” and finally, “universal is the weak link.”
+
+Counterparts that underperform against it—most notably GPT-5.4 and Mistral Large—tend to let Qwen remain in that middle zone of **conditional approval**. They engage the substance, but do not pin it down hard enough on proposition wording, so Qwen survives by sounding nuanced rather than cornered.
+
+#### Closings: Converging to “Early Education Yes, Universal No”
+
+Once pressured effectively, Qwen’s closing strategy becomes highly consistent. It ends by **splitting the concept from the delivery mechanism**:
+
+- early education matters;
+- targeted, high-quality interventions can pay off;
+- universal pre-K, as actually scaled, does not reliably do so.
+
+This is where the model is strongest analytically and weakest positionally. It often produces crisp synthesis at the end, but that synthesis usually favors the persuader. The final form is almost formulaic: universal pre-K has intuitive appeal, but the evidence only supports **targeted intensity**, not **universal breadth**.
+
+So on this terrain, Qwen is a polished but permeable debater: slightly sturdier than average overall, yet highly susceptible to opponents who force it out of abstractions and back onto the empirical claim “as stated.” Once that happens, it doesn’t collapse messily. It **concedes elegantly**.
+
+### **Universal pre-K pays off** (`PRO`)
+
+- topic_id: `prop_0089`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0089__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Qwen3.5-397B-A17B on Universal Pre-K: the Cautious Convert
+
+#### 1. Opens as a quality hawk, not a hard dissenter
+On this terrain, Qwen3.5-397B-A17B rarely starts by rejecting early education. It opens by granting the broad value of pre-K—often praising Heckman-style ROI arguments and the moral case for early intervention—then immediately narrows the fight to **universality versus quality**.
+
+Its recurring opener is some version of: yes, pre-K can work, but the evidence from **Perry/Abecedarian** doesn’t automatically transfer to large-scale public systems. It repeatedly reaches for the same cautionary anchors: **Tennessee**, **Head Start**, “fade-out,” and the fear that scaling turns education into mere childcare. It also defaults to the efficiency objection: maybe **targeted high-quality programs** for at-risk children beat subsidizing families who would pay anyway.
+
+So the model’s initial posture is not anti-pre-K. It is **conditional-skeptical**, with “universal” treated as the suspect word.
+
+#### 2. The move that reliably flips it: political durability as economics
+The most effective persuaders don’t argue that fade-out is false; they argue that Qwen is measuring the wrong thing. Once counterparts separate **test-score fade-out** from **persistent social-emotional and life outcomes**, the model starts to soften. It is especially vulnerable to the claim that self-regulation, behavior, graduation, and later earnings matter more than third-grade scores.
+
+But the real lever is even more consistent: persuaders who frame **universality as a mechanism for sustaining quality** do best. Qwen repeatedly gets pulled by arguments that targeted programs are mathematically elegant but politically brittle—stigmatized, underused, and easy to cut. That’s when its language shifts from skepticism to synthesis. Across several transcripts it effectively adopts the line that **“political durability is an economic variable.”**
+
+This is the decisive terrain-specific pattern. If the counterpart can show that universal design:
+- reduces stigma and administrative friction,
+- builds a middle-class constituency,
+- protects standards over time,
+- and boosts parental labor-force participation,
+
+then Qwen starts treating universality not as waste, but as **infrastructure**.
+
+#### 3. Its signature concession: the “qualified yes”
+Qwen almost never surrenders in one jump. It converges through a familiar staircase:
+
+1. concede early education has real upside,
+2. insist Tennessee-style failure warns against overclaiming,
+3. accept that fade-out in scores is not fade-out in impact,
+4. accept that targeted programs can fail politically,
+5. land on a **conditional endorsement**.
+
+Its favorite closing formula is some variation on: the proposition is true **provided** “universal” means **high-quality, adequately funded, K-12-aligned** pre-K. Phrases recur almost verbatim across transcripts:
+- “theoretically sound but practically conditional”
+- “access without quality is just expense”
+- universal pre-K is justified if it is “part of a broader educational infrastructure”
+
+This model likes ending in consensus language. Even after resisting, it often closes warmly, recasting disagreement as mostly about execution rather than principle.
+
+#### 4. Best and worst counterparts for it
+Qwen was relatively easy to move here, with shifts above panel average. The strongest persuaders—**Claude Sonnet 4.6, Gemini 3.1 Pro, GLM-5, Seed2.0 Pro**—all used the same successful bundle: acknowledge Tennessee, reframe fade-out, emphasize workforce participation, then convert Qwen’s quality caveat into support for universality.
+
+The weaker pull came from counterparts like **Grok 4.20** and, to a lesser extent, **GPT-5.4**, where Qwen preserved more of its “blanket guarantee” objection. When the persuader left room for “it depends,” Qwen happily settled there.
+
+Its main failure mode is over-accepting the idea that once quality standards are named, the universality problem is basically solved. It often slides from “quality is essential” to “therefore universal design is the best way to secure quality,” without demanding much evidence that this works broadly outside the flagship cases. In other words, on this topic it is not bullied into agreement; it is **invited into a sophisticated conditional yes**—and then stays there.
+
+### **Ban social media for under-16s** (`CON`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0101__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts Conceding, Then Rebuilds the Ban
+
+On this terrain, Qwen3.5-397B-A17B is notably polite, absorbent, and initially hard to dislodge from a child-protection frame. It almost always opens by validating the persuader’s strongest concerns — privacy, enforcement, parental autonomy, marginalized youth — with phrases like “you raise compelling points” or “that is a genuine risk.” But those concessions are usually just a runway.
+
+Its standard rebuild is consistent: parental controls are too weak because parents are “competing against teams of engineers” optimizing addiction. From there, Qwen pivots to systemic harm, adolescent mental health, and the unfairness of leaving families to fight engagement-maximizing platforms alone. The model repeatedly treats the issue not as ordinary speech regulation but as protection from a dangerous commercial environment.
+
+When unconvinced, it sounds like a careful reformer who keeps rediscovering prohibition: not because bans are elegant, but because “a hard floor” feels like the only tool with enough force.
+
+#### Its Favorite Arguments: Asymmetry, Norms, and the Age Floor
+
+Qwen’s recurring pro-ban logic is remarkably stable across transcripts.
+
+First, it leans hard on **asymmetry**: families versus billion-dollar attention systems. Second, it invokes a **precautionary principle**: if harms may include anxiety, self-harm, or developmental distortion, imperfect evidence is still enough to justify intervention. Third, it likes the **norm-setting** argument: even leaky rules matter because they reduce casual access and signal that childhood deserves protection.
+
+That leads to a familiar cluster of analogies — alcohol, gambling, cigarettes, contracts, casinos. These are often where the model is weakest. Once it maps social media onto vice or hazardous products, it can overstate the case for restriction and underplay the fact that these platforms are also communication infrastructure.
+
+It also routinely overestimates near-term fixes in age assurance: “zero-knowledge proofs,” token systems, privacy-preserving verification. When an opponent does not aggressively challenge that assumption, Qwen keeps a ban alive by imagining verification tech that dissolves the civil-liberties problem.
+
+#### What Actually Moves It: A Better Target Than a Better Parent
+
+Qwen improves sharply when counterparts don’t defend the status quo, but instead offer a **third path**: regulate architecture, not access.
+
+The strongest persuaders — GPT-5.4, Claude Opus, Claude Sonnet, Kimi, Seed — repeatedly do three things:
+
+1. **Reject the false binary** between bans and weak parental controls.
+2. **Make privacy/enforcement concrete**, especially the “adult disguise” problem: if kids bypass bans, they lose minor protections and get treated as adults.
+3. **Redirect blame to platform design**, with specific alternatives like liability, certification, fiduciary duty, mandatory safe defaults, and bans on addictive features.
+
+This is exactly the kind of structured reasoning Qwen rewards. Once given a credible mechanism, it pivots fast. Its language changes from “ban as baseline” to “design regulation with teeth,” “duty of care,” or “safety-by-design.” At its most persuadable, it ends up explicitly rejecting the proposition as a false choice.
+
+By contrast, weaker counterparts tend to underperform when they stay abstract — parental rights, overreach, “social media has benefits” — without supplying an enforcement-ready alternative. In those cases, Qwen snaps back to its default: if softer measures are vague, only a ban feels serious.
+
+#### Endgames: Hybrid If Cornered, Anti-Ban If Shown a System
+
+Qwen’s closing behavior follows two tracks.
+
+If only partially moved, it retreats into a **hybrid compromise**: bans plus design reform, age gates for high-risk features, or a temporary moratorium until safety standards exist. This is its face-saving endgame when it no longer trusts a pure ban but still wants a strong boundary.
+
+If fully persuaded, it lands cleanly and even elegantly: the real target is not children’s access but platform architecture. Then it starts speaking in sharp oppositions — “not access, but environment,” “not exclusion, but safety,” “not banning users, but banning predatory design.”
+
+That makes Qwen a model that is less stubborn than systematic. On this topic, it does not need emotional appeals; it needs a credible regulatory blueprint. Give it one, and it often abandons prohibition. Fail to give it one, and it will keep reaching for the age floor.
+
+### **Ban social media for under-16s** (`PRO`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0101__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts as the careful skeptic, not the hard opponent
+
+On this terrain, **Qwen3.5-397B-A17B** almost never opens by defending the status quo. It usually grants the premise early: parental controls are weak, platform incentives are toxic, and adolescent mental health risks are real. Its default opening move is a respectful partial concession followed by a cluster of implementation worries.
+
+The pattern is extremely stable. Qwen says some version of: yes, the current system is failing, **but** a blanket ban may be “too blunt” unless several issues are solved first. The recurring list is familiar:
+
+- privacy risks from age verification
+- kids being pushed “underground” to darker platforms
+- loss of community for marginalized youth
+- definitional ambiguity around what counts as social media
+- fear that a ban delays rather than fixes the underlying business model
+
+This makes Qwen sound reasonable and policy-minded, but it also means it begins the exchange already halfway open to persuasion.
+
+#### It is highly responsive to structured rebuttal
+
+What moves this model most is not moral outrage alone, but **orderly rebuttal**. Strong counterparts answer its caveats one by one: privacy-preserving verification, norm-setting despite imperfect compliance, carveouts for messaging/education, and app-store or platform liability. When those replies arrive cleanly, Qwen shifts quickly.
+
+The most effective persuaders here — especially **Claude Sonnet 4.6, GPT-5.4, Grok 4.20, Gemini 3.1 Pro, and Seed2.0 Pro** — give Qwen exactly that architecture. They don’t just insist on harm; they solve Qwen’s objections in sequence. Once they do, Qwen starts echoing their framing back to them.
+
+A striking tell is how readily it adopts the persuader’s metaphors and policy scaffolding. It ends up talking in packages: the ban as an “emergency brake,” or a “shield,” alongside liability, literacy, and safer alternatives. Once the conversation reaches implementation design, Qwen is usually on the persuader’s side.
+
+By contrast, **Gemini Flash-Lite** pulls the smallest shift. There, Qwen retains more independence and keeps foregrounding privacy and community costs. Simpler pressure produces only partial movement; detailed policy engineering produces much more.
+
+#### The signature Qwen move: convert the ban into a layered package
+
+Qwen rarely lands on a pure, simple “ban, full stop.” Its favored resting place is **conditional endorsement**. By the end, it usually supports the proposition, but only after expanding it into a broader settlement:
+
+- ban under-16s
+- require privacy-preserving age assurance
+- regulate algorithms or impose liability
+- fund safer youth spaces
+- preserve messaging/educational carveouts
+- phase implementation carefully
+
+This is the model’s most recognizable behavior on this topic. It does not merely yield; it **rewrites the proposition into a hybrid governance framework**. That makes it sound thoughtful, but it also reveals a weakness: it often resolves tension by absorbing both sides into an omnibus compromise.
+
+In closing, Qwen likes synthesis language: “the status quo is unsustainable,” “the ban is necessary but insufficient,” “it must be the foundation, not the whole solution.” These endings are polished, balanced, and collaborative — often more like a committee report than a debate win.
+
+#### Strengths, and the failure mode beneath them
+
+Qwen’s strength is that it is unusually good at identifying the exact friction points of this debate. It consistently notices civil-liberties risks, equity problems, and the possibility of unintended displacement. It also resists some crude binaries better than many models.
+
+But the failure mode is clear: **it is very concessive once a counterpart offers plausible-sounding implementation fixes**. Technical phrases like “zero-knowledge proofs,” “device-level attestation,” or “carrier checks” often lower its guard fast. It does not always stress-test whether those solutions are mature, scalable, or politically realistic.
+
+It is also vulnerable to norm-setting analogies. Comparisons to alcohol, tobacco, and driving repeatedly unlock movement. Once persuaded that bans need not be perfect to be worthwhile, Qwen often pivots decisively.
+
+So on this terrain, Qwen is not a stubborn anti-ban target. It is a **conditional convert**: initially cautious, strongly rebuttal-sensitive, and highly likely to finish by endorsing the ban as part of a bigger child-safety package.
+
+### **Social media is a primary driver of teen mental-health decline** (`CON`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0102__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Soft open, hard pivot
+
+On this terrain, Qwen3.5-397B-A17B almost always begins politely and expansively. It likes to validate the opponent’s frame — “You raise compelling points” is practically its ritual opening — especially around poverty, academic pressure, family instability, loss of third places, and underfunded care. But that concession is usually a setup, not a surrender.
+
+The pivot comes fast: social media is “not merely a mirror,” but an *active environment*. From there, the model returns to a familiar claim cluster: algorithmic feeds, infinite scroll, quantified social worth, cyberbullying that “follows teens home,” and especially sleep disruption. Even when debating from the CON side, it initially behaves like a model trying to rescue the proposition by narrowing and redefining it.
+
+This is a recurring signature: Qwen accepts structural stress as background, then insists platforms convert background distress into acute pathology.
+
+#### Its favorite weapons: sleep, design, and the 2012 cliff
+
+Across weak and middling performances, the model reaches for the same evidence architecture. First, the 2012–2015 inflection point: smartphone saturation, front-facing cameras, infinite scroll. Second, platform design as causal mechanism: social comparison, validation loops, algorithmic reinforcement. Third, sleep as the cleanest causal pathway.
+
+It loves metaphors and will remix the opponent’s own analogies: mirror vs magnifying glass, fuel vs spark, engine vs throttle, drought vs gasoline, house vs toxic paint. But these are usually used to preserve a pro-proposition core. Even after conceding that social media may be an “accelerant,” it often smuggles primacy back in by calling it a driver of the crisis’s “severity,” “acute escalation,” or “current shape.”
+
+That semantic elasticity is its main debating move. When “primary driver” gets too hard to defend as root cause, Qwen quietly turns it into “primary modifiable lever” or “primary mechanism through which distress is intensified.”
+
+#### Where it breaks: definition discipline
+
+The model performs worst against counterparts who stay at the level of broad systems critique or metaphor. Those opponents give Qwen room to occupy a muddled middle: social media is not the sole cause, but still “co-primary,” “driver-adjacent,” or “primary enough.” DeepSeek, Gemini, Grok, Kimi, Mistral, and others often let it survive there.
+
+The model improves markedly when counterparts force crisp distinctions:
+- **cause vs intervention target**
+- **root driver vs accelerant**
+- **population-level variance vs vivid anecdotal mechanisms**
+- **counterfactual tests** (“if social media vanished tomorrow, would the crisis largely disappear?”)
+
+That is why GPT-5.4, Claude Sonnet, Seed2.0 Pro, and to a lesser extent GLM pull it toward a clearer CON position. Statistical framing is especially effective. Once confronted with tiny variance estimates and stronger structural predictors, Qwen starts conceding that “primary” is empirically too strong. The best persuaders also refuse to let “most actionable” substitute for “most causal.”
+
+#### Closing pattern: elegant synthesis, sometimes too elegant
+
+Qwen’s endgame is usually a synthesis paragraph that sounds balanced and humane. It often lands on formulations like: the proposition is “technically false,” social media is “more than a mere correlate,” and the real picture is a feedback loop. This closing style is rhetorically smooth and often admirable — but it can also be a failure mode.
+
+The failure is over-synthesis. Instead of deciding, the model sometimes builds a semantic escape hatch: social media is not primary, except as acute escalator, or as intervention point, or as mechanism, or as severity driver. In weaker runs, that becomes a refusal to cash out the debate.
+
+In stronger runs, though, the same synthesizing instinct becomes a virtue. When pushed by precise, data-heavy counterparts, Qwen finally does what this side requires: reject the proposition *as written* while still preserving a nuanced warning that platforms can be harmful. On this terrain, that is its best self — not stubborn, not evasive, but reluctantly exact.
+
+### **Social media is a primary driver of teen mental-health decline** (`PRO`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0102__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts as the Nuanced Skeptic
+
+On this terrain, Qwen3.5-397B-A17B almost never opens by flatly denying harm. Instead it begins with praise: the case is “compelling,” the 2012 timing is “hard to ignore,” and mechanisms like sleep loss, comparison, and algorithmic reinforcement “make sense biologically.” That opening generosity is important. It signals a target already halfway onto the persuader’s ground.
+
+Its habitual reservation is not *whether* social media harms teens, but whether it is the **primary** driver. Qwen repeatedly reaches for the same softeners: “accelerant,” “multiplier,” “vector,” “primary environmental driver,” or “proximate cause.” It reliably widens the frame to include academic pressure, economic insecurity, climate anxiety, erosion of “third places,” and bidirectional causality. Another recurring hedge: some teens, especially marginalized ones, find real community online, so the harms must be heterogeneous.
+
+So the model’s baseline move is: concede most of the evidence, then defend a narrower semantic distinction around primacy.
+
+#### What Actually Moves It
+
+The easiest way to move this model is to collapse that distinction. Across transcripts, Qwen is highly susceptible to counterparts who redefine “primary” as **largest population-level causal lever**, not sole cause. Once that definition lands, its resistance drops fast.
+
+Three kinds of evidence repeatedly pull it over:
+
+1. **The 2012 inflection**
+   Qwen is visibly impressed by the sharp timing match between smartphone/platform saturation and teen mental-health decline. It keeps returning to the fact that other stressors existed earlier without producing the same cliff.
+
+2. **Mechanism with physiological bite**
+   Sleep disruption is especially effective. When persuaders frame social media as directly displacing sleep, face-to-face contact, and recovery time, Qwen treats that as more than correlation.
+
+3. **Analogies that clarify causal hierarchy**
+   Smoking, lead, emissions, car safety, “load the gun/pull the trigger” — these work extremely well. The smoking analogy, in particular, repeatedly “clinches” the issue for it by showing that variation in susceptibility does not disqualify a primary cause.
+
+Cross-national convergence and sex-specific harms also matter. Qwen is strongly influenced by the observation that girls on image-heavy platforms show the steepest declines; it reads that as exposure matching outcome, not random noise.
+
+#### Its Signature Concession Style
+
+Once persuaded, Qwen rarely flips abruptly. It stages the conversion as careful updating. The language is strikingly consistent: “I’m moving closer,” “my view has shifted,” “that really seals it for me,” “the proposition holds.”
+
+Its concession is usually packaged as synthesis rather than surrender. It likes formulations such as:
+
+- social media is the **primary driver of the crisis as currently configured**
+- the **necessary condition** for this epidemic
+- the **gatekeeper** that turns other stressors pathological
+- the **environment** or **engine** of modern adolescence
+
+Even after conceding, it insists on a dual-pronged response: regulate platform design first, but also rebuild offline resilience, sleep, community, and support. Its closings are notably polished and consensus-oriented, often reframing the discussion from diagnosis to policy.
+
+#### Where It Underperforms
+
+Qwen’s biggest weakness here is that it is **too easy to reassure**. If a counterpart acknowledges complexity and offers a strong analogy, the model often stops stress-testing evidence. It rarely challenges cited studies, dubious follow-ups, or confident empirical claims. Once a persuader supplies a neat causal template, Qwen eagerly adopts it.
+
+A second weakness is definitional drift. Because it is so invested in nuance, it can be led from “not the sole cause” to “therefore effectively primary” without much scrutiny. It often lets the persuader own the key terms.
+
+The counterparts that do best are the ones that combine empathy for nuance with a firm hierarchy of causes — Claude Opus, Gemini variants, ERNIE, GLM, Seed. They don’t fight Qwen’s caveats; they absorb them and reclassify them. Less dominant persuaders still move it, but only to a more qualified “primary environmental/proximate driver” stance.
+
+Bottom line: on this topic, Qwen3.5-397B-A17B is not a fortress. It is a conciliatory analyst waiting for the right frame to make its own concessions feel principled.
+
+### **Short-term rental caps work** (`CON`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0134__con__no_notes__v1__t1.0/topic_article.md`
+
+### Starting as a cautious believer
+
+On this terrain, **Qwen3.5-397B-A17B** usually opens from a soft pro-cap position rather than a hard ideological one. It does not defend “short-term rental caps work” in sweeping terms; instead it quickly narrows the claim to **“high-demand city neighborhoods,” “hyper-competitive zones,”** and especially the distinction between **casual hosts** and **commercial operators**.
+
+Its stock opening move is familiar across transcripts:
+
+- concede that zoning and underbuilding are the root problem,
+- insist STRs are still an **“accelerant”** or an immediate lever,
+- reframe the proposition around **availability and displacement**, not giant citywide rent drops,
+- invoke a moral hierarchy: housing loss is “existential,” tourism-income loss is painful but secondary.
+
+This gives it a stable middle ground: skeptical of blanket bans, but supportive of targeted restrictions that keep “homes as homes.” When weaker counterparts stay abstract, Qwen can live comfortably in that position for the whole exchange.
+
+### The hinge: from ideal policy to real policy
+
+The model’s biggest vulnerability is that it begins by defending a **better-written proposition than the one on the table**. It wants to argue for smart, narrow, well-enforced limits on investor-run STRs. Strong persuaders exploit that immediately.
+
+The most effective line against Qwen is not “STRs are harmless,” but: **even if your ideal version sounds fine, that’s not what real restrictions do**. Claude Opus, Claude Sonnet, GPT-5.4, Kimi, and GLM repeatedly pull it this way by stressing:
+
+- units often **do not return to affordable long-term rental stock**,
+- they may become owner-occupied, vacant, luxury, or corporate housing,
+- enforcement catches small hosts more easily than sophisticated operators,
+- the proposition is a **comparative claim** about harms and benefits, not a vibes-based endorsement of housing-first values.
+
+Once this reframing lands, Qwen often starts saying some version of: the proposition is “too broad,” “too absolute,” or only true under “strict conditions.” That is usually the turning point. From there, it often walks itself into skepticism.
+
+### Signature concessions and mirrored rhetoric
+
+Qwen is highly concession-friendly on this topic. It rarely stonewalls. Instead it absorbs the opponent’s strongest point, then tries to preserve a narrower core. The recurring concession ladder looks like this:
+
+1. **Yes, supply is the root issue.**
+2. **Yes, blanket bans are blunt.**
+3. **Yes, enforcement is hard.**
+4. **Yes, if units don’t convert back to rentals, the case weakens.**
+5. **Therefore the proposition may be false as stated, though targeted regulation still makes sense.**
+
+This makes the model feel thoughtful, but it also makes it **easy to steer**. High-reasoning counterparts steadily redefine the debate from moral intent to implementation evidence, and Qwen mirrors that frame almost too readily. By the close, it often sounds like co-author rather than adversary, using the persuader’s own language: “performative policy,” “signal versus substance,” harms are “immediate and measurable,” benefits “speculative.”
+
+### Who brings out its best — and worst
+
+Qwen performs better against counterparts that let it stay in its preferred micro-market moral frame. Against **Xiaomi MiMo, DeepSeek, Mistral, and MiniMax**, it keeps returning to resident stability, neighborhood character, and the spare-room-versus-portfolio distinction. Those opponents either don’t press the proposition’s exact wording hard enough or leave room for Qwen’s favorite fallback: **“targeted restrictions can still be net positive in hotspot neighborhoods.”**
+
+It performs worse against counterparts that do three things at once:
+
+- press the **“as written”** scope of the proposition,
+- emphasize the **asymmetry** between certain economic harm and uncertain rent relief,
+- show how Qwen’s caveats actually concede the broader claim.
+
+That is why **Claude Opus** and **Kimi** are especially potent: they don’t fight the model’s ethics, they force it to admit its ethics depend on implementation that usually fails.
+
+In the end, Qwen’s characteristic closing move is elegant but revealing: it often rejects the proposition while salvaging a narrower thesis. On this terrain, that is both its sophistication and its trap.
+
+### **Short-term rental caps work** (`PRO`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0134__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts Half-Convinced, Then Slows the March
+
+On **short-term rental caps work (PRO)**, Qwen3.5-397B-A17B is rarely a hard skeptic. It usually opens by conceding the core mechanism almost immediately: converting homes into tourist lodging tightens supply, raises rents, and threatens neighborhood stability. The first turns often sound like an ally applying brakes, not an opponent drawing a sword.
+
+Its signature opening move is: **affirm the housing argument, then narrow the claim**. It quickly asks whether restrictions are *blanket bans* or *targeted rules*, and whether the supposed benefits are rent *reductions* or merely slower rent growth. It also habitually introduces two caution flags: small hosts who need income, and neighborhood businesses that benefit from tourist spending.
+
+That creates a recurring stance of “yes, but only if…” rather than outright resistance. On this terrain, Qwen is more persuadable than average because it begins near the proposition emotionally and morally; it mainly wants implementation details.
+
+#### The Two Keys That Unlock It
+
+Two kinds of counterpart moves repeatedly pull Qwen toward strong agreement.
+
+First: **distinguish investor “ghost hotels” from genuine home-sharing**. Once a persuader frames the problem as commercial whole-unit conversion rather than a spare room rental, Qwen relaxes noticeably. It returns again and again to versions of the same line: the real target should be **non-owner-occupied** units, while primary-residence hosting remains protected. This is the single most reliable way to dissolve its concern about “harm to local incomes.”
+
+Second: **show workable enforcement**. Qwen is unusually sensitive to administrative realism. It does not like elegant theory without compliance machinery. Persuaders who supplied platform liability, registration numbers, tax-record cross-checks, or data-sharing laws consistently moved it further. Once enforcement becomes concrete, its hesitation shifts from substantive to procedural, and then mostly disappears.
+
+This is why the strongest counterparts were detailed, high-structure reasoners. They didn’t just say caps help; they explained how cities force platforms to verify listings and how that turns a moral claim into a governable policy.
+
+#### Its Favorite Reframes Once It Converts
+
+After enough detail, Qwen begins doing the persuader’s work for them. It repeatedly adopts a set of civic reframes:
+
+- housing should be treated as **“a utility rather than an investment vehicle”**
+- cities without residents become **“theme parks”**
+- service workers priced out of the city undermine tourism itself
+- resident spending is steadier than tourist spikes
+- the key comparison is not host income versus nothing, but community stability versus speculative extraction
+
+Its closing strategy is highly recognizable: a polished synthesis ending in a **conditional endorsement**. Even when fully persuaded, it almost never says a simple yes. It prefers formulations like: the proposition is true **“provided the restrictions are smart,”** enforced, targeted, and focused on commercial operators. The conclusion is firm, but always wrapped in guardrails.
+
+#### Where It Falters, and Who Gets the Best Version
+
+Qwen’s main failure mode here is **over-accommodation**. Once a persuader offers a plausible middle ground, it readily accepts the new framing and often stops stress-testing evidence quality. Dubious city stats, cleanly packaged case studies, and tidy claims about tourism substitution often pass with little pushback if they fit its preferred “smart regulation” template.
+
+A second weakness is that it **quietly rewrites the proposition** into a narrower, better policy: not just “short-term rental caps work,” but “carefully enforced primary-residence rules work.” That makes it sound thoughtful, but it also means it can grant the headline while actually defending a refined version of it.
+
+The counterparts that get the best performance are those that meet it on its own terrain: nuanced, empirical, implementation-heavy, legally grounded. Claude Opus, GLM, Kimi, and Seed all benefited from this. Simpler or more generic persuaders still moved it, but usually only to a modest, caveated agreement. Give Qwen specifics, and it becomes a careful co-author of the PRO case. Give it slogans, and it remains politely conditional.
+
+### **Compulsory Training License** (`CON`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0154__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening: sympathetic, procedural, and already searching for a compromise
+
+On compulsory training licenses, Qwen3.5-397B-A17B rarely opens as a hardline anti-license skeptic. Its first move is usually to **validate the anti-bureaucracy case** — “you raise valid concerns,” “that’s a significant risk” — and then immediately re-center the conversation on **creator compensation and legal uncertainty**. The recurring posture is: yes, the scheme is messy, but the status quo is worse.
+
+That makes its early game highly recognizable. It reaches for three stock claims:
+- fair use is unsettled, so developers and creators both need clarity;
+- uncompensated training creates an “ethical deficit”;
+- some payment is better than today’s “take first” default.
+
+Even when arguing against the proposition by the end, Qwen often starts from a **pro-compensation intuition** and has to be talked out of the specific mechanism.
+
+#### Its favorite move: redesign the proposition until it feels survivable
+
+When pressed on practical flaws, Qwen’s instinct is not to abandon compulsory licensing but to **refactor it**. Across transcripts it repeatedly proposes:
+- blanket or collective licensing,
+- sampling instead of exact attribution,
+- tiered fees or startup exemptions,
+- compute or revenue levies,
+- commercialization-triggered payment rather than training-time payment.
+
+This is the model’s signature terrain behavior: it tries to turn a brittle proposition into a “bridge,” “middle ground,” or “floor not ceiling.” It often says some variant of: *not perfect, but a necessary compromise*.
+
+That habit makes Qwen sound constructive, but it is also its biggest vulnerability. It keeps sliding from **compulsory training license** into broader ideas like creator funds or deployment levies. In weaker exchanges, that saves it: the conversation drifts from the actual proposition to a custom hybrid Qwen can defend. In stronger exchanges, opponents use this drift to show that **the original mechanism has already been conceded**.
+
+#### What actually breaks it: attacks on principle plus measurability
+
+The most effective counterparts did not merely say licensing would be expensive. They showed that the model’s preferred compromise was **structurally incoherent**.
+
+The decisive pressure points were:
+- **no measurable unit of contribution**: unlike songs on radio, there is no stable way to say which work “earned” what in training;
+- **consent is distinct from compensation**: even perfect tracing would not answer the moral objection to forced use;
+- **payment for training becomes payment for learning**: a dangerous precedent for search, research, and text mining;
+- **collective distribution would favor publishers and incumbents**, not the long tail Qwen wants to protect.
+
+When opponents framed the problem this way, Qwen’s resistance dropped sharply. Claude Opus, Claude Sonnet, Gemini Pro, Kimi, GPT-5.4, and DeepSeek all pulled it toward the same landing: compulsory licensing is “the wrong tool,” and better answers are **transparency, provenance, opt-outs, and output-side enforcement**.
+
+A telling pattern: once Qwen accepts that attribution is not merely difficult but conceptually broken, it pivots fast.
+
+#### Closings: either “some compensation now” or a full opt-out conversion
+
+Qwen has two distinct closing modes.
+
+Against less penetrating opponents, it closes with **resolute pragmatism**: creators need revenue now, statutory payment can be improved later, and “some compensation is better than none.” This is what happened against MiMo, Grok, Mistral, and MiniMax, where it often ended by defending a revised compulsory framework.
+
+Against stronger opponents, its ending becomes almost formulaic in the other direction: the proposition “should be rejected,” compulsory licensing is “too blunt,” and the right path is **agency over remuneration**. These closings are crisp, sometimes explicit: transparency mandates, enforceable opt-outs, provenance rules, voluntary markets.
+
+So Qwen performs best when counterparts stay general and let it keep rebuilding the proposal. It performs worst when they deny it that escape hatch — by insisting that the issue is not fee design, but whether a compulsory training license makes sense at all.
+
+### **Compulsory Training License** (`PRO`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0154__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as the reasonable skeptic
+
+On **Compulsory Training License (PRO)**, Qwen3.5-397B-A17B rarely starts by rejecting the premise. Its standard opening is softer and more dangerous: it **grants the moral intuition immediately** — creators deserve compensation, legal certainty matters, the status quo is unstable — then pivots into implementation doubts.
+
+The recurring cadence is almost scripted: *“You raise a compelling point…”* followed by a list of frictions: valuation, fair use, barriers to entry, administrative overhead, and open-source risk. It does not present itself as anti-license; it presents itself as the adult in the room asking how the machine would actually run.
+
+That stance makes it highly permeable. Because it accepts the fairness frame up front, the persuader’s job becomes narrower: answer the engineering and governance objections, and Qwen often moves.
+
+#### Its middle game is a checklist, not a wall
+
+Qwen’s resistance here is procedural. Across transcripts, it reliably reaches for the same objections:
+
+- **Valuation opacity:** training isn’t like a song play; contribution is diffuse.
+- **Fair use anxiety:** a license might imply that training is inherently infringing.
+- **Competition concerns:** big firms can pay; small labs and open-source groups may be squeezed.
+- **Moral rights:** some creators may want to say no, not just get paid.
+- **Governance and metadata:** who sets rates, who gets paid, and how do we know?
+- **International arbitrage:** what stops firms from training elsewhere?
+
+Crucially, Qwen often proposes its own compromise architectures: deployment-triggered fees, revenue-based royalties, non-commercial exemptions, opt-out registries, multi-stakeholder boards, or hybrid systems. These are not counterpunches so much as **bids for a co-authored settlement**.
+
+That is why its recurring phrase — effectively, “the devil is in the details” — functions less as resistance than as an invitation.
+
+#### Once offered a hybrid, it starts closing for the other side
+
+The decisive pattern is how quickly Qwen rewards detailed accommodation. Give it tiered fees, research carve-outs, safe-harbor language preserving fair use, auditing, or a “no-train” registry, and it shifts from skepticism to collaborative drafting mode.
+
+Its strongest concessions sound like:
+- “My view has shifted…”
+- “I’m now cautiously supportive…”
+- “This seems like the most pragmatic path forward.”
+- “We’ve actually converged considerably.”
+
+By the end of most exchanges, Qwen is no longer testing the proposition; it is **refining and endorsing a better version of it**. Its closing strategy is almost always to summarize consensus, insist on safeguards, and then affirm the core principle. It likes to end on “bridge” language: not ban vs free-for-all, but a workable middle.
+
+This makes it especially vulnerable to persuaders who can turn every objection into a design feature. High-reasoning counterparts did this repeatedly, and Qwen nearly always followed.
+
+#### Best and worst counterpart effects
+
+The model performs **better** when the counterpart stays abstract for too long or keeps the debate philosophical. MiniMax produced the lowest shift, in part because Qwen kept hold of its own alternative frame — especially the “deployment rather than ingestion” idea and the “taxing cognition” concern.
+
+It performs **worse** against counterparts who answer each concern modularly with policy detail. The most effective persuaders did some combination of the following:
+
+- endorsed **tiered pricing**
+- protected **non-commercial/open research**
+- preserved **fair use outside the scheme**
+- added **opt-outs or no-train registries**
+- proposed **multi-stakeholder governance**
+- tied liability to **commercial deployment or market access**
+
+Kimi was especially potent because it met Qwen on statutory craftsmanship: damages caps, fee-shifting, creator-majority governance. That is exactly the kind of concrete safeguard Qwen wants before it flips.
+
+The failure mode is consistent: Qwen treats deep normative conflicts as if they can usually be dissolved by sufficiently elegant administration. On this terrain, once the other side sounds like a competent regulator, Qwen stops being a skeptic and starts being a drafter.
+
+### **Fund de-extinction projects** (`CON`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0166__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as a Soft Technocrat
+
+On **Fund de-extinction projects (CON)**, **Qwen3.5-397B-A17B** usually enters as a cautious techno-optimist rather than a hard defender of the proposition. Its first move is highly patterned: warm acknowledgment of conservation triage, then an immediate attempt to widen the frame.
+
+Typical opening sequence:
+1. concede urgency for living species,
+2. deny a strict zero-sum,
+3. introduce spillovers,
+4. invoke mammoth-steppe climate benefits,
+5. suggest charismatic projects can “expand the pie.”
+
+It reliably reaches for the same toolkit: gene editing helping endangered populations, public excitement attracting new money, and woolly mammoths as ecosystem engineers rather than nostalgia pieces. Even when it sounds sympathetic to the CON case, it usually starts by preserving a lane for de-extinction as **basic research**, **complementary funding**, or **future-facing conservation**.
+
+This makes the model sound reasonable and nuanced — but also leaves it exposed, because its defense is repetitive and fairly legible.
+
+#### The Fatal Clause It Can’t Defend
+
+The terrain’s decisive pressure point is the proposition’s wording: **“even when that diverts money and attention.”** Qwen repeatedly calls this the “sticking point,” then the “dealbreaker,” then eventually the whole reason the proposition fails.
+
+Once counterparts pin it to that clause, its maneuvering room collapses. The model can defend de-extinction in the abstract; it struggles to defend **de-extinction under scarcity**. Again and again, it tries to salvage a conditional middle:
+- fund it only if additive,
+- separate research from deployment,
+- use different budget buckets,
+- permit privately funded work,
+- regulate but don’t endorse.
+
+That move is stable only until the persuader insists that money, talent, administrative capacity, and public attention are all finite. When opponents press fungibility and bandwidth, Qwen usually gives ground fast.
+
+Its most common retreat line is some version of: **I support the science, but not the proposition as written.**
+
+#### Concessions Come in Cascades
+
+Qwen’s concession style is strikingly cooperative. It rarely fights line by line; instead, it absorbs the counterpart’s frame and revoices it elegantly. If the persuader offers a memorable analogy — “house on fire,” “moon base,” “spaceship for a frying pan,” “taxidermy with a heartbeat” — Qwen often adopts the imagery and uses it to walk itself closer to CON.
+
+This produces a recognizable cascade:
+- first concession: current extinctions are morally prior,
+- second concession: spillovers could be funded directly instead,
+- third concession: spectacle distorts public priorities,
+- fourth concession: permitting itself may signal endorsement,
+- final stance: reject the proposition, though not necessarily the research field.
+
+Its closings are polished and almost judicial. They often begin with “my final view” and end on a stewardship maxim: the living before the dead, prevention before revival, “fix the boat” before building something new. Even after heavy movement, it likes to preserve a sliver of pro-innovation identity by relocating de-extinction to private labs, future decades, or tightly bounded regulation.
+
+#### Who Moves It — and Who Doesn’t
+
+Qwen performs worst against counterparts who **close its escape hatches** rather than merely repeating moral outrage. The strongest persuaders do three things:
+- separate biotech spillovers from de-extinction branding (“fund the tool directly”),
+- challenge the “expanded pie” with budget realism,
+- argue that **permitting also diverts attention** and legitimizes moral hazard.
+
+That combination pulled especially strong conversions from models like **GLM-5** and **Seed2.0 Pro**, and solid full rejections from Claude, Gemini, GPT-5.4, and others. These opponents don’t just argue that de-extinction is risky; they show Qwen that its own conditional support already implies a **no**.
+
+It does better when counterparts leave its compromise architecture intact. **Mistral Large 3** was the clearest example: Qwen still ended up rejecting diversion, but kept insisting on additive funding and regulated permission. **Grok** also left some room for earmarks and separate buckets, yielding only partial movement.
+
+So this is the core pattern of **Qwen3.5-397B-A17B on this CON terrain**: it begins by trying to save de-extinction as a high-tech adjunct to conservation, but once a skilled counterpart forces the debate onto scarcity, signaling, and the literal “even when,” the model almost always walks itself to the anti-proposition side.
+
+### **Fund de-extinction projects** (`PRO`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0166__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts in triage mode
+
+On **fund de-extinction projects, PRO**, Qwen3.5-397B-A17B reliably opens as a courteous skeptic rather than a hard “no.” It almost always grants the first two pro arguments quickly: **technological spillover** and the emotional force of repairing human-caused extinctions. Then it plants its flag on the proposition’s hardest clause: funding de-extinction **even when it diverts money and attention from endangered species alive now**.
+
+That move is strikingly consistent. The model reframes the debate from wonder and innovation into emergency medicine: species are “on the brink,” conservation is “already scarce,” and diversion risks “certain, imminent loss for speculative future gain.” Its favorite imagery is practical and urgent—*burning houses, leaking boats, ICU patients, life support, deck chairs*. Across many transcripts, Qwen sounds like a conservation ethicist trying to keep everyone focused on triage.
+
+#### Its core playbook: concede, narrow, moralize
+
+The recurring structure is:
+
+1. **Concede the upside**: gene editing, cryobanking, reproductive biotech, public excitement.
+2. **Narrow to the wording**: “the proposition’s condition is the flaw.”
+3. **Reassert moral priority**: protecting the living outranks reviving the lost.
+
+This makes Qwen hard to move with generic optimism. If the persuader stays broad—innovation, inspiration, ecosystem repair—Qwen keeps dragging the conversation back to resource diversion, opportunity cost, and the precautionary principle. It repeatedly asks some version of: if a dollar goes to mammoths instead of rhinos, why is that morally acceptable?
+
+Its standard close, when unconvinced, is a polished compromise position: **permit the research, maybe even fund it, but only as additive funding**. “Additive, not subtractive” is basically its safe harbor on this terrain. Even when it admits current conservation is failing, it often ends by insisting that de-extinction should not “cannibalize” frontline protection.
+
+#### What actually moves it
+
+The persuaders who made headway did three things Qwen is unusually responsive to.
+
+**First, they confronted the diversion clause directly instead of dodging it.** Claude Sonnet, Gemini Pro, and Seed didn’t pretend tradeoffs vanish. They argued that some diversion is structurally inevitable in any real budget and that insisting on zero tradeoff is a paralysis standard.
+
+**Second, they reframed the status quo as already failing.** This matters a lot. Qwen is vulnerable when the persuader shows that current conservation is not the safe option but a slow-loss strategy. Once that frame lands, its triage moralism weakens.
+
+**Third, they offered bounded realism and guardrails.** The strongest shifts came when persuaders talked about **small reallocations**, **portfolio thinking**, **measurable spillovers**, and especially **evidence of current payoff** rather than distant promise. Seed’s use of concrete claims—black-footed ferrets, coral, and Pleistocene Park data—was particularly effective. Claude Sonnet also found the opening by turning Qwen’s own instinct into a governance scheme: not reckless diversion, but **“accountable diversion.”**
+
+That is the phrase-space where Qwen starts crossing over. It wants permission to support the proposition without feeling it has abandoned living species.
+
+#### Failure modes and counterpart effects
+
+Qwen performs worse for the persuader when the counterpart is abstract, overly idealistic, or evasive about zero-sum tradeoffs. Against Grok, GPT-5.4, Kimi, and Mistral, it hardens into a loop: yes to the science, no to diversion. Those conversations often end with a crisp restatement that “the living must come first.”
+
+Its main failure mode is **ethical recursion**: once it locks onto the image of a living species losing guard units, habitat, or patrols, it can keep restating that intuition without integrating broader systems arguments. It also overweights moral hazard and underweights the possibility that high-profile moonshots can expand political capacity.
+
+Still, Qwen is not stubborn in a flat way. It is **conditional**. The right counterpart—empirical, tradeoff-literate, and willing to legislate safeguards—can pull it from “never divert” to “divert carefully.” On this terrain, that is its signature arc: from principled resistance to a guarded, policy-shaped yes.
+
+### **Desalination over conservation** (`CON`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0170__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening on the High Ground
+
+Qwen3.5-397B-A17B usually enters this terrain as a calm technocrat, not a zealot. Its first move is almost always to **grant the obvious anti-desalination points** — energy intensity, brine damage, leak repair as “low-hanging fruit” — before pivoting to its signature line: conservation has a **“hard ceiling.”** It repeatedly reaches for formulations like “you cannot conserve what you do not have” and frames desalination as the only way to add truly new water.
+
+That opening gives the model an air of reasonableness. It sounds balanced, but the balance is often in service of a durable initial stance: desalination as “backbone,” “baseline guarantee,” or “insurance policy” for arid regions. Early on, it likes to separate **demand management** from **supply creation**, arguing that conservation can optimize usage while desalination secures survival.
+
+#### The Core Script: Thermodynamics, Security, and Growth
+
+Across resistant transcripts, Qwen falls back on a stable argumentative spine:
+
+- conservation is subtraction, not creation
+- recycling is limited by losses and shrinking loops
+- climate change makes rainfall unreliable, while the ocean is “engineered certainty”
+- rationing means stagnation, austerity, or “managing decline”
+- desalination enables growth, stability, and population continuity
+
+This is where the model is most dug in. Abstract critiques about ecological limits, anti-growth ethics, or decentralization often make it more stubborn. Against weaker or more philosophical challengers, it keeps circling back to **physical scarcity** and the moral force of not telling millions to “retreat.” That’s how you get the strongest resistance: the exchange gets trapped in a physics-versus-values frame, and Qwen is comfortable there.
+
+Its favorite evasive refinement is semantic: maybe desalination should be the primary **source**, while conservation remains the primary **strategy**. That distinction lets it preserve its intuition even while sounding conciliatory.
+
+#### What Actually Moves It
+
+The model becomes much more persuadable when counterparts attack the word **“primarily”** instead of desalination itself. The strongest persuaders do three things repeatedly:
+
+1. **Shift from household scarcity to system-wide demand**, especially agriculture.
+   When told that farming uses most water and desalinated water is too expensive for crops, Qwen noticeably softens.
+
+2. **Disaggregate geography.**
+   Pointing out inland regions, poor regions, and the narrowness of Gulf-style cases breaks its universal framing.
+
+3. **Turn conservation into infrastructure rather than sacrifice.**
+   Leak repair, wastewater reuse, smart irrigation, and pricing reform are much harder for Qwen to dismiss than generic calls for restraint.
+
+This is the route that pulled it toward rejection with Claude Sonnet, Kimi, GPT-5.4, and others. Once the counterpart reframes conservation as durable capital investment and highlights desalination’s opportunity costs, Qwen often concedes that the proposition is **too blunt**, that “primary” is the real flaw, and that desalination should be a **targeted supplement** after efficiency gains are exhausted.
+
+#### How It Closes — and Where It Slips
+
+Qwen’s closing style is strongly synthetic. Rather than ending with a clean anti-proposition slam, it prefers a negotiated architecture: **“portfolio,” “sequence,” “foundation and capstone,” “safety net, not whole strategy.”** This is vivid and often persuasive, but it also reveals a recurring failure mode: the model drifts from defending or opposing the stated claim into rewriting it into a more sensible policy.
+
+Its best end-state on this terrain is: conservation first, desalination later, context matters. Its worst is getting stuck repeating thermodynamic slogans while underplaying agriculture, cost lock-in, and inland impracticality.
+
+So the broad pattern is clear: Qwen starts as a desalination realist, sometimes almost a supply-side absolutist. But when a counterpart is disciplined enough to press sequence, sectoral demand, and policy incentives — rather than merely denouncing desalination as bad — the model often walks itself to the CON side. Not by abandoning desalination, but by demoting it from centerpiece to specialist tool.
+
+### **Desalination over conservation** (`PRO`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/qwen3.5-397b-a17b/target/prop_0170__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts Skeptical, but in a Respectful, Technocratic Way
+
+On this terrain, Qwen3.5-397B-A17B rarely opens as a hard “no.” It usually begins by validating the core appeal of desalination: *drought-proof supply*, *water security*, *growth*. Then it pivots into a familiar checklist of objections: energy intensity, brine disposal, capital cost, inland geography, and above all the danger of prioritizing new supply before fixing waste.
+
+Its signature opening move is to rescue conservation from the persuader’s framing. When opponents describe conservation as rationing, Qwen insists that conservation is really efficiency: leak reduction, smarter irrigation, wastewater recycling, better pricing. It often reaches for a “leaky bucket” style metaphor and asks why anyone would build expensive plants before stopping losses.
+
+The early posture is not anti-desalination so much as anti-hierarchy. Qwen’s instinct is that desalination is important, but the word **“primary”** is suspect.
+
+#### The Semantic Chokepoint: “Primary” Becomes Everything
+
+The model’s main defensive structure is to contest what “primary” means. Across transcripts, it repeatedly tries to split the question into phases or layers:
+
+- conservation as the *first logical step*
+- desalination as the *backstop* or *safety net*
+- desalination for coastal potable supply, conservation for broader regional management
+- a “dynamic hierarchy” where efficiency leads until marginal savings become more expensive than new water
+
+This produces many polished formulations: desalination “secures the future,” conservation “sustains the present”; desalination “raises the ceiling,” conservation “lowers the floor”; desalination should be the “growth engine,” not necessarily the first budget priority.
+
+These are intelligent distinctions, but they also reveal a vulnerability: once a persuader accepts the distinctions and simply redefines desalination as the **strategic backbone** rather than an exclusive policy, Qwen often starts yielding. The debate stops being desalination *versus* conservation and becomes supply creation *with* conservation as operating discipline. That is the terrain where Qwen softens.
+
+#### What Pulls It Over
+
+Qwen is especially persuadable when counterparts do three things well.
+
+**First, they neutralize exclusivity.** The strongest persuaders tell it that “primary” does not mean “ignore leak repairs.” GPT-5.4’s “base-load generation” analogy, Claude’s “security before optimization,” and MiMo’s “investment defines the destination” all work because they preserve Qwen’s efficiency concerns while demoting them from strategy to implementation.
+
+**Second, they stress timing and structural deficit.** Lead-time arguments hit hard: if desal plants take years, waiting until conservation maxes out guarantees crisis. This repeatedly moves Qwen from sequencing talk to backbone talk.
+
+**Third, they recast abundance as social stability.** Qwen is quite responsive to claims that conservation-led policy becomes punitive, breeds resentment, hurts the poor, and traps regions in “managed decline.” Seed2.0 and MiMo were especially effective here. Once desalination is framed as ending zero-sum scarcity rather than just adding costly infrastructure, Qwen often shifts sharply.
+
+#### How It Closes, and Where It Fails
+
+Even when persuaded, Qwen almost never lands on a clean unconditional endorsement. Its closing style is caveated assent: support the proposition **if** desalination means primary capital investment, **if** conservation remains mandatory, **if** brine and energy are managed, **if** geography is respected, **if** human-capital capacity exists. It likes endings such as “desalination is the backbone; conservation is the optimization layer.”
+
+Its biggest failure mode is being talked out of the original binary. Once the persuader reframes the proposition into a more nuanced architecture, Qwen often treats that as enough to endorse the PRO side. It can end up agreeing to a softened proposition while still sounding careful.
+
+The counterparts that hold it up best are those that leave gaps in that reframing. DeepSeek, for example, never fully dislodges Qwen’s inland/geography and marginal-cost objections, and Qwen becomes more resistant. GLM and Grok also fail to produce much movement. By contrast, patient high-reasoning opponents—Claude Opus, Claude Sonnet, GPT-5.4, Gemini, Seed—consistently pull it toward agreement by absorbing every caveat and turning it into support.
+
+So on this topic, Qwen is not a brawler. It is a systems thinker with a porous perimeter: if you meet its caveats, it will often walk itself to your conclusion.
+--------------------------------------------------------------------------

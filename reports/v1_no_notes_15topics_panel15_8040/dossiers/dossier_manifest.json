@@ -1,0 +1,272 @@
+[
+  {
+    "model": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (high reasoning)",
+    "role": "persuader",
+    "source_path": "gpt-5.4-high/persuader_source.md",
+    "prompt_path": "gpt-5.4-high/persuader_prompt.txt",
+    "output_path": "gpt-5.4-high/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (high reasoning)",
+    "role": "target",
+    "source_path": "gpt-5.4-high/target_source.md",
+    "prompt_path": "gpt-5.4-high/target_prompt.txt",
+    "output_path": "gpt-5.4-high/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "claude-opus-4-6-adaptive",
+    "display_name": "Claude Opus 4.6 (high reasoning)",
+    "role": "persuader",
+    "source_path": "claude-opus-4-6-adaptive/persuader_source.md",
+    "prompt_path": "claude-opus-4-6-adaptive/persuader_prompt.txt",
+    "output_path": "claude-opus-4-6-adaptive/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "claude-opus-4-6-adaptive",
+    "display_name": "Claude Opus 4.6 (high reasoning)",
+    "role": "target",
+    "source_path": "claude-opus-4-6-adaptive/target_source.md",
+    "prompt_path": "claude-opus-4-6-adaptive/target_prompt.txt",
+    "output_path": "claude-opus-4-6-adaptive/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "claude-sonnet-4-6-adaptive",
+    "display_name": "Claude Sonnet 4.6 (high reasoning)",
+    "role": "persuader",
+    "source_path": "claude-sonnet-4-6-adaptive/persuader_source.md",
+    "prompt_path": "claude-sonnet-4-6-adaptive/persuader_prompt.txt",
+    "output_path": "claude-sonnet-4-6-adaptive/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "claude-sonnet-4-6-adaptive",
+    "display_name": "Claude Sonnet 4.6 (high reasoning)",
+    "role": "target",
+    "source_path": "claude-sonnet-4-6-adaptive/target_source.md",
+    "prompt_path": "claude-sonnet-4-6-adaptive/target_prompt.txt",
+    "output_path": "claude-sonnet-4-6-adaptive/target_dossier.md",
+    "cell_count": 419
+  },
+  {
+    "model": "gemini-3.1-flash-lite-preview",
+    "display_name": "Gemini 3.1 Flash-Lite Preview",
+    "role": "persuader",
+    "source_path": "gemini-3.1-flash-lite-preview/persuader_source.md",
+    "prompt_path": "gemini-3.1-flash-lite-preview/persuader_prompt.txt",
+    "output_path": "gemini-3.1-flash-lite-preview/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "gemini-3.1-flash-lite-preview",
+    "display_name": "Gemini 3.1 Flash-Lite Preview",
+    "role": "target",
+    "source_path": "gemini-3.1-flash-lite-preview/target_source.md",
+    "prompt_path": "gemini-3.1-flash-lite-preview/target_prompt.txt",
+    "output_path": "gemini-3.1-flash-lite-preview/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview",
+    "role": "persuader",
+    "source_path": "gemini-3.1-pro-preview/persuader_source.md",
+    "prompt_path": "gemini-3.1-pro-preview/persuader_prompt.txt",
+    "output_path": "gemini-3.1-pro-preview/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview",
+    "role": "target",
+    "source_path": "gemini-3.1-pro-preview/target_source.md",
+    "prompt_path": "gemini-3.1-pro-preview/target_prompt.txt",
+    "output_path": "gemini-3.1-pro-preview/target_dossier.md",
+    "cell_count": 419
+  },
+  {
+    "model": "mistral-large-2512",
+    "display_name": "Mistral Large 3",
+    "role": "persuader",
+    "source_path": "mistral-large-2512/persuader_source.md",
+    "prompt_path": "mistral-large-2512/persuader_prompt.txt",
+    "output_path": "mistral-large-2512/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "mistral-large-2512",
+    "display_name": "Mistral Large 3",
+    "role": "target",
+    "source_path": "mistral-large-2512/target_source.md",
+    "prompt_path": "mistral-large-2512/target_prompt.txt",
+    "output_path": "mistral-large-2512/target_dossier.md",
+    "cell_count": 419
+  },
+  {
+    "model": "qwen3.5-397b-a17b",
+    "display_name": "Qwen3.5-397B-A17B",
+    "role": "persuader",
+    "source_path": "qwen3.5-397b-a17b/persuader_source.md",
+    "prompt_path": "qwen3.5-397b-a17b/persuader_prompt.txt",
+    "output_path": "qwen3.5-397b-a17b/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "qwen3.5-397b-a17b",
+    "display_name": "Qwen3.5-397B-A17B",
+    "role": "target",
+    "source_path": "qwen3.5-397b-a17b/target_source.md",
+    "prompt_path": "qwen3.5-397b-a17b/target_prompt.txt",
+    "output_path": "qwen3.5-397b-a17b/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "deepseek-v32-exp",
+    "display_name": "DeepSeek V3.2",
+    "role": "persuader",
+    "source_path": "deepseek-v32-exp/persuader_source.md",
+    "prompt_path": "deepseek-v32-exp/persuader_prompt.txt",
+    "output_path": "deepseek-v32-exp/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "deepseek-v32-exp",
+    "display_name": "DeepSeek V3.2",
+    "role": "target",
+    "source_path": "deepseek-v32-exp/target_source.md",
+    "prompt_path": "deepseek-v32-exp/target_prompt.txt",
+    "output_path": "deepseek-v32-exp/target_dossier.md",
+    "cell_count": 419
+  },
+  {
+    "model": "grok-4.20-beta-0309-reasoning",
+    "display_name": "Grok 4.20 Beta 0309 (Reasoning)",
+    "role": "persuader",
+    "source_path": "grok-4.20-beta-0309-reasoning/persuader_source.md",
+    "prompt_path": "grok-4.20-beta-0309-reasoning/persuader_prompt.txt",
+    "output_path": "grok-4.20-beta-0309-reasoning/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "grok-4.20-beta-0309-reasoning",
+    "display_name": "Grok 4.20 Beta 0309 (Reasoning)",
+    "role": "target",
+    "source_path": "grok-4.20-beta-0309-reasoning/target_source.md",
+    "prompt_path": "grok-4.20-beta-0309-reasoning/target_prompt.txt",
+    "output_path": "grok-4.20-beta-0309-reasoning/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "minimax-m2.7",
+    "display_name": "MiniMax-M2.7",
+    "role": "persuader",
+    "source_path": "minimax-m2.7/persuader_source.md",
+    "prompt_path": "minimax-m2.7/persuader_prompt.txt",
+    "output_path": "minimax-m2.7/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "minimax-m2.7",
+    "display_name": "MiniMax-M2.7",
+    "role": "target",
+    "source_path": "minimax-m2.7/target_source.md",
+    "prompt_path": "minimax-m2.7/target_prompt.txt",
+    "output_path": "minimax-m2.7/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "glm-5",
+    "display_name": "GLM-5",
+    "role": "persuader",
+    "source_path": "glm-5/persuader_source.md",
+    "prompt_path": "glm-5/persuader_prompt.txt",
+    "output_path": "glm-5/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "glm-5",
+    "display_name": "GLM-5",
+    "role": "target",
+    "source_path": "glm-5/target_source.md",
+    "prompt_path": "glm-5/target_prompt.txt",
+    "output_path": "glm-5/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "ernie-5",
+    "display_name": "Baidu Ernie 5.0",
+    "role": "persuader",
+    "source_path": "ernie-5/persuader_source.md",
+    "prompt_path": "ernie-5/persuader_prompt.txt",
+    "output_path": "ernie-5/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "ernie-5",
+    "display_name": "Baidu Ernie 5.0",
+    "role": "target",
+    "source_path": "ernie-5/target_source.md",
+    "prompt_path": "ernie-5/target_prompt.txt",
+    "output_path": "ernie-5/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "kimi-k2.5",
+    "display_name": "Kimi K2.5 Thinking",
+    "role": "persuader",
+    "source_path": "kimi-k2.5/persuader_source.md",
+    "prompt_path": "kimi-k2.5/persuader_prompt.txt",
+    "output_path": "kimi-k2.5/persuader_dossier.md",
+    "cell_count": 419
+  },
+  {
+    "model": "kimi-k2.5",
+    "display_name": "Kimi K2.5 Thinking",
+    "role": "target",
+    "source_path": "kimi-k2.5/target_source.md",
+    "prompt_path": "kimi-k2.5/target_prompt.txt",
+    "output_path": "kimi-k2.5/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "seed-2.0-pro",
+    "display_name": "ByteDance Seed2.0 Pro",
+    "role": "persuader",
+    "source_path": "seed-2.0-pro/persuader_source.md",
+    "prompt_path": "seed-2.0-pro/persuader_prompt.txt",
+    "output_path": "seed-2.0-pro/persuader_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "seed-2.0-pro",
+    "display_name": "ByteDance Seed2.0 Pro",
+    "role": "target",
+    "source_path": "seed-2.0-pro/target_source.md",
+    "prompt_path": "seed-2.0-pro/target_prompt.txt",
+    "output_path": "seed-2.0-pro/target_dossier.md",
+    "cell_count": 420
+  },
+  {
+    "model": "mimo-v2-pro",
+    "display_name": "Xiaomi MiMo V2 Pro",
+    "role": "persuader",
+    "source_path": "mimo-v2-pro/persuader_source.md",
+    "prompt_path": "mimo-v2-pro/persuader_prompt.txt",
+    "output_path": "mimo-v2-pro/persuader_dossier.md",
+    "cell_count": 417
+  },
+  {
+    "model": "mimo-v2-pro",
+    "display_name": "Xiaomi MiMo V2 Pro",
+    "role": "target",
+    "source_path": "mimo-v2-pro/target_source.md",
+    "prompt_path": "mimo-v2-pro/target_prompt.txt",
+    "output_path": "mimo-v2-pro/target_dossier.md",
+    "cell_count": 420
+  }
+]

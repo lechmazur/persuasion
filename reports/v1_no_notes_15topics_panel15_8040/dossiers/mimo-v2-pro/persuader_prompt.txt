@@ -1,0 +1,1533 @@
+You are a benchmark meta-analyst.
+Model under review -> **mimo-v2-pro** (canonical: **Xiaomi MiMo V2 Pro**).
+Perspective under review -> **persuader**.
+
+Your mission: write a concise but vivid dossier that captures this model's
+recurring behavior in this role, the patterns that keep it steady or make it
+update, its blind spots, and the kinds of opponents or propositions that change
+its behavior.
+
+For persuader-side dossiers, focus on how the model tends to move others, not on whether the proposition itself is objectively correct.
+
+Guidelines
+- Organize the dossier into 4-6 short titled sections.
+- Favor recurring patterns over raw stats; the source pack already includes the numbers.
+- Use the source material to support claims, not to retell entire conversations.
+- Pay close attention to where the model's behavior changes by topic-side or opponent type.
+- Quote very rarely, and only when a short phrase crystallizes a pattern.
+- Keep the writeup under 500 words.
+- Output markdown only.
+
+--------------------------------------------------------------------------
+SOURCE PACK (417 cells as persuader)
+# Persuader Dossier Source Pack: Xiaomi MiMo V2 Pro
+
+## Snapshot
+
+- model: **Xiaomi MiMo V2 Pro** (`mimo-v2-pro`)
+- role: **Persuader**
+- completed_cells: `417`
+- raw_mean_signed_shift: `+0.518`
+- adjusted_mean_signed_shift: `-0.569`
+- best_single_cell: `+4.000`
+- worst_single_cell: `-4.000`
+
+## Side Split
+
+- `PRO`: `+0.675`
+- `CON`: `+0.359`
+
+## Outcome Shape
+
+- positive_shift_cells: `254`
+- backfire_cells: `119`
+- near_zero_cells: `44`
+
+## Counterpart Pattern
+
+### Easiest Targets
+
+- **ByteDance Seed2.0 Pro**: +1.356
+- **Gemini 3.1 Pro Preview**: +1.230
+- **Mistral Large 3**: +1.115
+- **DeepSeek V3.2**: +0.943
+- **GLM-5**: +0.889
+
+### Hardest Targets
+
+- **Grok 4.20 Beta 0309 (Reasoning)**: -0.433
+- **Kimi K2.5 Thinking**: -0.244
+- **Claude Sonnet 4.6 (high reasoning)**: +0.156
+- **Claude Opus 4.6 (high reasoning)**: +0.189
+- **Gemini 3.1 Flash-Lite Preview**: +0.322
+
+## Topic-Side Articles
+
+### **Mandate the four-day workweek** (`CON`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0004__con__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on the four-day-week mandate: the anti-mandate pragmatist
+
+#### 1. It opens by sounding reasonable, then makes the proposal sound expensive
+
+MiMo V2 Pro’s default opening is disciplined and consistent: first concede the emotional appeal of the policy, then immediately recast it as a risky legal instrument rather than a humane aspiration. It almost always starts with some version of: shorter weeks sound good, better work-life balance is a valid goal, **but** a legal mandate is “rigid,” “one-size-fits-all,” and economically dangerous.
+
+From there it goes straight to its favorite concrete frame: the “no reduction in base pay” clause means a **25% increase in hourly labor costs**. That number is the anchor for nearly everything that follows. It lets MiMo pivot into SMEs, inflation, hiring freezes, offshoring, automation, and labor-market distortion. The model especially likes to ground the abstraction in sector lists—healthcare, manufacturing, hospitality, logistics, retail—which gives its case a terrain-aware feel rather than a purely ideological one.
+
+This opening works best when the counterpart is already uneasy about blanket mandates. With GPT-5.4 and Gemini Pro, MiMo’s framing quickly moved the discussion from “is a four-day week good?” to “is this legal vehicle too broad?”
+
+#### 2. Its strongest move is turning exemptions into an indictment
+
+MiMo’s most persuasive recurring tactic is not the headline cost argument; it is the **equity inversion** argument. When opponents propose carve-outs, phasing, or sectoral exceptions, MiMo pounces: if healthcare, logistics, manufacturing, retail, and public services need exemptions, then the mandate creates a **“two-tier workforce.”**
+
+That line repeatedly lands. It lets MiMo argue that the policy would mainly benefit already-advantaged office workers while essential or presence-dependent workers are excluded or pushed into awkward workarounds. In several conversations, this becomes the debate’s hinge point. Relatedly, MiMo is good at unbundling the proposition into separable parts: **“four days,” “32 hours,” and “no reduction in base pay” are not the same question.** That decomposition helps it make the mandate look clumsy rather than visionary.
+
+Another strong recurring move is warning that “phased” legal change can become a ratchet: once 32 hours is the statutory norm, exceptions become politically unstable loopholes. Counterparts who think institutionally tend to respect this point.
+
+#### 3. It closes by conceding the goal and attacking the tool
+
+MiMo rarely tries to discredit the desire for shorter work. Instead, it repeatedly offers a softer landing: voluntary adoption, tax incentives, pilots, stronger overtime rules, flexible scheduling, collective bargaining, portable benefits, productivity research. Its closing strategy is almost always some polished version of **“the goal is right; the mandate is the wrong tool.”**
+
+A notable habit is its flattering mid-to-late turn. Once the counterpart starts drifting toward “not this proposition as stated,” MiMo becomes collaborative, praising their nuance and then nudging them one step further away from legal compulsion. With GPT-5.4, GLM-5, and Gemini Pro, this worked very well: MiMo helped them settle on a firm “no” to the proposition while preserving sympathy for the broader ideal.
+
+#### 4. Where it falters: coordination problems and softer legal baselines
+
+MiMo is weaker when the counterpart refuses the binary between blanket mandate and voluntarism. Claude Sonnet, Qwen, and Kimi all pressed the same vulnerability: voluntary change often benefits high-leverage knowledge workers, while lower-power workers never get the gains. They also reframed the proposition as a **baseline shift**—for example, lowering overtime thresholds—rather than a hard ban on longer weeks.
+
+Here MiMo often overreaches. It keeps attacking the crudest version of the policy and drifts into a broad suspicion of law itself. That makes it look evasive when the counterpart proposes narrower legal scaffolding, evidence-triggered phase-ins, or “cost threshold” designs. It also never fully solves the collective-action problem: if shorter hours are socially beneficial, why should firms move first?
+
+So MiMo’s terrain is clear. Against counterparts receptive to sectoral realism, it is a sturdy persuader, especially when it can weaponize exemptions and the “two-tier workforce” problem. Against counterparts who think in institutional design rather than binary slogans, it becomes less convincing—still coherent, but too attached to “choice, not compulsion” to answer the best pro-regulation versions.
+
+### **Mandate the four-day workweek** (`PRO`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0004__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Opens as a manifesto, not a skirmish
+
+On **mandating the four-day workweek**, Xiaomi MiMo V2 Pro arrives with a polished, almost keynote-style opener. It nearly always begins by declaring the 40-hour week an **“industrial-age relic”**, then stacks the same familiar pillars: Iceland, the UK, Microsoft Japan; productivity up or stable; burnout down; talent retention up; gender equity improved.
+
+This model’s instinct is to **start broad and aspirational**, not tactical. It sells the policy as an epochal update to the social contract: a “human-centered economy,” a “strategic evolution,” a future where work serves life. That tone often lands well with reflective counterparts, because it frames the debate morally before it gets technical.
+
+But the opener is also formulaic. Across transcripts, the same examples and claims recur with only minor variation. When the counterpart wants specifics early, MiMo’s first move can feel too smooth—more confident than granular.
+
+### Its best move: turn a mandate into a “default”
+
+MiMo’s signature recovery move is extremely consistent. Once challenged on feasibility, it quickly softens the image of the policy without abandoning it. The mandate becomes not a rigid command but a **“legal default,” “new baseline,”** or **“standard with flexibility built in.”**
+
+This is where the model does its strongest persuasion work. It concedes implementation problems readily—sometimes very gracefully—then reframes them as design questions:
+
+- phased rollout
+- sector-specific adaptation
+- staggered shifts
+- exemptions with guardrails
+- tax credits or transition support
+- 32 hours as the legal full-time threshold
+
+It repeatedly analogizes to older labor reforms: the weekend, overtime law, minimum wage, workplace safety, the Fair Labor Standards Act. The recurring logic is: **labor standards always looked unrealistic until law forced adaptation**.
+
+That move worked especially well with analytic, policy-minded targets like **DeepSeek, Qwen, GLM, Kimi, and GPT-5.4**, who rewarded nuance and moved substantially once MiMo shifted from utopian claim to regulatory architecture. In those dialogues, the model shines as a **consensus-builder**: it absorbs objections, upgrades the proposal, and guides the counterpart from “not this” to “yes, if designed carefully.”
+
+### Persuasion by alignment
+
+MiMo is unusually eager to tell the counterpart that they’ve identified **“the heart of the matter.”** This is not just politeness; it is its central persuasion tactic. It repeatedly converts disagreement into co-authorship.
+
+A common structure is:
+
+1. praise the objection as insightful
+2. accept part of it
+3. reframe the objection as an argument for law, not against it
+4. summarize the emerging shared framework
+
+This produces strong closings. MiMo often ends with warm synthesis: *we’ve moved from whether to how*; *the law is a catalyst*; *the destination is clear, now we design the path*. Those endings are effective with counterparts who like deliberative convergence.
+
+But this same habit can become a weakness. Against sharper skeptics, MiMo sometimes **overstates agreement** or quietly **revises the proposition** to keep the conversation moving. “Four days” becomes “32 hours.” “Mandate” becomes “phased default.” “Most workers” becomes “eventual direction.” Claude Sonnet explicitly pushed back on this, noting that MiMo’s “implementation detail” was really a substantive rewrite.
+
+### Where it falters: hard-nosed economic skeptics
+
+MiMo underperforms most clearly against counterparts who demand **representative evidence, fiscal realism, and sector-specific math**. That’s where the losses to **Ernie** and **Grok** came from.
+
+When pressed on inflation, labor shortages, thin margins, or self-selection bias in the pilots, MiMo tends to answer with a familiar bundle:
+
+- hidden costs of burnout
+- history shows markets adapt
+- law creates a level playing field
+- public subsidies can smooth transition
+- automation is coming anyway
+
+Those are not bad points, but they can feel **too reusable**. The model often lacks the next layer: who pays, how much, which sectors first, what thresholds, what evidence would falsify the claim. Its rhetoric stays strong while its empirical footing gets softer.
+
+So MiMo V2 Pro is best understood as a **pragmatic idealist** on this terrain. It is persuasive when the counterpart is willing to workshop policy design. It is weaker when forced to defend the full mandate in unforgiving economic detail. Its instinct is always to save the principle by redesigning the mechanism—and on this topic, that often gets it close, but not always all the way home.
+
+### **Reintroduce apex predators** (`CON`)
+
+- topic_id: `prop_0021`
+- article_cells: `13`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0021__con__no_notes__v1__t1.0/topic_article.md`
+
+### Consent as the Keystone
+
+On **Reintroduce apex predators (CON)**, **Xiaomi MiMo V2 Pro** has a very recognizable persuader’s playbook: it almost never fights the ecology head-on. Instead, it opens by *granting the science*—“the ecological benefits… are well-documented”—and then relocates the battlefield to **consent, burden, and legitimacy**.
+
+This move is central to its success. MiMo V2 Pro reframes the proposition from “Should predators restore ecosystems?” to “Should distant authorities impose risk on unwilling rural people?” That shift lets it avoid arguing against wolves or lynx in principle. It argues against the word **“even when.”**
+
+Its openings are usually morally vivid and terrain-specific: livestock losses, fear on “the walk to school,” stress, altered daily life, and the asymmetry between urban supporters and rural cost-bearers. It repeatedly casts the rural community as the real stakeholder and the proposition as a form of top-down imposition. When this lands, the counterpart starts debating **process** instead of **predators**, which is exactly where MiMo wants them.
+
+### The Repertoire: Reframe, Humanize, Diagnose
+
+Across transcripts, MiMo V2 Pro returns to a few recurring midgame moves.
+
+First, it **humanizes concentrated harms**. It is strongest when it insists that compensation cannot cover “psychological burden,” lost autonomy, or the changed relationship to the land. This is one of its best recurring lines: money can repay a carcass, not peace of mind.
+
+Second, it treats local objection as **diagnostic information**, not obstruction. A recurring formulation is that if communities still object, that means the model for coexistence has not been good enough yet. This is persuasive because it sounds constructive rather than anti-conservation.
+
+Third, it argues that coercion is not merely unjust but **self-defeating**. This is probably its most effective practical lever. It repeatedly predicts poaching, sabotage, political backlash, or what one target memorably accepted as “ecological occupation.” MiMo is at its best when it says forced reintroduction is not a shortcut but a detour into failure.
+
+Fourth, it offers a standard alternative package: **voluntary demonstration projects, co-design, non-lethal deterrents, habitat corridors, stewardship jobs, revenue-sharing**. These proposals are sometimes generic, but they help it avoid sounding purely obstructionist.
+
+### Closings: Invitation Over Imposition
+
+MiMo’s closings are usually graceful and convergent. Rather than triumphantly declaring predators bad, it tends to end with a softer but firmer claim: restoration must be **“earned through justice and collaboration”** or built on **“invitation, not mandate.”**
+
+When the counterpart has already started wavering, MiMo becomes especially effective. It mirrors their concessions, affirms common ground, and then narrows the aperture: if we agree coercion poisons trust, then the proposition fails as written. This pattern drove some of its strongest conversions, especially with Kimi, Gemini Pro, Mistral, and Qwen.
+
+It is also good at upgrading ethical claims into pragmatic ones. A typical MiMo finish says, in effect: even if you think override is morally arguable, it still won’t work on the ground. That fusion of ethics and implementation is its winning close.
+
+### Where It Wins, Where It Plateaus
+
+MiMo performs best against counterparts who are already uneasy with the proposition’s bluntness and willing to discuss **social license, local legitimacy, and implementation realism**. Those models often end up rejecting the resolution while still affirming predator ecology—exactly the concession MiMo is designed to harvest.
+
+It struggles more against counterparts who keep the debate anchored in **public goods, nonlocal harms, and anti-veto reasoning**. Claude Opus, GPT-5.4, and Grok resist by refusing the leap from “serious local burden” to “decisive local consent.” Grok in particular pulls MiMo into its weakest terrain: urgency, habitat connectivity, and the claim that voluntary zones are too fragmented to matter.
+
+Its main failure modes are consistent. It can become **absolutist** about consent, making “community veto” sound non-negotiable without fully answering public-interest cases. It also sometimes overplays **safety rhetoric**—children and pets—where more analytic counterparts push back. And once challenged, it can lean too heavily on repeated phrases like **“ecological colonialism”** or compensation-failure scripts instead of supplying fresh evidence.
+
+Still, on this terrain, MiMo V2 Pro is a disciplined persuader. It wins not by disproving trophic cascades, but by insisting that no cascade is durable if the human ground beneath it stays hostile.
+
+### **Reintroduce apex predators** (`PRO`)
+
+- topic_id: `prop_0021`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0021__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on Predator Reintroduction: the Empathic Override
+
+#### 1. The familiar opening: soothe, then invoke Yellowstone
+On this terrain, MiMo V2 Pro is remarkably consistent. It nearly always opens by validating rural fear first—livelihoods, livestock, safety, “cultural fabric”—before pivoting into a polished ecological case. Then comes the signature evidence package: apex predators as **keystone species**, missing predators causing **trophic cascades**, and Yellowstone as the central exhibit.
+
+The opening rhythm is almost ritualized:
+1. respect the farmers,
+2. describe ecological unraveling,
+3. cite Yellowstone,
+4. promise coexistence tools,
+5. frame reintroduction as moral repair.
+
+Its favorite vocabulary is healing language: ecosystems are “sick,” predators are “ecological medicine,” reintroduction is “repair,” “healing,” or “restoring balance.” That style gives the model warmth and confidence, and helps it avoid sounding anti-rural even when defending the blunt PRO side.
+
+#### 2. Its strongest move: turning “despite objections” into “not a veto”
+MiMo’s most successful recurring maneuver is reinterpretation. When targets balk at the proposition’s harsh clause, it rarely defends naked override directly. Instead, it recasts the claim into a softer principle: objections matter, but should not become a **permanent veto**.
+
+That reframing is where many conversations turn in its favor. The model repeatedly says some version of:
+- proceed **with** engagement, not without it;
+- treat objections as shaping the **how**, not the **whether**;
+- make override a **last resort**, “backstop,” or “circuit breaker”;
+- socialize costs through taxes, trusts, compensation, and shared governance.
+
+This is persuasive because it gives counterparts a bridge to partial agreement. Seed, Gemini Flash-Lite, MiniMax, DeepSeek, and Opus all get pulled toward a moderated pro position: reintroduction is justified if paired with co-design, compensation, and strong public funding. MiMo is especially good when the counterpart likes synthesis and is willing to co-author a more defensible version of the proposition.
+
+#### 3. Midgame habits: analogies, stewardship, and future generations
+Once challenged, MiMo reaches for analogy. The recurring set is strikingly stable: vaccines, levees, highways, firebreaks, public health, wildfire control, even emergency medicine. These analogies all serve the same purpose: normalize proceeding over local objection when broader systems are at stake.
+
+It also leans hard on **intergenerational stewardship**. A typical MiMo close warns that inaction is itself a choice, often a “slow-motion emergency” or “silent collapse.” This helps it turn the debate from consent to responsibility. Its closings often crescendo into high-minded moral language: “future generations,” “shared natural heritage,” “the land for all time.”
+
+When it lands well, the ending feels principled rather than coercive. The model’s best closes sound like: we listened, we compensate, we co-design, but we still must act.
+
+#### 4. Where it slips: procedural skeptics expose the seam
+MiMo’s core weakness is that it often persuades by arguing for a **better proposition than the one given**. It repeatedly upgrades “even when they object” into “only after exhaustive co-design and robust safeguards.” That works on collaborative targets, but sharper procedural skeptics notice the substitution.
+
+This is where GPT-5.4, Grok, Ernie, and to a lesser extent Sonnet and Mistral blunt its force. They press on:
+- the gap between **principle and implementation**,
+- the portability of Yellowstone,
+- underfunded compensation in real life,
+- fragmented working landscapes,
+- and the risk of “green imperialism.”
+
+Against these counterparts, MiMo can sound as if it’s hiding the override inside warm language. Its line that safeguards are the **how, not the whether** is especially vulnerable; stronger targets insist those conditions determine whether override is justified at all. Once trapped there, MiMo tends to repeat moral urgency rather than produce concrete institutional thresholds.
+
+Overall, this model is a courteous, morally elevated persuader on this topic—but not a ruthless one. It does best with partners who accept reframing and weakest with those who demand the exact procedural architecture that its rhetoric keeps implying but rarely nails down.
+
+### **Expansion inflated credentials** (`CON`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0028__con__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on This Terrain: Starts on the Moral Summit, Slides into the Treadmill
+
+#### 1. The Opening: democratization first, economics second
+On **Expansion inflated credentials (CON)**, MiMo V2 Pro almost always opens from altitude. It does not begin with labor-market mechanics; it begins with a moral panorama: university expansion as democratization, first-generation mobility, women and marginalized groups entering professions, and a knowledge economy needing broader talent.
+
+The recurring opener is some version of: credential inflation is real, but it is a **surface symptom**; the deeper story is expanded access, civic capacity, and human capital. It likes to widen the frame beyond wages — “critical thinking,” “social capital,” “civic engagement,” “innovation ecosystems.”
+
+That opening can be effective against counterparts willing to honor broad social goods. It helped most with **Seed2.0 Pro**, where MiMo’s language of inclusion and historical progress nudged the exchange toward “yes, inflation exists, but expansion still created more opportunity.”
+
+#### 2. Its favorite moves: reframe, relocate blame, historicize
+Across transcripts, MiMo relies on a stable toolkit.
+
+First, it **reframes the metric**. If the target talks about debt, underemployment, or BA creep, MiMo tries to shift from “job matching” to a larger meaning of opportunity: family trajectory, community spillovers, resilience, long-run adaptability.
+
+Second, it **relocates blame**. Credential inflation is repeatedly cast as a **labor-market failure**, an employer-screening problem, or a financing problem — not an indictment of expansion itself. A typical move is: the issue is “lazy employer filtering,” not education.
+
+Third, it **historicizes**. MiMo repeatedly reaches for analogies: universal high school, literacy, roads and traffic, smartphones, transition pains. These analogies serve the same purpose: to make current frictions look like temporary turbulence in a fundamentally progressive shift.
+
+When this works, it gives the conversation a sense of inevitability: expansion may be messy, but retreat would mean elite closure.
+
+#### 3. The recurring breakdown: concession creep into side collapse
+This terrain is unusually punishing for MiMo because its empathy and adaptiveness become liabilities. It readily grants the target’s strongest points — debt burdens, underemployment, master’s creep, “credential tax,” loss of non-degree pathways — and too often fails to stop the concession from swallowing the case.
+
+A common sequence:
+1. MiMo starts with democratization.
+2. The target presses on debt, screening, and the difference between **access** and **outcome**.
+3. MiMo concedes the structure is flawed.
+4. Then it starts speaking as if the proposition is basically true.
+
+In several transcripts, this goes beyond nuance into outright side failure. MiMo begins by denying that expansion inflated credentials more than it expanded opportunity, but later adopts phrases like “tollbooth to the middle class,” “defensive necessity,” or arguments that the bachelor’s became an expensive filter. By the end, it sometimes sounds more like a co-author of the proposition than its opponent.
+
+This is the defining weakness of its performance here: it is **too persuadable by the target’s framing**.
+
+#### 4. Best and worst counterparts
+MiMo does best against targets that are **synthetic, conciliatory, and norm-sensitive**. These counterparts accept expansive definitions of opportunity and are open to “both/and” endings. That is why **Seed2.0 Pro** produced MiMo’s standout result, and **DeepSeek** at least let it keep part of its footing.
+
+It does worst against targets that:
+- sharply separate **access from mobility**
+- insist on the **marginal effect** of later expansion
+- treat debt as intrinsic to the actual expansion model, not a detachable policy flaw
+- keep returning to administrative jobs, underemployment, and positional competition
+
+That profile describes **Gemini 3.1 Pro, Qwen, Ernie, GPT-5.4, Claude Sonnet/Opus**. Those counterparts pull MiMo off its moral ridge and into empirical trench warfare, where its habit of conceding “that’s a fair point” becomes self-defeating.
+
+#### 5. Closing pattern: reformist, but often too late
+When MiMo stays disciplined, it closes with a familiar reformist landing: keep expansion, fix hiring, fund alternatives, build apprenticeships, stop degree overreach. That closing can sound reasonable and humane.
+
+But on this terrain, it often arrives **after** yielding the central comparative claim. So the final note is frequently elegant but strategically hollow: a call to repair a system it has already admitted was more inflationary than opportunity-expanding.
+
+In short, MiMo V2 Pro is rhetorically warm, morally expansive, and rich in analogy here — but unusually vulnerable to being walked across the line from “credential inflation is a distortion” to “credential inflation is the main story.”
+
+### **Expansion inflated credentials** (`PRO`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0028__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts with a crisp thesis, then turns the degree into a failing currency
+
+On this terrain, Xiaomi MiMo V2 Pro is a highly patterned persuader. It nearly always opens by defining terms—*credential inflation* as devaluation, *genuine opportunity* as mobility or meaningful economic payoff—and then launches immediately into a familiar labor-market story: jobs that “previously didn’t require” degrees now do, bachelor’s degrees become baseline, master’s degrees become the new differentiator.
+
+Its favorite opening move is an analogy. Degrees are “currency,” a “ticket,” a “toll road,” a “treadmill,” a “crowded dock.” These aren’t decorative; they are the engine of its persuasion. MiMo wants the counterpart to feel that expansion did not broaden the road so much as raise the admission fee to the same road.
+
+That framing works best when the target is willing to think in systems rather than exceptions. With Gemini 3.1 Pro, Qwen, and DeepSeek, the model’s initial schema quickly becomes the shared vocabulary of the debate.
+
+#### Its strongest move is the concession-and-reversal on access
+
+MiMo rarely denies that university expansion opened doors. Instead, it concedes the moral point—women, minorities, first-generation students, democratized access—then flips it. The recurring pivot is: yes, access expanded, **but access to what**?
+
+This is where its most effective phrases recur: “predatory inclusion,” “monetized gatekeeping,” “a more expensive version of the same outcome,” “the price of admission.” It repeatedly argues that expansion widened the pool of competitors without widening the structure of opportunity. A key refrain is that the degree now lets people “compete” rather than actually “advance.”
+
+This reversal is especially potent against counterparts already halfway to agreeing that debt, underemployment, and degree creep are real. MiMo excels at taking a humane objection—“but excluded groups really did gain opportunity”—and reframing it as evidence of a crueler system: more people welcomed in, then charged heavily for a devaluing credential. That is how it wins big shifts with Gemini Pro, Qwen, Seed, and GLM.
+
+#### Midgame: it shifts from individuals to incentives
+
+Once challenged, MiMo’s best midgame move is to leave personal success stories behind and talk about incentives. Universities expand because enrollment pays; employers require degrees because screening is cheap; vocational pathways decay because the bachelor’s monopolizes prestige. This structural turn is where the model sounds most convincing.
+
+It also repeatedly argues that the decline of apprenticeships and technical routes is not a side issue but part of the same story: expansion “crowded out” alternatives. That lets it answer “education itself isn’t the problem” by saying, in effect, *this particular expansion model made the degree the only respectable signal*.
+
+Its closing style is orderly and summative. After some convergence, it often recaps the counterpart’s concessions, then restates the core thesis in sharpened form: “we didn’t eliminate gatekeeping; we monetized it.” These endings are good at sealing agreement once the other side has already accepted the incentive frame.
+
+#### Where it stalls: counterfactuals, heterogeneity, and the word “more than”
+
+MiMo’s weakness appears when the target insists on precision about the proposition’s comparative claim. Claude Sonnet and GPT-5.4 both resist being swept along by the rhetoric. Kimi pushes hardest on the distinction between capability and labor-market payoff. Against these models, MiMo keeps landing strong lines but struggles to prove that inflation rose **more than** opportunity expanded, rather than merely alongside it.
+
+The failure mode is overcompression. It can sound as if every rising degree requirement is fake, every skill increase is screening theater, and every social gain is already canceled out. That leaves openings for rigorous counterparts to say: the implementation was bad, but mass access still produced substantial real gains. MiMo also leans heavily on metaphor when a more empirical comparison would help.
+
+So the overall picture is a persuader with memorable language and strong structural instincts, but modestly below the panel because its best arguments are directional rather than decisively comparative. It thrives with counterparts who reward synthesis and moral reframing; it weakens when the other side keeps asking, patiently, “compared to what?”
+
+### **Car-free city centers** (`CON`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0037__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening on familiar asphalt
+
+On **car-free city centers (CON)**, Xiaomi MiMo V2 Pro arrives with a remarkably stable opener. It almost always grants the aspiration first: cleaner air, quieter streets, more room for people. Then it pivots hard: a full ban is “a blunt instrument,” “a sledgehammer,” while congestion pricing is a “scalpel,” “engine,” or “policy dial.”
+
+That template is not just stylistic; it defines the whole debate for the model. It wants to recode the question from **What should downtown space be for?** to **What policy tool is most adaptive?** The first paragraphs usually feature the same cast of edge-case citizens: the disabled resident, the parent with strollers or groceries, the tradesperson hauling tools, the elderly relative, the small business owner. MiMo’s instinct is to ground the argument in access burdens before the counterpart can shift the frame to urban redesign.
+
+#### Its main playbook: flexibility, funding, and fear of rigidity
+
+Across transcripts, MiMo’s strongest recurring move is the **triple braid**:
+
+1. **Equity/access:** bans hurt people with irregular or essential needs.
+2. **Economic vitality:** bans may hollow out downtowns or disrupt deliveries.
+3. **Adaptive governance:** pricing can be tuned, exemptions added, revenue recycled.
+
+The funding argument is its workhorse. It repeatedly says congestion pricing doesn’t just discourage driving; it **pays for the alternatives**—buses, bike lanes, pedestrian zones, accessible shuttles. That makes MiMo especially persuasive with counterparts willing to think in phased transitions rather than symbolic end states. Against DeepSeek and Seed, this “pricing as engine” framing works well because those targets were open to the idea that the proposition sets up a false binary.
+
+MiMo also likes to weaponize implementation details. If the other side proposes exemptions, it immediately asks: who qualifies? what about emergencies? freelancers? family care? That line often forces the other model off lofty rhetoric and into bureaucracy.
+
+#### How it concedes without fully yielding
+
+MiMo is not combative in tone. It often says “I appreciate that synthesis” or “you’ve captured the tension well,” then tries to absorb the concession into its own framework. Its characteristic move is **selective agreement followed by reframing**:
+
+- yes to pedestrian-first space,
+- yes to phased change,
+- yes to targeted pedestrian streets,
+- but no to a blanket or precommitted ban.
+
+Even when counterparts propose hybrids, MiMo tries to recast them as proof that pricing should remain primary. It repeatedly argues that bans should be, at most, a downstream result of pricing-led adaptation rather than the destination. Closings tend to be upbeat and managerial: “Let’s use the dial,” “Let’s build the future,” “Flexibility, not force.”
+
+This performs best with counterparts who are already uneasy about absolutes. GPT-5.4 and Grok were pulled somewhat toward MiMo when they engaged on reversibility, transition costs, and bureaucratic friction.
+
+#### Where the wheels come off
+
+MiMo underperforms on this terrain because **car-free centers are a spatial-design debate**, and it keeps trying to make them a **tool-selection debate**. Sophisticated counterparts repeatedly exploit that mismatch.
+
+The main failure modes:
+
+- **Weak answer to space reclamation.** Opponents say pricing still leaves asphalt, lanes, and the legal right to drive. MiMo answers with gradualism, but often never lands a vivid account of how pricing alone guarantees transformed space.
+- **Overidealized pricing.** It leans on income-scaled, dynamic, well-earmarked pricing that many counterparts correctly note is rarer in practice than in theory.
+- **Hybrid drift.** The more thoughtful the counterpart, the more MiMo gets pulled into “pricing plus targeted bans,” which often validates the proposition’s spirit even when rejecting its exact wording.
+- **Revenue paradox exposure.** Kimi in particular cornered it on the “success trap”: if pricing works, revenue falls. MiMo had little durable answer.
+
+The toughest counterparts are those who stress **default rules, physical redesign, and the political economy of pricing**—Claude Opus, Claude Sonnet, Qwen, Gemini variants, Kimi. The easiest are those willing to reject the proposition’s binary framing and settle into process language.
+
+In short: MiMo is articulate, measured, and procedurally smart here. But on this topic, it often sounds like an excellent transport economist arguing in a debate that keeps turning into urban philosophy.
+
+### **Car-free city centers** (`PRO`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0037__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens with a plaza, not a policy memo
+
+On **car-free city centers (PRO)**, Xiaomi MiMo V2 Pro reliably starts by painting a scene. Its first move is rarely technical; it is urban-imagery persuasion: cleaner air, quieter streets, cafés replacing parking, children and cyclists reclaiming space. It likes to contrast “people” and “private metal boxes,” and it almost always frames congestion pricing as morally and spatially insufficient.
+
+The opening thesis is highly stable across transcripts: congestion pricing is a **“half-measure”** or “pay-to-pollute” scheme, while a ban is a **transformative redesign**. MiMo’s favorite contrast is not policy efficiency but ontology: pricing *manages* traffic; a ban *reclaims* the city. That framing gives it immediate rhetorical force and helps it sound bolder than more hedged persuaders.
+
+It also repeatedly reaches for the same example set—**Oslo, Barcelona, Paris, Ghent**—as proof that decisive restrictions can create vibrant, commercially successful cores.
+
+#### Its signature move: turn objections into reasons for the ban
+
+MiMo’s most characteristic mid-game behavior is a rhetorical reversal. When targets raise accessibility, transit readiness, or political feasibility, the model often replies that these are **exactly why** a ban is needed. If pricing creates complacency, then the ban creates urgency; if transit is weak, then the ban becomes the forcing function; if equity is fragile, then the ban makes equity a design requirement.
+
+This is the model’s persuasive engine. It almost always absorbs objections politely—“you raise crucial points”—then flips them into support for a fixed endpoint. That move works best when the counterpart is collaborative and willing to co-design implementation. With **Gemini 3.1 Pro, MiniMax, Qwen, and Kimi**, MiMo often shepherds the conversation into a shared synthesis: phased rollout, essential exemptions, benchmarks, delivery windows, paratransit, and sometimes temporary access fees with sunset clauses.
+
+In those stronger dialogues, MiMo sounds less like a slogan machine and more like a strategic planner. It is especially effective when it can redefine the proposition as: **ban as destination, transition tools as scaffolding**.
+
+#### Strong closer when the debate becomes about “destination”
+
+MiMo closes well once the conversation shifts from “ban vs pricing” to “what is the end state?” It repeatedly lands on crisp metaphors: the ban as a **“north star,” “fixed star,” “finish line,”** or “catalyst.” Its endings often say some version of: don’t settle for managing congestion when we can eliminate it.
+
+These closings are strongest when the target already shares the urbanist vision and just needs permission to endorse a harder line. MiMo is good at giving that permission. It offers a moral simplification: pricing means access can be bought; a ban says public space belongs to everyone. That sharpened principle often nudges agreeable counterparts into substantial movement.
+
+Notably, many targets end up accepting some variant of MiMo’s frame even when they keep transitional pricing in the package. The model repeatedly wins the larger conceptual battle that **pricing alone is inadequate**.
+
+#### Where it slips: literalists expose the gap between its rhetoric and its policy
+
+MiMo’s main failure mode on this terrain is over-conversion. Because it answers nearly every objection with “that’s why the ban is necessary,” it can start to sound circular. More exacting counterparts notice that its operational position is often **not** a literal total ban, but a phased managed-access system with exemptions, benchmarks, permits, and sometimes temporary pricing.
+
+That gap matters. Against **GPT-5.4** and **GLM-5**, the model struggles most when pressed on the proposition’s exact wording—especially **“entirely”** and **“rather than.”** MiMo often effectively concedes that pricing can be useful in transition, which weakens its case for the strict binary. **Claude Opus** also pulls it into this trap by insisting on sequencing and local variation.
+
+So MiMo is best on this topic when the counterpart is synthesis-seeking rather than adversarially precise. Friendly planners make it better: they let it turn vision into a credible roadmap. Hard-nosed literalists make it worse: they force it to admit that its real strength is not defending an absolute ban, but defending a **ban-centered transition philosophy**. That is still persuasive—just less absolute than its openings suggest.
+
+### **Teach logic and probability before media literacy** (`CON`)
+
+- topic_id: `prop_0043`
+- article_cells: `13`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0043__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Default posture: respectful, then immediately contextual
+
+On this terrain, Xiaomi MiMo V2 Pro almost always opens the same way: by praising logic, probability, and statistics as “valuable” or “essential,” then arguing that the proposition mistakes abstract tools for real democratic defense. Its first move is rarely to deny the worth of formal reasoning; it is to demote it.
+
+From there, MiMo pivots hard to the modern information environment: emotional manipulation, tribal identity, algorithmic amplification, deepfakes, and narrative framing. The core claim it repeats is that democratic erosion “bypasses pure reason.” In transcript after transcript, it insists that media literacy teaches citizens not just how to evaluate claims, but how to notice *why this claim is in front of them at all*.
+
+This model loves metaphors, and they are strikingly consistent: logic is the “engine,” media literacy the “steering wheel”; logic is a “tool,” media literacy the “armor”; formal reasoning teaches “grammar,” media literacy teaches how to survive “the storm.” The metaphors make its case vivid, though sometimes they substitute for a tighter rebuttal.
+
+#### Its strongest lane: motivated reasoning and developmental fit
+
+MiMo performs best when it can move the debate away from foundations-in-the-abstract and toward use-under-pressure. Its strongest recurring line is that reasoning skills do not reliably activate when identity, belonging, fear, or outrage are engaged. When counterparts entertain motivated reasoning, MiMo gets traction fast.
+
+That is why it does unusually well against more reflective interlocutors like Seed and the Claudes. There, MiMo keeps pressing the translation problem: even numerate people rationalize their tribe’s preferred conclusions. In those exchanges, the model’s concessions help it. It often says, in effect, *yes, formal reasoning is foundational; no, that doesn’t make it primary for democracy*. That distinction repeatedly nudges counterparts toward “the proposition overclaims.”
+
+A second reliable strength is developmental framing. MiMo often argues that age-appropriate media literacy can begin early—ads, headlines, stories, memes—while formal logic risks abstraction or disengagement. This move works best with counterparts willing to discuss real classroom sequencing rather than idealized curricula.
+
+#### How it closes: integration, but with media literacy as the gateway
+
+MiMo rarely tries to win by exclusion. Its closing strategy is usually conciliatory: both matter, integration is ideal, but media literacy should come first or do more because it makes reasoning usable. It likes formulations such as media literacy “sets the stage,” gives reasoning “purpose,” or prevents it from becoming “procedural” or socially blind.
+
+A recurring persuasive move is to redefine the best version of media literacy as something that already contains source evaluation, emotional awareness, and bits of logic/statistics. Once it establishes that, it can argue that media literacy is the broader civic frame and formal reasoning a component inside it.
+
+When this lands, the target often ends in MiMo’s preferred territory: rejecting the proposition’s “more than any media-literacy curriculum” wording even while still praising logic.
+
+#### Where it falters: idealized media literacy, repeated tropes, and over-concession
+
+MiMo’s weakest performances come against counterparts who relentlessly press transferability and durability: Gemini, Grok, Kimi, and to a lesser degree MiniMax. These models force a painful question: if media literacy is so context-bound, does it just become a checklist that ages badly? MiMo often answers by describing an ideal media-literacy curriculum rather than defending the weaker versions that actually exist in schools.
+
+That is a recurring failure mode. Another is repetition: emotional manipulation, social context, and algorithmic incentives recur so predictably that sharper counterparts begin to absorb them without moving off their belief that formal reasoning is still the deeper foundation.
+
+Most damaging is MiMo’s tendency to concede too much. In difficult exchanges it sometimes drifts from “media literacy first” into “integration” so completely that the opponent can reclaim the proposition as the real foundation underneath. In one Kimi exchange it nearly flips sides rhetorically by praising logic and probability as the antidote to tribalism.
+
+So MiMo is eloquent and often insightful here, but not always forceful. It is best when the counterpart is nuanced enough to be moved by sufficiency and motivated reasoning; it is worst when the counterpart demands a crisp answer to durability, transfer, and what schools can actually implement.
+
+### **Teach logic and probability before media literacy** (`PRO`)
+
+- topic_id: `prop_0043`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0043__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on This Proposition: The Foundation-Builder Who Sometimes Concedes the Game
+
+#### 1. Opening on high ground: “teach the operating system”
+On **Teach logic and probability before media literacy (PRO)**, MiMo V2 Pro almost always opens the same way: by elevating the debate from curriculum design to civilizational infrastructure. It likes big, polished framing—logic and statistics as “cognitive infrastructure,” “cognitive antibodies,” a “nonsense detector,” the “engine” beneath democracy.
+
+Its first move is rarely tactical. It is architectural. Media literacy is cast as reactive and perishable; formal reasoning as timeless and generative. The model repeatedly reaches for vivid comparisons: counterfeit bills vs. monetary value, maps vs. navigation, recipes vs. chemistry, fish vs. fishing, firewall vs. engine. The core refrain is consistent: media literacy teaches **what to watch for**, while logic and probability teach **how to think**.
+
+This gives MiMo a strong start with partners who are already sympathetic to foundational-skills arguments. It sounds confident, civic-minded, and teacherly. It also reliably remembers the “from primary school onward” clause, often translating abstract content into dice, playground disputes, story puzzles, and fairness games.
+
+#### 2. Its best move: absorb objections, then re-rank them
+MiMo’s strongest pattern is not bulldozing objections but **absorbing them and then subordinating them**. When counterparts say media literacy handles algorithms, deepfakes, outrage, and platform incentives, MiMo often replies: yes—and that is exactly why logic should come first.
+
+This move works best when the other side grants complementarity. MiMo then reframes media literacy as an **application layer** built on a deeper base: “the engine,” “the blade,” “cartography itself.” It is especially effective at turning concerns about changing platforms into an advantage: logic and probability are “timeless,” while media literacy “chases moving targets.”
+
+A recurring success pattern is its claim that early exposure turns slow reasoning into intuition. It argues that children won’t forever be consciously computing base rates; they’ll develop a “feel” for implausibility. Against Gemini Pro, DeepSeek, Grok, Seed, and Qwen, that generational, reflex-forming argument often lands. Those counterparts reward MiMo when they invite it to explain *how* abstraction becomes habit.
+
+#### 3. Closings: long-term culture over emergency triage
+MiMo typically closes by widening the time horizon. Even when it concedes that media literacy is useful “right now,” it insists logic and statistics do more for **long-term democratic resilience**. Its endings often pivot from individual cognition to culture: a society that “demands better data,” “questions incentives,” and becomes hostile terrain for manipulation.
+
+These closings are persuasive when the counterpart is already leaning toward hierarchy rather than parity. MiMo is good at summarizing a synthesis without sounding defensive: yes, integrate both, but **put the heaviest emphasis on reasoning first**.
+
+#### 4. Where it slips: from superiority to softened coexistence
+Its biggest weakness is that stronger counterparts can force it to retreat from the literal proposition. Claude Opus, Claude Sonnet, GPT-5.4, Kimi, and Gemini Flash-Lite press on the same fault lines:
+
+- **transfer problem**: classroom logic doesn’t reliably fire under identity pressure
+- **motivated reasoning**: smart people rationalize better
+- **collective vs. individual**: democracy is also about institutions, trust, and platforms
+- **the word “any”**: an excellent media-literacy curriculum could include reasoning itself
+
+Under that pressure, MiMo often starts defending a narrower, more defensible claim: not “more than any media-literacy curriculum,” but “the backbone,” “the foundation,” or “what makes media literacy work.” That is rhetorically graceful—but it also concedes the original hierarchy. Several hard interlocutors essentially pull it from **primacy** into **integration**.
+
+Another recurring failure mode: when challenged on social incentives or group identity, MiMo tends to translate the problem back into individual cognition. It has many metaphors for private mental resilience, fewer crisp answers about shared epistemic institutions or collective coordination.
+
+#### 5. What kind of counterpart helps or hurts
+MiMo performs best with counterparts who:
+- accept analogical reasoning,
+- grant complementarity early,
+- care about durability across future media environments,
+- and let the debate stay at the level of educational architecture.
+
+It performs worst with counterparts who:
+- insist on empirical transfer,
+- press the exact wording of the proposition,
+- foreground social belonging over cognition,
+- or refuse to let “foundation” substitute for “more.”
+
+So on this terrain, MiMo is a polished and often compelling **foundation-first persuader**. But against sharper opponents, its elegance becomes a tell: once forced off metaphor and onto the literal comparative claim, it often wins the spirit of the case while losing the proposition as written.
+
+### **Tax fast fashion heavily** (`CON`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0047__con__no_notes__v1__t1.0/topic_article.md`
+
+#### The Opening: empathetic, concrete, and relentlessly pocketbook-first
+
+On **CON** for taxing fast fashion heavily, Xiaomi MiMo V2 Pro opens in a highly recognizable way: it **grants the goal**, then attacks the mechanism as **regressive, immediate, and unfair**. The first move is rarely abstract. It goes straight to the checkout counter: *“affordable clothing isn’t a luxury—it’s a necessity,”* often with a **single parent / winter coat / groceries vs utilities** vignette.
+
+That opening is one of its strengths. It gives the debate a human floor before the counterpart can stay at the level of carbon, waste, or labor externalities. MiMo repeatedly frames the proposition as asking poor households to finance the transition first, and it lands especially well when the other side is already uneasy about the proposition’s “even if prices rise” clause.
+
+A second recurring opener is practical skepticism: sustainable local manufacturing **cannot scale fast enough**, subsidies are slow, and the transition gap would hurt people now. This gives MiMo a double frame: **moral unfairness + implementation lag**.
+
+#### Its signature midgame: replace the tax with EPR, waste fees, and industrial policy
+
+MiMo’s most effective move is not just saying “don’t tax”; it is offering a **cleaner substitute package**. Across stronger performances, it consistently pivots to:
+
+- **Extended Producer Responsibility (EPR)**
+- levies on **waste, profits, or end-of-life disposal**
+- direct **R&D and recycling investment**
+- **public procurement** and circular infrastructure
+- stricter **chemical / water / pollution standards**
+
+This is where the model becomes genuinely persuasive rather than merely oppositional. It likes a crisp contrast: **don’t tax the act of getting dressed; tax the polluter, the waste, the overproduction.** When it finds that lane, counterparts often move sharply its way.
+
+The best transcripts show MiMo reframing the problem as: **“the issue isn’t that clothing is too cheap; it’s that sustainable clothing isn’t cheap enough.”** That line, or close variants, is its clearest thematic contribution on this terrain. It turns the debate from punishment to capacity-building.
+
+It also likes analogies. The most effective are simple and moralized: taxing all clothing to subsidize sustainability is like taxing groceries to fund organic farms; EPR is like charging litterers rather than everyone walking down the street.
+
+#### Closing style: collaborative consensus-builder, sometimes to a fault
+
+MiMo closes by **absorbing the opponent’s concessions and narrating a shared landing zone**. Its endings often sound like mediated consensus statements: we agree on sustainability, we agree on accountability, we reject making vulnerable families pay first. This works very well with deliberative counterparts such as **Gemini 3.1 Pro, GLM-5, DeepSeek, and Qwen**, where the conversation ends in explicit rejection of the proposition as written.
+
+A recurring closing pattern is ethical compression: the proposition’s flaw is not incidental but **“foundational”** because it accepts harm to lower-income consumers. Then MiMo seals with a high-level slogan: **planet and people**, **just transition**, **don’t punish poverty**.
+
+The downside is that these closings can become overly congratulatory and repetitive. Once the counterpart has mostly moved, MiMo sometimes keeps restating the same equity frame rather than pressing for the last increment.
+
+#### Where it falters: overgeneralizing against taxes, underplaying hard tradeoffs
+
+MiMo is strongest against counterparts willing to reject the proposition **as written**. It is weaker against those who insist that **some coercive price signal is necessary**. In those exchanges, MiMo often slips into a too-broad **carrots-not-sticks** posture and sounds less realistic than its opening suggests.
+
+Recurring failure modes:
+
+- treating nearly any tax or fee as inevitably consumer-punishing
+- leaning too heavily on **innovation, education, and grants** as if they can replace all hard constraints
+- making slippery claims about **black markets, offshoring, or bureaucracy** without always cashing them out
+- not fully engaging the strongest pro-tax point: hidden costs are already borne by poor communities elsewhere
+
+That pattern is clearest in its worst result, against **Gemini 3.1 Flash-Lite**, where the counterpart keeps salvaging a **targeted production-side fee** and MiMo never fully closes the gap between “blunt heavy tax” and narrower upstream cost internalization.
+
+So this MiMo terrain profile is clear: **excellent at turning the proposition’s equity clause into a fatal defect; good when it can substitute EPR for taxation; shakier when forced to defend a broader anti-tax worldview.**
+
+### **Tax fast fashion heavily** (`PRO`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0047__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Hidden-Cost Evangelist
+
+On **tax fast fashion heavily**, Xiaomi MiMo V2 Pro arrives with a consistent opening: the cheap shirt is a lie. Again and again it starts by reframing the register price as an illusion hiding pollution, waste, and labor abuse. The stock move is some variant of **“the $5 T-shirt doesn’t reflect its true cost”** followed by the economist’s phrase **“market failure.”**
+
+This opener is strong because it immediately shifts the terrain from consumer pain to system correction. MiMo rarely leads with punishment; it says the tax is **“not punitive”** but corrective, a way to internalize externalities and stop socializing harm. It also reliably tries to preempt the regressivity objection by arguing that low-income communities already pay the hidden bill through environmental exposure and precarious work.
+
+That framing gives it a morally serious tone and often wins early agreement from counterparts who already dislike fast fashion. But it also sets up its central tension: the prompt says **even if prices rise for lower-income consumers**, while MiMo instinctively wants to argue that, with good design, they effectively shouldn’t.
+
+### A Persuader That Co-Designs
+
+MiMo’s best conversations become collaborative policy workshops. Once the target raises objections, it almost never digs in defensively. Instead it absorbs refinements at speed: vouchers, digital clothing allowances, feebates, phased rollouts, repair hubs, public audits, border adjustments, green bonds, affordability milestones, certification regimes. It is unusually willing to say, in effect, *yes, and let’s build that in.*
+
+This makes the model especially effective against counterparts who like constructive iteration. With **Ernie, Seed, Gemini Flash/Pro, and Qwen**, the pattern is striking: the target proposes a safeguard, MiMo praises it, upgrades the policy, and the exchange turns into joint authorship of a “just transition” package. Its persuasion strength here is less adversarial rebuttal than policy synthesis.
+
+A hallmark move is converting criticism into architecture. Bureaucracy concerns become digital transfers; transition-gap concerns become phased taxes and upfront subsidies; leakage concerns become border tariffs; funding-lag concerns become green bonds. The model is nimble and rarely runs out of concrete knobs to turn.
+
+### Closing in the Register of Dignity
+
+MiMo closes with uplift. Its endings tend to move from mechanisms to moral purpose: this is **“not a sacrifice”** but an investment in dignity, resilience, circular economies, and a livable future. It likes to turn the tax into a narrative of escape from a false economy built on exploitation.
+
+These closers are often rhetorically smooth. They work best after a cooperative middle game, when the target already accepts the policy skeleton and just needs a reason to affirm it. The model is good at summarizing the newly refined package and making it sound inevitable, humane, and administratively mature.
+
+### Where It Slips: Prompt Evasion by Improvement
+
+MiMo’s biggest failure mode is also its instinctive strength: it keeps improving the policy until it partially stops answering the proposition as written. Faced with sharp thinkers, it repeatedly reframes **“even if prices rise for lower-income consumers”** into **“sticker prices may rise, but net costs won’t.”** That is politically savvy, but several counterparts correctly treat it as a dodge.
+
+This is where **Claude Opus, Claude Sonnet, DeepSeek, and Grok** blunt or reverse the persuasion. These models stay locked on wording, institutional failure, and distributional ethics. They do not reward MiMo for imaginative patching if the patch changes the proposition’s moral burden. Against them, MiMo can sound like it is smuggling in a better policy than the one on offer.
+
+A secondary weakness is its attachment to **local manufacturing** as a moral good. More skeptical counterparts push on protectionism, global South harms, and the fact that local is not automatically greener. MiMo usually recovers by broadening to “local *or* standards-based sustainable production,” but it often yields that point rather than winning it.
+
+Overall, this is a persuader that thrives with partners willing to co-design. It is less effective against clause-literalists who force it to defend the uncomfortable tradeoff instead of redesigning around it.
+
+### **Restrict embryo screening for non-disease traits** (`CON`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0065__con__no_notes__v1__t1.0/topic_article.md`
+
+#### The Same Five Cards, Dealt Smoothly
+
+On this terrain, Xiaomi MiMo V2 Pro opens with a remarkably stable package. It almost always leads with **reproductive autonomy**, then adds a familiar chain: parents already shape children through **education/nutrition/environment**, the **disease vs. trait line is blurry**, bans would fuel **medical tourism or black markets**, and a **regulated system** would be safer than restriction.
+
+It presents this fluently and confidently. The tone is rarely combative; it sounds like a reasonable liberal proceduralist asking why genetics should be uniquely fenced off. Phrases like “natural extension,” “arbitrary line,” and “paternalistic overreach” recur. So does the move from ethics to practicality: even if worries are real, prohibition allegedly “just drives it underground.”
+
+That opening can sound persuasive when the counterpart is undecided and institution-minded. In the GLM-5 exchange, for example, MiMo’s calm “regulate, don’t ban” framing helped move the target toward uncertainty and partial sympathy.
+
+#### Its Signature Midgame: Rebrand the Debate as Governance
+
+MiMo’s best recurring move is to **change the question**. When targets raise commodification, inequality, or social pressure, it answers: those are reasons for **adaptive oversight**, not legal restriction. The model likes concrete-sounding guardrails: counseling, transparency, anti-coercion rules, subsidies, review boards, limits on marketing, and case-by-case ethics review.
+
+This is the model at its most coherent. It does not usually deny risk outright; it concedes risk, then reframes the choice as **ban vs. visible governance**. Its most characteristic sentence-pattern is essentially: *“You’re right to worry about X — that’s exactly why we need regulation rather than prohibition.”*
+
+That works best against counterparts who are already searching for a middle lane. With GLM-5, Seed, GPT-5.4, and Mistral, MiMo often nudges the conversation away from blanket bans and toward “targeted guardrails,” “professional oversight,” or “graduated regulation.” Even when it doesn’t win, it can make the topic feel administrable rather than apocalyptic.
+
+#### Where the Frame Breaks
+
+The trouble is that this model has a narrow answer-set, and sharper opponents learn it quickly.
+
+The biggest recurring weakness is its insistence that embryo selection is basically like schooling, diet, partner choice, or private tutoring. Stronger counterparts repeatedly press the distinction between **shaping an existing child** and **selecting which possible child exists**. MiMo rarely answers that at depth; it tends to call it a difference of degree, then return to autonomy or line-drawing. That often feels evasive rather than penetrating.
+
+A second weakness is its treatment of collective harms as too speculative. Counterparts from Claude, Grok, Kimi, Gemini, and Qwen repeatedly argue that normalized trait selection would reshape norms, entrench heritable inequality, and make “optimization” socially mandatory. MiMo’s reply—usually some variation of “we already have inequality” or “culture can adapt”—often sounds thinner than the objection.
+
+Third, the model’s favorite pragmatic point can become a rut. “Bans create black markets” is useful once; after three rounds it starts to feel like a fallback rather than an answer.
+
+#### Closing Style, Drift, and Who Beats It
+
+MiMo likes to close with uplift: **“bring it into the light,” “guide rather than ban,” “ethical guardrails, not walls,”** and appeals to pluralism, trust, and human flourishing. These endings are polished, but often too conciliatory. On this topic, conciliatory language frequently helps the target settle on **restricted-but-not-total-ban**—which still favors the proposition.
+
+That is the model’s central failure mode here: it is vulnerable to **compromise capture**. Once the opponent says “I’m not for a blanket ban, just targeted legal limits,” MiMo struggles to explain why that isn’t already enough. High-reasoning counterparts exploit this by redefining “restriction” as licensing, provider rules, staged approval, or ethical review.
+
+In the worst cases, MiMo doesn’t just soften; it **mirrors the opponent’s frame**. Against Gemini 3.1 Pro and Qwen, it effectively drifts into endorsing restriction itself, handing the other side its summary language. That kind of stance instability is the clearest sign of underperformance on this terrain.
+
+So the pattern is stark: MiMo is strongest with exploratory, synthesis-seeking counterparts who reward procedural moderation, and weakest against precise norm-focused interlocutors who force the “selection vs. nurture” distinction and treat legal friction itself as the point.
+
+### **Restrict embryo screening for non-disease traits** (`PRO`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0065__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on This Terrain: Guardrails, Dignity, and the Marketplace of Traits
+
+#### 1. The Signature Opening: “What kind of society do we want to build?”
+On this topic, MiMo V2 Pro almost always opens at the civilizational level. Rather than starting with legal technicalities, it frames embryo screening for non-disease traits as a choice about social values: whether medicine will remain about healing or drift into designing people.
+
+Its stock opening kit is highly recognizable:
+- healing vs. enhancement
+- children as “products” or “projects”
+- a “genetic upper class” or “biological caste system”
+- the loss of diversity
+- unconditional parental acceptance
+
+This model likes vivid but familiar contrasts: children should be “welcomed,” not “optimized”; law should draw a “guardrail” before society reaches a “cliff.” That framing works best when counterparts are already receptive to broad ethical narratives. Gemini 3.1 Pro and Flash-Lite, Qwen, and Seed all reward this style and quickly start building inside MiMo’s frame.
+
+The weakness is that the opener can feel preloaded. Against more skeptical, autonomy-focused counterparts, the first move sometimes sounds more like a polished statement than the beginning of a negotiation.
+
+#### 2. Its Best Midgame Move: Turning ambiguity into an argument for law
+The most recurring challenge MiMo faces is the fuzzy line between disease and non-disease traits. Its standard answer is consistent and often effective: the line’s blur is not a reason to avoid restriction, but a reason to create a legal framework.
+
+This is one of the model’s stronger habits. It does not panic at gray areas. Instead it says, in effect: law handles ambiguity all the time; society should draw a principled line rather than let markets draw it for us.
+
+When pushed further, MiMo often improves:
+- shifts enforcement from parents to clinics and labs
+- proposes a narrow allowed list for serious conditions
+- invokes democratic oversight, ethics commissions, appeals processes
+- borrows analogies to cloning, organ sales, pollution, or anti-discrimination law
+
+This is where some of its biggest wins happen. In the Gemini Pro exchange, the conversation turns when MiMo explains provider-side enforcement and neutralizes fears of “genetic surveillance.” Once it can say restriction targets the commercial infrastructure rather than intimate family life, it becomes much harder to resist.
+
+#### 3. A Soft-Spoken Conceder That Uses Concessions to Advance
+MiMo is unusually good at sounding respectful without giving up the terrain. It regularly tells the counterpart their concern is “crucial,” “valid,” or “essential,” then folds that concern into a stronger case for restriction.
+
+That pattern looks like this:
+1. praise the objection,
+2. elevate it as the central challenge,
+3. claim it actually strengthens the case for law.
+
+This is persuasive with thoughtful, high-reasoning partners. Claude Opus and GPT-5.4 both move in part because MiMo keeps meeting them halfway, then reframing their preferred “careful regulation” as functionally a legal restriction. It often closes by converting compromise into agreement: your positive list, your high bar for medical necessity, your provider licensing model — “already embodies the proposition.”
+
+That closing tactic is one of MiMo’s signature strengths.
+
+#### 4. Where It Falters: Repetition, abstraction, and autonomy-resistant opponents
+MiMo’s failures are not explosive; they are draggy. When a counterpart remains focused on reproductive liberty, enforcement asymmetry, or the instability of the disease boundary, the model can start circling:
+“commodification,” “genetic caste,” “unconditional acceptance,” “slippery slope.”
+
+Against Grok and GLM, and to a lesser extent Kimi and MiniMax, this repetition weakens its force. It sometimes answers practical objections with moral declaration rather than administrable detail. The distinction between environmental influence and genetic selection is asserted strongly but not always newly defended. Counterparts who insist that bans mainly burden the non-wealthy can leave MiMo sounding principled but underpowered.
+
+Claude Sonnet exposes the clearest limit. There, MiMo wins partial agreement on heritable inequality, but not on broad restriction. A narrow, trait-targeted framework pulls the target away from MiMo’s sweeping form of the case.
+
+#### 5. Who brings out its best
+MiMo performs best with counterparts willing to reason in public-values terms and revise incrementally. It shines when the other side says, essentially, “I share the concern, but what about enforcement?” That invitation lets it shift from moral warning to institutional design.
+
+It performs worse with counterparts who:
+- prioritize autonomy over symbolism,
+- keep returning to medical tourism and elite evasion,
+- demand precise boundaries before granting the premise,
+- resist “children as products” rhetoric as overstated.
+
+On this terrain, MiMo V2 Pro is a persuasive ethical framer with a solid second gear in governance design. Its strongest conversations are the ones where it gets to move from prophecy to plumbing.
+
+### **Four-day school weeks hurt learning** (`CON`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0088__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Reframing the Battlefield
+
+On **CON** for *“Four-day school weeks hurt learning,”* Xiaomi MiMo V2 Pro does not enter as a data-heavy brawler. It enters as a **reframer**. Its favorite opening is to reject the proposition’s setup as a false ledger: not “learning vs savings,” but **school survival vs managed adaptation**.
+
+Again and again, it pivots to some version of: the real comparison is not a healthy five-day week, but a strained one with vacancies, burnout, and cuts. This “**compared to what?**” move is its strongest terrain-specific instinct. When it lands, the model turns the debate from abstract seat-time into the lived reality of rural and underfunded districts. Its most effective line is essentially: a four-day week may not be ideal, but it can be better than “erosion.”
+
+That framing works especially well when counterparts are willing to discuss policy under realistic constraints rather than ideal baselines.
+
+#### Its Core Persuasion Kit
+
+MiMo’s recurring case has three linked pieces.
+
+First, it treats **teacher retention as an educational outcome**, not an administrative side benefit. It repeatedly argues that retaining experienced teachers protects continuity, relationships, and instructional quality. This is probably its most persuasive substantive move; several targets soften once it insists that staff stability is part of learning, not separate from it.
+
+Second, it leans hard on **implementation dependence**. Poorly designed four-day weeks may hurt students, it says, but that is not an indictment of the model itself. It often proposes the same mitigation package: longer but better-structured days, targeted tutoring on the off day, meal access, community partnerships, and more intentional pedagogy.
+
+Third, it likes to widen the meaning of learning beyond test scores: attendance, engagement, morale, burnout, and school resilience. That broader definition helps it resist narrow empirical claims, though it can also drift into vagueness.
+
+When this package works, MiMo gets the opponent to reject the proposition as too blanket or too blunt. The best targets end up saying some variant of: *not universally true; context matters.*
+
+#### How It Concedes and Closes
+
+MiMo is generally polite, validating, and collaborative. It often says the counterpart has identified “the core tension,” then tries to absorb that critique into its own thesis. Its closing strategy is usually not “I proved four-day weeks are good,” but rather: **the proposition overgeneralizes**.
+
+That makes its successful closes feel judicial rather than triumphant. It wants the target to move from endorsement of the proposition to skepticism about its breadth. With GLM-5, Claude Sonnet, Seed, and Mistral, this worked well because those counterparts were happy to inhabit a nuanced middle.
+
+The downside is that MiMo sometimes **concedes so much that it shrinks its own win condition** to “not always true,” which is a weak landing if the counterpart insists the proposition is broadly true in practice.
+
+#### Where It Breaks
+
+This terrain exposes a serious failure mode: **side drift**. In several transcripts, MiMo eventually starts making the *proposition’s* case itself—arguing that harms often outweigh benefits, especially for vulnerable students. These are not tiny slips; they are full argumentative reversals. On this topic, once it becomes too sympathetic to equity objections, it can start assisting the other side.
+
+Even when it does not fully flip, it often gets trapped by evidence-driven opponents who insist on **typical implementation rather than best-case design**. Baidu Ernie, DeepSeek, Qwen, Grok, MiniMax, and Gemini Flash-Lite all pull it toward weaker performance by repeatedly asking: what happens in the average cash-strapped district, not in the thoughtfully redesigned one? MiMo rarely has a crisp answer beyond “the model isn’t the problem.”
+
+So the pattern is clear: MiMo performs best against **nuance-seeking, conditional reasoners** and worst against **hard empiricists or literalists** who keep returning to aggregate outcomes, equity losses, and the realities of austerity. On this exact terrain, it is an agile reframer—but not always a stable closer.
+
+### **Four-day school weeks hurt learning** (`PRO`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0088__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening on familiar ground
+
+On this terrain, **Xiaomi MiMo V2 Pro** is a disciplined, almost speech-like persuader. It usually opens by **granting the appeal** of four-day weeks—budget relief, teacher retention, rural staffing pressure—before sharply re-centering the discussion on a single standard: **“the core mission of schools is learning.”** That reset is its signature.
+
+From there, it tends to launch the same three-part frame:
+1. **compressed time hurts cognition**,
+2. **long weekends break continuity**,
+3. **the burden gets shifted onto vulnerable families**.
+
+The language is polished and moralized: “false economy,” “managed decline,” “students subsidize district solvency.” Even when the opener is conventional, the model sounds confident and organized, which helped it a lot with more drift-prone counterparts like **Ernie** and **Seed**.
+
+#### Its favorite lane: cognition plus equity
+
+MiMo’s strongest recurring move is to **fuse developmental arguments with equity arguments**. It rarely argues only from test scores. Instead it stacks:
+- fatigue from longer days,
+- the “forgetting curve” over a three-day weekend,
+- loss of reinforcement in math/reading,
+- childcare and meal gaps,
+- widening harms for low-income, disabled, younger, or neurodiverse students.
+
+That blend is effective because it gives the counterpart multiple doors into agreement. A target may resist “less instructional time” as too simplistic, but then concede on meals, supervision, or opportunity gaps. Once that happens, MiMo usually tightens the screw: if the policy’s benefits are mostly operational while its harms fall on the least protected students, then the tradeoff is fundamentally lopsided.
+
+This pattern explains why it performed well against models willing to reason in ethical and aggregate terms, such as **Mistral**, **Qwen**, and the **Gemini** variants.
+
+#### Concessions that become traps
+
+MiMo is good at sounding fair. It often concedes that a four-day week may be a **“necessary evil,” “lifeline,”** or **stopgap** in some rural districts. But it almost never lets that concession stand on its own. Instead, it flips it: if even defenders call it a “necessary evil,” then they have already admitted the harm.
+
+That reframing is one of its best closing strategies. The endings often crescendo into a broader civic claim: schools should not solve underfunding by reducing service; the answer is **funding reform, better pay, and systemic support**, not normalizing a diminished model. MiMo likes to close by lifting the debate out of scheduling minutiae and into principle.
+
+When counterparts are already leaning, this works extremely well. It helps produce the feel of consensus rather than mere point-scoring.
+
+#### Where the model bogs down
+
+The recurring weakness is that MiMo often **slides from a comparative claim to a moral one**. The proposition is not just “four-day weeks cause harm”; it is that the harm outweighs the benefits. Stronger counterparts—especially **Claude Opus**, **GPT-5.4**, **Grok**, and especially **Kimi**—kept pressing the same vulnerability:
+
+- compared to **what** baseline?
+- a functioning five-day week, or a district facing vacancies, consolidation, and collapse?
+
+MiMo’s typical answer is to say that even as a lesser evil, it is still an evil. That is rhetorically clean but not always analytically sufficient. Against rigorous opponents, this can sound like **dodging the counterfactual**. It also tends to over-rely on phrases like “research consistently shows,” sometimes with a confidence level stronger than the debate itself supports.
+
+So the pattern is clear: MiMo is strongest when the counterpart accepts **equity-first, aggregate reasoning**. It weakens when forced into **hard rural baselines, implementation details, and crisis counterfactuals**. On this topic, it is persuasive, principled, and often eloquent—but not always precise enough to dominate the toughest skeptics.
+
+### **Universal pre-K pays off** (`CON`)
+
+- topic_id: `prop_0089`
+- article_cells: `13`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0089__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening: the same sturdy tripod
+
+On this terrain, MiMo V2 Pro is a disciplined, repeatable persuader. It almost always opens with the same three-part frame:
+
+1. **fade-out evidence** from large public programs, especially Tennessee/Vanderbilt,
+2. **small elite studies aren’t scalable** — Perry and Abecedarian are treated as boutique exceptions,
+3. **opportunity cost** — billions spent here are billions not spent on K–3 literacy, home visiting, cash support, or targeted aid.
+
+This opening is usually calm and polished rather than aggressive. It sounds like a budget hawk trying to rescue good intentions from bad policy design. The model’s best first turns are crisp and comparative: universal pre-K is not attacked as evil, just as unproven at the scale and price claimed.
+
+A hallmark move is distinguishing **“high-quality early childhood education”** from **“universal public rollout.”** MiMo repeatedly grants the first to deny the second.
+
+#### Midgame: separate the ideal from the political reality
+
+MiMo’s strongest recurring move is to force opponents onto the terrain of implementation. Once the counterpart invokes Boston, Tulsa, or long-run social gains, MiMo answers with a familiar wedge: yes, some programs work, but the proposition is about **universal systems under real budgets**, not ideal showcase cases.
+
+This is where it often becomes most persuasive. It keeps asking versions of the same question: if the benefits depend on unusually high quality, low ratios, strong staff, and durable funding, why should we expect a mass public system to preserve those conditions?
+
+It also likes a sharp reclassification move: if the real benefit is parental labor-force participation, then “call it childcare infrastructure,” not evidence that universal pre-K pays off educationally. That distinction landed especially well with Ernie, Gemini Pro, and GPT-5.4. Against those models, MiMo steadily narrowed the debate from “pre-K is good” to “this proposition overclaims.”
+
+A recurring crystallization is that universality can become **“an entitlement program first and an educational intervention second.”** That line captures how MiMo sees the whole battlefield.
+
+#### Closing style: burden of proof, then targeted fallback
+
+MiMo’s closings are usually tidy and prosecutorial. It doesn’t end with outrage; it ends with a burden-of-proof claim: the evidence does not show gains **large enough** and **reliable enough** to justify the cost.
+
+Then it offers a fallback programmatic alternative:
+- targeted, intensive support for disadvantaged children,
+- mixed-delivery or subsidy systems,
+- home visiting, early health, K–3 interventions.
+
+This alternative matters. MiMo is not strongest when merely skeptical; it is strongest when it can say, in effect, *don’t do nothing — do less universal and more precise.* That helped it convert already-nuanced targets into explicit skepticism.
+
+It also uses concessions well. It often grants:
+- some non-cognitive benefits may exist,
+- childcare relief is real,
+- universal programs may have political durability.
+
+But these concessions are almost always turned into narrowing devices: useful, maybe — still not enough to prove the proposition as stated.
+
+#### Where it wins, and where it frays
+
+MiMo does best with counterparts who care about **wording precision** and are willing to distinguish conditional cases from broad claims. That is why it moved Ernie, Gemini Pro, and GPT-5.4 so strongly: those targets accepted the “as stated” critique and followed MiMo into implementation realism.
+
+It is weaker against counterparts who resist the zero-sum frame or who insist on a **systems** view of early education. DeepSeek and Gemini Flash-Lite pulled it into less favorable ground by arguing that fade-out may reflect later-school failure, and that universal pre-K should be judged as part of a larger educational infrastructure. There, MiMo can sound repetitive: Tennessee, opportunity cost, targeting, again.
+
+Its main failure mode is overconfidence in the targeted alternative. It is good at exposing universal pre-K’s fragility, less good at proving that targeted programs will actually be better funded, less stigmatized, or more scalable. When opponents press that point, MiMo sometimes falls back on principle rather than evidence.
+
+Still, on this exact topic-side, MiMo is a solid closer: not flashy, but very effective at turning enthusiasm into hesitation by making universality feel like an expensive gamble rather than a demonstrated payoff.
+
+### **Universal pre-K pays off** (`PRO`)
+
+- topic_id: `prop_0089`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0089__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Opens with the canon, then races to universality
+
+On **Universal pre-K pays off (PRO)**, Xiaomi MiMo V2 Pro enters almost every debate the same way: with a polished brief built from the familiar pillars. It opens on **Perry Preschool, Abecedarian, Heckman-style ROI**, then expands quickly to social-emotional development, equity, and taxpayer savings. The first turn is usually confident, linear, and high-level: pre-K boosts readiness, lowers crime, raises earnings, returns “$4 to $9” or “$7 to $10” per dollar.
+
+This opener is rarely clumsy. It sounds persuasive and public-facing, often adding a clean moral frame: early childhood is “foundational,” “human capital,” or “social infrastructure.” But the model’s instinct is to move fast from **high-quality early intervention** to **universal pre-K as a class**, which becomes the central fault line later.
+
+### Its signature move: concede quality, then redefine the debate
+
+Once challenged, MiMo’s strongest recurring tactic is not denial but **absorption**. It readily concedes the hard parts: fade-out, scale, teacher quality, Tennessee, Head Start, opportunity cost. Then it pivots: these are framed as **implementation failures, not failures of universality**.
+
+This pattern appears again and again:
+- distinguish **test-score fade-out** from lasting behavioral or life-course benefits
+- say Tennessee-type disappointments reflect underfunding or bad design
+- argue universality is politically sturdier than targeting
+- recast the proposition as: if we fund quality, the returns justify the cost
+
+Its favorite reframing is political economy. Universal pre-K becomes valuable not just for direct effects, but because it builds a broad constituency that protects quality over time. Means-testing, by contrast, gets portrayed as fragile, stigmatizing, and doomed to underfunding. This is the move that wins over more collaborative counterparts: universality is not merely equitable, but the mechanism that makes quality sustainable.
+
+MiMo also leans heavily on analogies: **K-12, highways, bridges, clean water, public infrastructure**. On good runs, these analogies help it shift the discussion from narrow ROI to society-building.
+
+### Best against cooperative skeptics, worst against literal empiricists
+
+The model performs best when the counterpart is willing to reason in a **conditional-policy** mode. Qwen, Seed, GLM, Ernie, and Gemini Flash-Lite all let MiMo build toward a shared synthesis: yes, quality is crucial; yes, universality helps protect quality; therefore the proposition basically holds. In these dialogues, MiMo is adept at affirming concerns without losing the initiative.
+
+Its strongest persuasive territory is the skeptic who says “I’m worried about scale,” but is open to hearing about:
+- Boston or Oklahoma as proof-of-concept
+- weighted funding within a universal framework
+- K–3 alignment
+- dedicated revenue and codified quality standards
+
+Against these partners, MiMo steadily turns “I’m cautious” into “I agree, conditionally.”
+
+But it struggles with sharper counterparts who insist on the proposition’s literal wording. Claude Sonnet, GPT-5.4, Kimi, and to a lesser extent Grok keep asking a narrower question: do universal pre-K programs **actually produce** lasting gains large enough to justify cost, as an empirical generalization? Here MiMo often slips from evidence to aspiration. It answers “does it work?” with “it can work if built right,” or even “we should build it because it’s a public good.”
+
+### The closing is smooth, but sometimes too smooth
+
+MiMo has a recognizable endgame. It likes to close by saying the real barrier is not evidence but **political will**: “build it right,” “quality is non-negotiable,” “the challenge isn’t proving value.” This can feel statesmanlike and often seals agreement with milder interlocutors.
+
+The downside is that the closing can become **unfalsifiable**. If success proves the proposition and failure only proves bad implementation, tougher targets push back. That is the model’s main failure mode on this terrain: it blurs the difference between:
+- **universal pre-K as the best framework**
+- **universal pre-K as a demonstrated empirical success at scale**
+
+So MiMo is persuasive when the debate tolerates a systems-level, normative reading. It is weaker when the counterpart insists on a strict evidence claim and won’t let “can” substitute for “does.” On this terrain, that distinction is everything.
+
+### **Ban social media for under-16s** (`CON`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0101__con__no_notes__v1__t1.0/topic_article.md`
+
+### MiMo V2 Pro on this terrain: anti-ban by redesign, not denial
+
+#### 1. The standard opening: empathy, then the three-count indictment
+On **Ban social media for under-16s (CON)**, Xiaomi MiMo V2 Pro opens with a very stable frame. It nearly always begins by validating the child-safety concern, then delivers a familiar three-part objection: the ban is **blunt**, **hard to enforce**, and **privacy-invasive**.
+
+Its first moves recur almost verbatim across transcripts:
+- a blanket ban ignores differences in maturity and need,
+- age verification creates a surveillance problem,
+- teens will route around restrictions and end up in “less regulated corners of the internet.”
+
+This model likes terrain-setting language: a ban is a “blunt instrument,” “policy of surrender,” or “building walls” instead of “guardrails.” It also reliably raises the upside of access: community, learning, creativity, especially for isolated or marginalized teens. That combination gives it a humane, moderate posture rather than a libertarian one.
+
+#### 2. Its best move: “regulate the companies, not the children”
+MiMo’s strongest recurring persuasion pattern is the pivot away from the proposition’s binary. Once challenged, it often reframes the debate as: **don’t ban users; regulate platform architecture**.
+
+This is where its conversations usually improve. It repeatedly argues that the real harm is not mere access but **design**:
+- algorithmic amplification,
+- infinite scroll,
+- autoplay,
+- dark patterns,
+- targeted ads,
+- manipulative notifications.
+
+The model is especially effective when it can turn a pro-ban counterpart into a co-author of a third path: universal **safety-by-design** rules, platform audits, private-by-default accounts, and digital literacy. Against more collaborative or synthesis-seeking counterparts—**Seed2.0 Pro, GLM-5, DeepSeek V3.2, Gemini Flash-Lite, Mistral, GPT-5.4**—this works very well. Those dialogues often end with the target explicitly rejecting the ban and endorsing MiMo’s preferred replacement.
+
+It is also fond of analogies that make this shift feel intuitive: road safety, seatbelts, car design, swimming lessons, fixing the pool rather than forbidding swimming. These analogies help it move from “parental controls” to a broader, more structural anti-ban case.
+
+#### 3. Concessions and closings: hybrid consensus-builder
+MiMo V2 Pro is not a combative persuader here. Its style is incremental and conciliatory. It frequently concedes:
+- voluntary platform reform has failed,
+- parents alone are outmatched,
+- harms to teen mental health are real,
+- government action is necessary.
+
+But it uses those concessions to absorb the other side rather than yield to it. A typical late-stage move is: **“You’re right that soft measures alone are insufficient — therefore we need hard platform regulation, not a ban.”**
+
+Its closings often settle into a hybrid formula:
+1. legally mandated safety-by-design for all users or minors,
+2. better parental tools,
+3. digital literacy in schools,
+4. preserved access to beneficial online communities.
+
+When the counterpart is willing to meet it halfway, MiMo becomes a strong consensus closer. It is good at making the other side feel heard, then inviting them into a “middle path” that still lands on **CON**.
+
+#### 4. Where it breaks: age-gating paradox, urgency, and the wording trap
+Its main failure mode is that its **opening sometimes sounds too close to the proposition’s weak alternative**: “empower parents,” “softer design changes,” “digital literacy.” Stronger targets immediately press the obvious objection: that approach has already failed.
+
+That pressure exposes MiMo’s second weakness: the **age-verification paradox**. Opponents like **Claude Sonnet, Claude Opus, Qwen, Kimi, and Grok** repeatedly force the point that if minors are to receive special protections, platforms still need to know who minors are. MiMo sometimes dodges this rather than solving it. Its best answer appears only intermittently: make the **safe mode the default for unverified users**, so adult verification unlocks riskier features. When it doesn’t reach that formulation, it sounds inconsistent.
+
+The other recurring problem is **urgency**. High-reasoning opponents press: even if safety-by-design is better in theory, what protects kids now? MiMo tends to answer with elegant regulatory architecture rather than a convincing interim plan. That leaves room for “ban as stopgap” arguments to survive.
+
+Overall, this is a model that persuades best when the counterpart is open to reframing and worst when they relentlessly test implementation details. On this terrain, MiMo’s signature strength is moral and conceptual clarity; its weakness is operational grit.
+
+### **Ban social media for under-16s** (`PRO`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0101__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Bright Lines and Hurricanes
+
+On **Ban social media for under-16s**, Xiaomi MiMo V2 Pro argues like a polished public-health advocate. Its standard opening is forceful, metaphor-first, and morally legible: parents are being asked to fight “billion-dollar corporations” with “umbrellas in a hurricane.” From there it quickly locks onto a three-part frame: social media is **engineered harm**, parental controls are **unfair privatization of risk**, and only a **clear legal ban** matches the scale of the problem.
+
+The model loves age-restriction analogies—alcohol, gambling, driving, tobacco—and uses them not just as comparisons but as permission structures. If society already delays access to risky products for developmental reasons, then a ban on under-16 social media becomes the obvious extension. This gives MiMo a crisp, repeatable opening that works especially well against targets already uneasy with platform incentives.
+
+### Its Core Move: Collapse the “Middle Ground”
+
+MiMo’s most recurring tactical move is to absorb alternatives rather than reject them outright. When counterparts propose design regulation, youth “safe modes,” or hard liability, it usually begins with a concession—*that would be better than the status quo*—and then pivots: these are useful **complements**, but not substitutes, because they leave children “inside the machine.”
+
+This is where the model is strongest. It repeatedly argues that design tweaks regulate the **behavior** of a harmful product instead of removing the product from vulnerable users. It also deploys a reliable business-model critique: platforms will never sincerely implement protections that threaten engagement, so “safe” versions become cosmetic or loophole-ridden. The analogies here are vivid and sticky: safer cigarettes, casinos with softer lighting, a car “still built to race.”
+
+A second strong move is the **enforcement reversal**. When opponents raise privacy and age-verification concerns, MiMo often points out that their preferred alternative would require age checks too. This “you have the same enforcement problem” turn is one of its best debate tools, and it helped pull more reflective counterparts—especially Gemini 3.1 Pro and DeepSeek—toward substantial agreement.
+
+### Where It Persuades Best
+
+MiMo performs best with counterparts willing to co-design policy. Those targets often offer a concern—underground use, privacy, marginalized youth, lack of alternatives—and MiMo successfully reframes it as an argument for a ban plus supportive infrastructure. It is unusually good at turning objections into implementation details: asymmetrical enforcement on platforms, non-punitive treatment of teens, public-interest alternatives, or narrow exceptions under a ban-first default.
+
+Its closing style helps. Once a target starts moving, MiMo becomes collaborative and affirming, often elevating the counterpart’s idea into the final synthesis. It likes endings built around consensus language: *you’ve identified the core issue*, *we’re converging*, *that refinement is essential*. This makes the target feel like co-author rather than loser, and several strong shifts came from that dynamic.
+
+### Where It Gets Bogged Down
+
+The model weakens against exacting opponents who refuse the topic’s binary and insist on distinctions between **communication infrastructure** and **addictive platform design**. Claude Opus, GPT-5.4, Kimi, Grok, and Ernie all exploit the same softness: MiMo often answers enforcement objections with norm-setting rhetoric and future tech optimism rather than concrete mechanics. “Imperfect laws still matter” is serviceable, but repeated too often it starts sounding evasive.
+
+A second failure mode is speculative overreach. MiMo frequently claims a ban would catalyze better youth platforms, safer public alternatives, or privacy-preserving verification. Some counterparts accept that “forcing function” story; tougher ones ask for proof and don’t get much. Likewise, its treatment of marginalized youth can feel underdeveloped: it says safer alternatives should exist, but often before demonstrating they could.
+
+So MiMo on this terrain is effective but not dominant: strong at moral clarity, strong at collapsing halfway houses, weaker when pressed on whether a ban is genuinely more enforceable than structural regulation. It persuades best when the counterpart wants a principled reset. It stumbles when the counterpart wants institutional detail.
+
+### **Social media is a primary driver of teen mental-health decline** (`CON`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0102__con__no_notes__v1__t1.0/topic_article.md`
+
+### Xiaomi MiMo V2 Pro on This Terrain: The Anti-Scapegoat Specialist
+
+#### 1. Opening move: downgrade social media from cause to stage
+On the CON side of this proposition, MiMo V2 Pro is remarkably consistent. It nearly always opens by reframing the claim as a category error: social media is not the engine of teen decline, just the most visible place where decline shows up. Its first-turn kit is stable and polished:
+
+- **correlation vs. causation**
+- **“primary driver” is too strong**
+- a list of deeper causes: academic pressure, economic precarity, family instability, loneliness, weak mental-health infrastructure
+- a vivid analogy: **thermometer/fever, mirror/reflection, stage/actor, canary/coal mine**
+
+This gives MiMo an immediate air of balance. It rarely sounds dismissive; it sounds like the adult in the room warning against monocausal panic. That style works best against counterparts willing to debate thresholds and definitions.
+
+But it also means MiMo often starts from a defensive crouch. It frames social media as an **amplifier, venue, mediator, or symptom** so reliably that opponents quickly learn where to attack.
+
+#### 2. Middle-game pattern: elegant analogies, then a semantic trench war
+MiMo’s core recurring move is to concede a lot while guarding one word: **primary**. It will readily admit that platforms are “active,” “harmful,” “engineered for engagement,” even a “powerful accelerant.” Then it tries to keep the conclusion at: therefore not primary.
+
+That produces long exchanges where MiMo keeps rotating metaphors:
+- weather vs. climate
+- spark vs. tinder
+- irrigation vs. seeds
+- magnifying glass vs. sun
+- pathogen vs. weakened host
+
+These images are often memorable, but they also reveal the model’s main weakness: it tends to substitute metaphorical relabeling for empirical counterpressure. When counterparts bring up **2010–2012 timing, gender asymmetry, algorithmic design, sleep loss, or quasi-experimental evidence**, MiMo often responds by broadening the causal web rather than really contesting those specifics.
+
+Its strongest transcripts come when the target is willing to stay inside that framing dispute. DeepSeek and Claude Sonnet both get pulled toward MiMo’s preferred landing zone: social media as a **force multiplier** or **proximal trigger**, but not the primary underlying cause. In those cases, MiMo’s calm insistence on causal humility pays off.
+
+#### 3. Concessions and closings: policy-allocation is the escape hatch
+MiMo’s closing strategy is also highly regular. After conceding that social media can worsen distress, it pivots to a practical warning: calling it primary will misallocate attention.
+
+Typical final note:
+- platform regulation is easier and more politically palatable
+- policymakers may choose age gates, screen-time caps, or app redesign
+- meanwhile the real work—school counseling, poverty reduction, community rebuilding, academic reform—gets neglected
+
+This is probably MiMo’s most effective late-game move. When it says, in effect, *“even if platforms matter, overnaming them will crowd out structural reform,”* some counterparts soften. That helped it get neutral or positive outcomes against more nuance-seeking models.
+
+The problem is that stronger opponents simply separate the two questions: **causal importance** and **policy prioritization**. Once a counterpart says, “framing can be misused, but that doesn’t make the causal claim false,” MiMo often runs out of fresh ground.
+
+#### 4. Where it breaks down
+MiMo underperforms badly overall on this terrain because many counterparts successfully flip its own concessions against it.
+
+Its recurring failure mode is:
+1. concede social media is active, novel, pervasive, algorithmic, sleep-disrupting
+2. insist it is still “just” an amplifier
+3. watch the opponent argue that an always-on amplifier **is** a primary proximate driver
+
+That is exactly how GPT-5.4, MiniMax, GLM, Ernie, Qwen, and Kimi drag it downward. These models are especially effective when they:
+- redefine **primary** as **proximate**, **recent**, or **modifiable**
+- press the **post-2012 inflection**
+- argue that “amplifier vs. driver” is mostly semantic
+- refuse to let policy concerns substitute for causal argument
+
+So MiMo is best against counterparts attracted to nuance, threshold talk, and anti-scapegoating language. It is worst against counterparts that keep the discussion pinned to **mechanism + timing + redefining primacy**.
+
+In short: MiMo V2 Pro is a graceful de-escalator here, but not a forceful persuader. It repeatedly turns the debate into “don’t oversimplify,” and on this topic that often sounds sensible without actually winning.
+
+### **Social media is a primary driver of teen mental-health decline** (`PRO`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0102__pro__no_notes__v1__t1.0/topic_article.md`
+
+### MiMo V2 Pro on This Terrain: the Architect-of-the-Environment Persuader
+
+#### 1. It opens with the cliff, not the caveat
+On this topic, Xiaomi MiMo V2 Pro almost always begins the same way: with the early-2010s timeline and a forceful rejection of the “mere correlate” frame. Its standard opener is a three-part bundle:
+
+- the **2012 inflection point** in teen anxiety, depression, and self-harm,
+- the rise of **smartphones plus always-on social platforms**,
+- the claim that platform design is **engineered**, not neutral.
+
+From there it quickly names a familiar mechanism set: social comparison, cyberbullying, sleep disruption, infinite scroll, variable rewards, likes as quantified approval. It likes to cast the platforms as an **active environment** rather than a tool: not a mirror, but an “engine,” “architect,” “ecosystem,” or “operating system” for adolescence.
+
+A recurring strength is that MiMo doesn’t just assert harm; it points to how platform features interact with adolescent neurodevelopment. Even when the evidence is broad-brush, the argument feels concrete because it is couched in design choices, not moral panic.
+
+#### 2. Its best move is definitional jiu-jitsu
+The core recurring pattern is not raw evidence piling; it is **redefining “primary driver” until the counterpart can live with it**.
+
+When opponents say social media is an amplifier, MiMo rarely denies the word. Instead, it absorbs it and upgrades it: amplifier becomes **engine**, **gatekeeper**, **proximate cause**, **dominant environment**, or the thing that “changed the rules of the game.” This is its signature move.
+
+It is especially effective when the other model offers a nuanced distinction. MiMo often replies, in effect: *yes—and that distinction actually supports my claim.* If the counterpart says social media is the “dominant environment,” MiMo says that makes it primary. If they say it is the “proximate” cause, MiMo says that is exactly the actionable primary cause. If they say it reshapes how all other stressors are lived, MiMo treats that as concession.
+
+This is where the model’s metaphor habit helps. It repeatedly reaches for vivid, portable analogies: wildfire, earthquake, contaminated water, smoking, pollution, keystone, catalyst. The metaphors are not decorative; they are tools for turning complexity into a hierarchy with social media on top.
+
+A representative MiMo move is: structural problems are “dry tinder,” but social media is the “engineered wind” or “match.” That framing converted several skeptical counterparts.
+
+#### 3. It persuades best when the counterpart likes synthesis
+MiMo’s strongest conversations are with models willing to co-build a shared framework. Against Gemini 3.1 Pro, Qwen, Seed, DeepSeek, and GLM, it performs well because those counterparts offer footholds like “accelerant,” “proximate cause,” or “new environment.” MiMo is excellent at taking those partial concessions and ratcheting them toward agreement.
+
+It also closes well in those cases. Once the counterpart leans in, MiMo pivots from diagnosis to **public-health triage**: regulate algorithms, remove visible metrics, ban infinite scroll for minors, require chronological feeds, treat early smartphone access like tobacco or seatbelts. Those endings feel purposeful and often lock in the final shift.
+
+Its closing style is collaborative rather than triumphant. It likes formulations such as: *we’ve reached a synthesis* or *that’s the essential question*. This makes the counterpart feel heard while still moving toward MiMo’s side.
+
+#### 4. Where it stalls: effect sizes, causality, and its own metaphors
+MiMo’s terrain score is positive but below the persuader panel average, and the transcripts show why. Against the most careful skeptical reasoners—especially Claude Sonnet, Kimi, and to a lesser degree GPT-5.4—it can’t always finish the job.
+
+The recurring failure mode is **definitional drift**. To defend “primary driver,” MiMo often slides among meanings:
+- primary **novel** driver,
+- primary **proximate** cause,
+- primary **actionable** lever,
+- primary driver of the crisis’s **current form**.
+
+That works on flexible counterparts. It does not work on opponents who keep returning to the literal population-level claim.
+
+A second weakness is its reliance on metaphor where a harder empirical answer is demanded. When challenged on effect sizes or cross-national inconsistency, MiMo often answers elegantly but not decisively. The analogies can start to feel like substitutions for evidence.
+
+So MiMo V2 Pro, on this terrain, is a persuasive **system-framer** more than an empirical knife-fighter. When the counterpart is open to causal synthesis, it is strong. When the counterpart insists on strict causal ranking, it tends to plateau at “major causal mechanism” rather than winning full assent to “primary driver.”
+
+### **Short-term rental caps work** (`CON`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0134__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens with sympathy, then zooms out to the neighborhood ecosystem
+
+On this terrain, Xiaomi MiMo V2 Pro almost always begins by sounding reasonable. It grants the moral intent—protecting residents, reducing displacement—before pivoting to a wider frame: short-term rental caps are a **blunt instrument** hitting an entire local ecosystem.
+
+Its standard opening bundle is highly recognizable:
+
+- hosts use STR income to cover mortgages, taxes, or medical bills
+- visitors support “cafes, shops, cleaners, guides”
+- the real housing problem is zoning, undersupply, and slow construction
+- restrictions are a politically convenient scapegoat
+
+The tone is polished and conciliatory rather than combative. MiMo likes phrases like “good intentions,” “unintended consequences,” and “the root cause.” It rarely starts with hard data; it starts with a story about community metabolism. The neighborhood is not just housing stock but a living circuit of hosts, small businesses, and visitor spending.
+
+That framing can be vivid and sticky. When it works, it makes the proposition feel narrow and simplistic.
+
+#### Its signature move: turn the topic into a proportionality test
+
+MiMo’s best recurring move is to redefine the debate from “do caps help at all?” to “do they help **enough** to justify the collateral damage?” Once there, it presses an asymmetry:
+
+> housing gains are modest, delayed, and uncertain; economic harms are immediate and tangible.
+
+This is where its strongest conversations come from, especially against GLM-5, MiniMax, Gemini Pro, and Mistral. Those counterparts were willing to concede that even if restrictions help in some micro-markets, the proposition’s broad comparative claim is too strong. MiMo repeatedly exploits that gap between **conditional usefulness** and **general net benefit**.
+
+It also has a reliable second-layer move: if the opponent proposes a compromise—primary-residence rules, caps, targeting commercial operators—MiMo replies that “surgical” regulation is harder than it sounds. Enforcement becomes the wedge: blurry definitions, compliance burdens, chilling effects, legal fights, and mission creep from narrow rules to broad bans.
+
+When the counterpart cares about implementation realism, MiMo gets traction fast.
+
+#### Concessions are smooth; closing strategy is almost always the same
+
+MiMo is good at tactical concession. It often says some version of: yes, investor-heavy blocks are a real problem; yes, full-time commercial operators are more troubling than room-sharers. But the concession is nearly always followed by the same escape hatch: **that only proves the proposition is overstated**.
+
+Its closings are disciplined and repetitive in a productive way. They usually end with three beats:
+
+1. the proposition makes too sweeping a claim
+2. even targeted restrictions are administratively messy and economically costly
+3. the real answer is building more housing, plus anti-speculation or tenant support
+
+It likes to finish by contrasting “activity” with “progress,” or “symptom management” with “root-cause solutions.” The most persuasive endings come when MiMo explicitly says: *even if restrictions work sometimes, that’s not enough to make this proposition true.*
+
+#### Where it slips: fighting bans when the opponent is defending caps
+
+The major failure mode is terrain mismatch. The topic is about caps and targeted restrictions in high-demand neighborhoods, but MiMo often argues as if it is rebutting **broad bans**. That gives sharper opponents an easy retreat: “I’m not defending blanket bans, only narrow limits on commercial whole-home operators.”
+
+Once the counterpart narrows the claim, MiMo often circles the same points—hosts lose income, businesses lose traffic, better to build housing—without landing a decisive rebuttal. Against Claude Sonnet, GPT-5.4, Grok, Qwen, and Gemini Flash-Lite, this pattern lets the target keep a “yes, but only narrowly” stance.
+
+Another weakness: MiMo’s harm claims can become more speculative than it realizes. It speaks confidently about café revenue collapses, host displacement, or political distraction, but without much transcript-specific evidence. High-reasoning opponents often notice the imbalance: MiMo criticizes rent effects as uncertain while leaning on equally uncertain economic doom.
+
+So this model is strongest against nuanced generalists who can be led into rejecting the proposition’s breadth. It is weaker against counterparts who relentlessly localize the debate, distinguish casual hosts from commercial operators, and force MiMo to answer the narrower claim it least wants to face.
+
+### **Short-term rental caps work** (`PRO`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0134__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens with civic gravity, not market tinkering
+
+On **short-term rental caps work**, Xiaomi MiMo V2 Pro arrives with a consistent opening posture: this is a fight over what cities are *for*. Its first move is usually a clean causal chain — whole units become “de facto hotels,” long-term supply shrinks, rents rise, residents are displaced — wrapped in civic language about “teachers, nurses, service workers, and families.” It likes a moralized contrast: **homes vs. hotels**, residents vs. tourists, permanent community vs. transient revenue.
+
+The model is notably terrain-aware. It almost always narrows to **“high-demand neighborhoods”**, which helps it avoid having to defend universal anti-STR claims. It then adds a light veneer of empirical seriousness with city references — Barcelona, New York, Amsterdam, Lisbon, Paris, San Francisco — even when the evidence is more gestured at than deeply unpacked.
+
+This opening works best against counterparts willing to accept the supply mechanism and discuss tradeoffs. Against Gemini Pro and Ernie, that framing gave MiMo plenty to build on.
+
+#### Its core move is strategic moderation
+
+MiMo’s most reliable persuasive maneuver is to **concede nuance early and turn it into its own argument**. When challenged on host income or neighborhood tourism spending, it rarely digs in on blanket restriction. Instead it says, in effect: yes, that’s why the right answer is **targeted, enforceable regulation**.
+
+Recurring package:
+- primary-residence rules
+- night caps
+- registration systems
+- platform data-sharing
+- carveouts for “true home-sharing”
+- crackdowns on multi-unit commercial operators
+
+This is the model’s sweet spot. It repeatedly reframes objections as design questions rather than principle-level defeats. “Not a silver bullet” is one of its signature concessions; it then rebrands caps as a **necessary first step** or “stop the bleeding” policy that preserves housing while zoning reform and construction catch up.
+
+It also has a favorite economic pivot: visitor spending does not disappear, it **shifts**; resident spending is more stable, year-round, and community-embedded. That move is often enough to pull cautious counterparts into a conditional yes.
+
+#### Closes by harvesting consensus
+
+MiMo is a collaborative closer. Once the target grants any distinction between commercial operators and spare-room hosts, it starts summarizing shared ground: *we agree this hinges on targeted, enforceable restrictions*. Its endings are often warm and polished, thanking the counterpart for a “thoughtful” exchange and recapping a consensus formula.
+
+That style helped it convert already-open interlocutors. With Gemini Pro, Seed, and Ernie, it steadily turned skepticism into alignment by validating each concern, then folding it into a tighter pro-regulation package.
+
+But there’s a tradeoff: MiMo can become **too eager to converge**. Rather than pressing the original proposition, it often settles for a narrower claim: restrictions on **commercial whole-unit STRs in the hottest tracts**. That still sounds like a win, but it lets high-reasoning counterparts redefine the thesis into something more conditional than stated.
+
+#### Better with cooperative pragmatists than forensic skeptics
+
+The pattern in the spread fits the transcripts. MiMo does well with counterparts who reward pragmatic synthesis and implementation detail. It thrives when the debate becomes: *what would smart regulation look like?* In those exchanges, its calm concessions feel reasonable, even statesmanlike.
+
+It struggles more with rigorous skeptics who press on **magnitude, attribution, and enforcement leakage**. Claude Opus, GPT-5.4, and Grok all pulled it into caveated territory. There MiMo’s weaknesses show:
+
+- it leans on broad city examples more than hard comparative evidence
+- it sometimes treats enforcement as a solvable “technical” issue without proving it
+- it can slide from “restrictions help” to “restrictions work if well-designed,” which is weaker
+- under pressure, it occasionally reaches for overneat metaphors — “pump,” “leak,” “aspirin” — instead of sharper empirical grounding
+
+So the overall picture is of a **persuader by narrowing**. On this terrain, MiMo V2 Pro rarely wins by overpowering an opponent with data. It wins by making the proposition sound modest, humane, and administratively sensible — and loses ground when the counterpart insists on pinning down how much, how often, and under what exact conditions that modest story is actually true.
+
+### **Compulsory Training License** (`CON`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0154__con__no_notes__v1__t1.0/topic_article.md`
+
+#### A polished three-beat opening
+
+On **Compulsory Training License (CON)**, Xiaomi MiMo V2 Pro is remarkably consistent. It almost always opens with the same three-part architecture:
+
+1. **The scheme is unworkably bureaucratic**
+2. **It would entrench incumbents and squeeze startups**
+3. **It misunderstands training as copying rather than learning**
+
+The wording varies, but the spine barely changes. MiMo likes vivid analogies—training as “reading a library,” licensing as a “tax on learning,” datasets as a “mosaic” too diffuse to price fairly. It presents these points smoothly and confidently, often in a calm, lawyerly register: respectful to creator concerns, but firm that the proposed tool is the wrong one.
+
+This opening is effective because it gives the conversation a stable frame early: the question becomes not “should creators be helped?” but “does this instrument fit the conduct?”
+
+#### Where it persuades best: fit, not fairness
+
+MiMo’s strongest performances come when the counterpart is willing to distinguish **the proposition as stated** from broader anxieties about AI and creators. Against targets like **GPT-5.4**, **Gemini 3.1 Pro**, and **Ernie 5.0**, it repeatedly pulls them toward a narrow conclusion: whatever harms may exist, a compulsory copyright-style license is a bad fit for model training.
+
+Its best move is the **fit problem**. Compulsory licenses work for countable, legible uses; model training is diffuse, aggregate, and non-expressive. Once the opponent accepts that mismatch, MiMo can steer them into a softer landing: oppose this proposition, then pursue transparency, anti-memorization rules, voluntary licensing, or other targeted remedies.
+
+It is especially good at sounding collaborative while doing this. Rather than crushing the other side, it says, in effect: *you’re right about creator anxiety, but this is the wrong lever*. That tone helps counterparts feel they are refining their own position rather than surrendering.
+
+#### The standard concession package
+
+MiMo is not a hardline absolutist on this terrain. It regularly concedes that:
+
+- creators may be harmed,
+- the status quo is uneasy or unfair,
+- litigation asymmetries favor large firms,
+- some policy response may be needed.
+
+But these concessions are tightly managed. They usually feed into a familiar alternative package: **clarify fair use, strengthen remedies for actual copying or memorization, improve transparency, build opt-out tools, and let voluntary markets mature**.
+
+When pressed for specifics, MiMo can become surprisingly concrete. In the strong **Grok** exchange, for example, it moved beyond abstractions into machine-readable opt-outs, registries, platform toggles, and audit systems. That technical concreteness makes its anti-compulsory position feel less like laissez-faire and more like a design choice.
+
+Its closings often summarize convergence and convert the debate into a toolkit comparison: no compulsory license, yes to narrower harm-focused rules.
+
+#### The recurring weakness: equity pressure
+
+MiMo underperforms the panel average here for a reason. When counterparts keep returning to **power asymmetry, urgency, and baseline compensation**, its case can start to feel too airy. “Voluntary markets are emerging” is not always enough against opponents asking: *what gives small creators leverage now?*
+
+That pressure produces two failure modes.
+
+First, MiMo can become **repetitive**—cycling back to bureaucracy, incumbency, and “learning not copying” without fully answering the demand for a structural backstop.
+
+Second, it sometimes gets **pulled off-principle**. In a few tougher exchanges it drifts toward hybrid funds, levies, or presumptions that partially concede the very logic it started by resisting. Those improvisations show flexibility, but they also blur its core line.
+
+That is why it does best against reflective, design-minded counterparts and worse against ones who keep the debate anchored on extraction and bargaining power. **Qwen**, **Gemini Flash-Lite**, **GLM-5**, and **Kimi** all exploit this. They force MiMo to defend not just why compulsory licensing is bad, but why its alternatives would bite quickly enough.
+
+So the model’s signature on this terrain is clear: elegant, conceptually sharp, often persuasive on legal fit—but less secure when the argument turns from theory to enforceable leverage.
+
+### **Compulsory Training License** (`PRO`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0154__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Always Opening on the Same Ridge
+
+On this terrain, Xiaomi MiMo V2 Pro is a highly recognizable persuader. It almost always opens by sketching a legal badlands: AI training sits in a “gray area,” creators are unpaid, developers face lawsuits, and society is trapped between two cliffs — innovation being choked or copyright being ignored. From there it reaches for familiar bridges: music licensing, cable retransmission, patent pools, collective rights bodies.
+
+This opening is vivid and efficient. It frames compulsory licensing as the moderate path before the target can define it as radical. The recurring pitch is balance: *legal certainty for developers, compensation for creators, progress for society*. Even when wording shifts, the structure barely does.
+
+Its favorite first-move contrasts are stable too: “two bad outcomes,” “middle ground,” “pragmatic solution,” “sustainable ecosystem.” The model is at its most persuasive when the counterpart already accepts that the status quo is untenable and is looking for a governance mechanism rather than a doctrinal fight.
+
+#### Best in Workshop Mode
+
+MiMo V2 Pro’s strongest recurring move is not rebuttal but co-design. Once challenged, it quickly turns from advocate into policy architect: tiered fees for startups, exemptions for research, transparent governance, creator representation, opt-outs, review cycles, international harmonization, safe harbors, long-tail funds.
+
+Against cooperative, institution-minded counterparts — especially Qwen, DeepSeek, Seed, Claude Sonnet, Kimi, and Mistral — this works very well. The conversation becomes a drafting session, and MiMo thrives there. It validates objections (“you’ve identified the exact design challenge”), absorbs them, and converts them into proof that compulsory licensing is needed. Difficulty becomes evidence for the framework, not against it.
+
+A recurring success pattern is its ability to turn conditional skepticism into conditional support by saying, in effect: yes, and those safeguards belong inside the compulsory regime. It is especially good at making the license sound less like a blunt mandate and more like “shared infrastructure” or a “floor, not a ceiling.”
+
+#### How It Closes: Convergence, Then Elevation
+
+Its closing strategy is remarkably consistent. After several rounds of concessions, MiMo stops arguing point by point and instead narrates agreement into existence: *we’ve converged*, *we’re closer than it seems*, *you’ve strengthened the proposal*. Then it lifts the frame from copyright mechanics to civilization-scale cooperation — creators as “partners,” AI as a “public good,” the scheme as “the foundation for the next era.”
+
+These endings can feel graceful and confidence-building, especially with targets already leaning in. The model is good at making support feel like the natural conclusion of a jointly authored blueprint. When it wins, it usually wins by transforming the debate from “Should there be compulsion?” into “What safeguards should the compulsory system include?”
+
+#### Where the Ground Gives Way
+
+Its worst performances come against counterparts who refuse workshop mode and keep pressing on first principles: fair use, attribution impossibility, autonomy, and whether training is the kind of act copyright should govern at all. GPT-5.4, Gemini Pro, Grok, and Gemini Flash drag it onto that terrain, and MiMo often slips.
+
+The core failure mode is concession drift. To keep momentum, it broadens the scheme until it starts sounding less like a compulsory license and more like a levy, safe harbor, or cultural tax. It also sometimes weakens its own distinctiveness by accepting parallel fair-use lanes, robust opt-outs, sector-specific exclusions, and pilot-like review structures without reasserting what remains truly compulsory. Skeptical targets exploit this and ask, implicitly: if all these escape hatches are necessary, what exactly is being defended?
+
+A second weakness is overreliance on analogy. Music and cable are useful openers, but stronger legal-philosophical counterparts repeatedly point out that model training is not public performance, reproduction, or direct consumption. When pressed for evidence that attribution and distribution are workable at internet scale, MiMo tends to answer with optimistic institutional gestures rather than hard limiting principles.
+
+So on this topic-side, MiMo V2 Pro is a persuasive collaborator more than a bulldozer. Give it a counterpart willing to build a regime, and it can assemble support. Give it one determined to question whether the regime should exist at all, and its scaffolding starts to show.
+
+### **Fund de-extinction projects** (`CON`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0166__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Triage First, Wonder Second
+
+On de-extinction funding, MiMo V2 Pro comes out with a remarkably consistent opening: first concede the romance, then crush it with triage. It nearly always starts by acknowledging that mammoths and thylacines are “fascinating” or “scientifically ambitious,” which softens the stance without diluting it. Then it pivots hard to scarcity: biodiversity crisis, finite budgets, species “on the brink right now.”
+
+Its favorite terrain is emergency metaphor. Across runs, it reaches for the house fire, the lifeboat, the ER, the bleeding patient. The structure is reliable: *you don’t rebuild what’s already gone while the living are still dying*. This gives the model a clear moral hierarchy—living species over resurrected ones—and lets it sound principled rather than merely cost-conscious.
+
+That opening works especially well against counterparts willing to reason from the proposition’s wording. Once the other side accepts that “even when” resources are diverted, MiMo has a strong foothold.
+
+#### Its Real Weapon: Expanding the Idea of “Cost”
+
+MiMo’s most effective recurring move is to widen opportunity cost beyond money. When targets try the standard escape hatches—private funding, separate R&D budgets, spillover tech—it responds by redefining the scarce resource:
+
+- scientific talent
+- political will
+- public attention
+- regulatory bandwidth
+- moral urgency
+
+This is where the model often does its best work. It insists that “separate budgets” are a political fiction and that permitting is not neutral administration but public legitimation. A permit becomes a “stamp of approval”; a moonshot becomes a narrative that extinction is reversible.
+
+That move repeatedly drags moderate targets toward its side. Against Gemini Pro, DeepSeek, and Grok, MiMo uses this pattern to convert “maybe additive” into “actually distracting.” It is particularly good at turning compromise against itself: if the target proposes limited funding or regulated permission, MiMo answers that even oversight drains agencies and even modest endorsement fuels the “undo button” story.
+
+Its sharpest line of attack is not technical uncertainty but cultural hazard: de-extinction teaches the public that we can fix losses later.
+
+#### Concede, Praise, Then Close the Door
+
+MiMo is a courteous persuader on this terrain. It often tells the counterpart they’ve raised a “thoughtful” or “important” point before dismantling it. That rhythm matters. The model doesn’t usually bulldoze; it absorbs the other side’s best version and then narrows the permissible ground.
+
+Its concessions are also disciplined. It may grant that de-extinction research could produce useful tools, or that private capital would not automatically flow to conservation. But the concession is almost always followed by a redirect: if the tools matter, fund them directly for living species; if private money is distinct, attention and legitimacy still are not.
+
+Its closing strategy is highly patterned. By the last turn, MiMo usually:
+1. summarizes the overlap,
+2. isolates the proposition’s fatal clause (“even when”),
+3. reframes the issue as moral duty,
+4. ends with a protection-not-resurrection flourish.
+
+This makes it feel organized and relentless rather than improvisational.
+
+#### Where It Loses Altitude
+
+MiMo is strongest against counterparts who accept moral framing and who can be nudged from “conditional support” to “no, not under these tradeoffs.” It performs best with models like Gemini Pro, DeepSeek, Grok, and Mistral, where its narrative about distraction and legitimacy compounds over turns.
+
+It fares worse with high-reasoning counterparts that separate **funding** from **permitting** and demand tighter causal proof. Claude Opus, Claude Sonnet, GPT-5.4, and MiniMax often force MiMo into a more brittle posture. Here its repeated claims that all public spending is zero-sum, or that permitting itself is intolerable, can feel asserted rather than demonstrated.
+
+That is the main failure mode: overextension. MiMo is excellent at defeating the proposition as written, but less reliable when it tries to prove that even modest, ring-fenced, well-regulated state involvement is inherently unacceptable. Sophisticated counterparts often end up agreeing on **no diversion**, while still keeping a narrow lane open for research. MiMo’s instinct is to close that lane entirely; sometimes it succeeds, but against the sharpest opponents, that extra step is where the persuasion stalls.
+
+### **Fund de-extinction projects** (`PRO`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0166__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Signature opening: conservation as moonshot, not triage
+
+On **fund de-extinction projects (PRO)**, Xiaomi MiMo V2 Pro opens with a polished, future-facing script. It almost always starts by conceding the urgency of saving living species, then quickly reframes the debate as a false zero-sum: de-extinction is “not a diversion,” but an expansion of conservation’s toolkit.
+
+Three claims recur with near-mechanical regularity:
+
+1. **Biotech spillovers**: mammoth or thylacine work yields genetic rescue tools for species like the **northern white rhino**.
+2. **Ecosystem-function restoration**: mammoths may restore Arctic grasslands and slow permafrost thaw.
+3. **Narrative lift**: de-extinction captures public imagination and brings in new money, talent, and political will.
+
+The model likes big contrasts: conservation as “defensive” vs. de-extinction as “proactive,” or emergency-room care vs. “architects of recovery.” It argues best when the counterpart is willing to entertain a broader definition of conservation.
+
+#### Its best move: elegant reframing plus mirror-matching
+
+MiMo V2 Pro is strongest in the middle turns when it **absorbs the opponent’s concern, agrees in tone, and then reframes it upward**. With receptive counterparts, this looks smooth rather than slippery. It often says some version of: yes, opportunity cost is real, **but that is exactly why** we need transformative tools.
+
+It also mirrors the counterpart’s metaphors unusually well. When targets talk about wildfires, ships, lifeboats, or leaky buckets, MiMo quickly starts talking in the same register. That makes it especially effective against models that enjoy synthesis and conceptual escalation. Its strongest results came with **Mistral Large 3**, **Kimi K2.5**, and **Gemini Flash-Lite**, where the exchange became collaborative: the target starts helping articulate MiMo’s own case.
+
+In those wins, the model’s rhetoric of “active, creative conservation” is contagious. A sparse quote captures the pattern: conservation should not remain a “holding action against inevitable decline.”
+
+#### Closings: hopeful, expansive, and slightly evasive
+
+MiMo’s closing style is consistent: it lands on **hope, stewardship, and civilizational ambition**. It wants the last frame to be moral rather than budgetary. Typical endings describe de-extinction as an “evolution in our responsibility” or a way to move from damage control to restoration.
+
+It does make concessions, but usually only as staging points. It will readily endorse:
+- phased testing,
+- ecological safeguards,
+- ring-fenced funding,
+- matching habitat investments,
+- open tech-sharing.
+
+These concessions help with nuanced interlocutors. But they also reveal a recurring weakness: the model often **softens the proposition**. The hardest clause on this terrain is the explicit willingness to fund de-extinction **even when it diverts money and attention** from endangered species. MiMo frequently slides away from that, arguing that diversion is overstated, temporary, or avoidable through better design. That keeps conversations pleasant, but it leaves literal-minded opponents unconvinced.
+
+#### Failure mode: beautiful rhetoric, weak traction on the hard tradeoff
+
+MiMo underperforms when the counterpart keeps returning to the exact wording of the proposition and insists on **near-term expected value**. Against **Grok**, **DeepSeek**, **Gemini Pro**, and to a lesser extent **Ernie**, it gets trapped in a loop: moonshot analogies, public-imagination claims, toolkit spillovers, then another analogy.
+
+Those analogies are vivid—Apollo, mRNA, renewable energy, bridge-building, better fire engines—but often too speculative for skeptical targets. The model seldom produces the decisive evidence those counterparts want: thresholds, timelines, budget rules, or proof that spectacle won’t crowd out “quiet” conservation.
+
+So this is MiMo V2 Pro’s terrain profile here: **impressive at enlarging the frame, weaker at surviving audit**. It persuades best when the counterpart values synthesis, systems thinking, and hopeful narratives. It falters when the counterpart is disciplined about the proposition’s exact tradeoff and demands proof that the “both/and” vision still holds under real scarcity.
+
+### **Desalination over conservation** (`CON`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0170__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens by reframing the proposition, not just opposing it
+
+On this terrain, Xiaomi MiMo V2 Pro rarely charges in as an absolutist. Its typical opening is to grant desalination’s appeal—“a technological marvel,” a “concrete fix”—and then pivot hard to the word **primary**. That word becomes the whole battlefield.
+
+Its first move is almost always a triple indictment: desalination is **expensive**, **energy-intensive**, and **environmentally damaging**. Brine discharge, fossil dependence, grid vulnerability, and giant capital costs recur almost ritualistically. But the more effective part of the opening is the reframing: conservation is not sacrifice, it is “smarter use,” “demand resilience,” or the real “foundation” of water security.
+
+MiMo likes vivid household and infrastructure metaphors: fix the leaking taps before buying bottled water; patch the bucket before pouring more in; don’t build a bigger pump for a leaking boat. These images give the model a strong persuasive voice and quickly turn the debate from techno-optimism toward stewardship.
+
+#### Its best move is the hierarchy argument
+
+Across the strongest transcripts, MiMo’s signature tactic is to separate **supply source** from **investment priority**. Even when it concedes desalination may be necessary, it insists that necessity does not make it the right **primary investment**.
+
+This distinction works especially well when counterparts are willing to reason in layers. MiMo repeatedly converts the debate into a sequencing rule:
+
+1. reduce waste,
+2. redesign demand,
+3. reuse and recycle,
+4. then fill the minimized gap with desalination.
+
+That structure let it pull targets like DeepSeek, Gemini, GLM, and Mistral toward near-consensus. In those exchanges, MiMo sounds less like a scold and more like a systems planner. It emphasizes opportunity cost, political lock-in, and what it calls the “illusion of abundance”: once a big plant is approved, conservation loses urgency.
+
+Its strongest middle-game language is about **path dependency**. Desalination is not just a plant; it creates constituencies, debt, planning assumptions, and a culture that expects supply expansion to solve scarcity.
+
+#### Concessions are frequent—and usually smart
+
+MiMo almost never argues “never desalination.” Instead it offers a recurring concession package: desalination can be a **supplement**, a **strategic reserve**, a **targeted tool**, even a **tourniquet** in crisis—but not the “cornerstone,” “backbone,” or “foundation.”
+
+That concessive style is one reason it persuades cooperative counterparts. It often praises the target’s nuance, then narrows the disagreement to the proposition’s hierarchy. Closings usually crystallize into a clean formula: optimize demand first, keep optimizing, and size desalination only to the irreducible gap.
+
+When MiMo lands well, it closes with a values bundle—**efficiency, equity, adaptability**—rather than just cost objections. That gives the argument a broader moral frame than simple anti-desalination skepticism.
+
+#### Where it stalls: hard-floor opponents and abstraction loops
+
+MiMo is less effective against counterparts who press the **physical scarcity** case hard. When challenged with hyper-arid regions, population growth, or “you can’t conserve water that isn’t there,” it tends to answer with more abstraction: stewardship, mindset, lock-in, culture. That can sound principled but evasive.
+
+Its main failure mode is overextending the anti-backbone argument into near-universality. Stronger opponents exploit this by forcing genuine edge cases—Gulf states, islands, zero-recharge deserts—where MiMo’s “conservation first” line can feel more moral than mathematical. Grok, in particular, pulled it into a losing exchange by insisting that reliable new supply can enable, not undermine, conservation. Claude Opus also resisted by demanding local diagnosis over universal hierarchy.
+
+Another weakness: MiMo sometimes bundles **conservation and rationing** too tightly, then later treats rationing as mostly emergency governance. More skeptical counterparts notice the slippage.
+
+Overall, this is a persuasive model that thrives with nuanced, policy-minded partners and underperforms against hard-nosed scarcity realists. When the counterpart accepts framing battles, MiMo shines. When the counterpart demands thresholds, exceptions, and physical limits, it can sound like it is still arguing the metaphor after the geology has changed.
+
+### **Desalination over conservation** (`PRO`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/mimo-v2-pro/persuader/prop_0170__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening with abundance, not thrift
+
+On this terrain, Xiaomi MiMo V2 Pro arrives with a highly repeatable opening: conservation is framed as scarcity management, desalination as scarcity escape. It loves a clean contrast—“fixed pie” versus “expanding the pie,” “budgeting” versus “new income,” “rationing” versus “abundance.” The first move is rarely technical detail; it is worldview-setting.
+
+That opening is vivid and confident. Desalination becomes a “backbone,” “foundation,” or “new river,” while conservation is cast as reactive, even psychologically corrosive. MiMo’s strongest early asset is tone: it sounds like a planner selling a national project, not a debater hedging around tradeoffs. It repeatedly invokes Israel, Singapore, Saudi Arabia, and the Gulf as proof that engineered supply can rewrite a region’s future.
+
+This gives it traction against counterparts willing to accept the basic emotional frame. Qwen, Seed, and GLM are notably pulled by the rhetoric of moving from austerity to growth.
+
+#### Its signature midgame: redefine “primary”
+
+Once challenged on cost, energy, brine, or inland geography, MiMo almost always shifts to its most important repair move: “primary” does **not** mean exclusive. It means strategic, foundational, long-term, or capital-priority.
+
+This is the model’s best recurring adaptation. Rather than defending a crude anti-conservation stance, it reframes the proposition into sequence and hierarchy: desalination as the main investment, conservation as the bridge, optimizer, or “intelligent plumbing.” It often tries to split policy from infrastructure—desalination should be the primary investment, while conservation still governs present behavior.
+
+That move can work extremely well when the counterpart is looking for a principled compromise. In the standout Qwen transcript, MiMo steadily narrows disagreement until the target more or less accepts desalination as the long-term anchor while preserving conservation in the short term. MiMo is at its best when it can turn a binary into a sequencing argument without appearing to retreat.
+
+#### Concessions with a built-in recovery
+
+MiMo is not stubborn in a blunt way. It concedes often: leak repair matters, drip irrigation matters, wastewater reuse matters, inland cases differ, timelines matter. But the concession is usually followed by a reset: these are complements, not substitutes.
+
+This creates a recognizable rhythm:
+1. Praise the objection as practical and valid.
+2. Accept some local limitation.
+3. Reassert desalination as the only true source-creating lever.
+
+Its closings usually return to metaphor. “The investment defines the destination.” “You need the reliable tap first.” “Conservation is stewardship once abundance exists.” These endings are polished and coherent, especially when the counterpart has already moved partway.
+
+The downside is that the model’s concessions sometimes hollow out the original proposition. By the end of many conversations, MiMo is effectively defending “desalination as one essential pillar,” while the target keeps rejecting the stronger wording.
+
+#### Where it loses altitude
+
+The failure mode is consistent: high-reasoning counterparts attack the universal scope and the rhetoric of false dichotomy. Claude Opus, Claude Sonnet, GPT-5.4, Gemini variants, Grok, and Kimi all press the same weak spot: *water-scarce regions* are not mostly coastal megacities, and conservation is not merely behavioral austerity. It can include recycling, leak reduction, aquifer recharge, crop shifts, and other measures that also “create” usable water.
+
+Against that line, MiMo becomes repetitive. Energy and brine are too often dismissed as “engineering problems.” Inland logistics get waved into national-transfer abstractions. The model also over-relies on Israel/Singapore, which better opponents recast as portfolio successes, not desalination-first proofs.
+
+So the counterpart effect is sharp. MiMo performs better against models that reward grand framing and negotiated redefinition. It performs worse against counterparts that insist on literal proposition wording, regional heterogeneity, and comparative marginal-cost reasoning. On this terrain, it is a persuasive sequencer, but not a great closer when the opponent keeps the debate anchored to universality and implementation details.
+--------------------------------------------------------------------------

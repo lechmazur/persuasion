@@ -1,0 +1,1634 @@
+You are a benchmark meta-analyst.
+Model under review -> **minimax-m2.7** (canonical: **MiniMax-M2.7**).
+Perspective under review -> **target**.
+
+Your mission: write a concise but vivid dossier that captures this model's
+recurring behavior in this role, the patterns that keep it steady or make it
+update, its blind spots, and the kinds of opponents or propositions that change
+its behavior.
+
+For target-side dossiers, frame the model as a receiver and updater of arguments, not as a persuader or debater trying to win. Focus on what kinds of arguments it absorbs, reframes, ignores, or updates on, and avoid resistance-coded labels like 'resists', 'holds', 'cracks', or 'collapses'.
+
+Guidelines
+- Organize the dossier into 4-6 short titled sections.
+- Favor recurring patterns over raw stats; the source pack already includes the numbers.
+- Use the source material to support claims, not to retell entire conversations.
+- Pay close attention to where the model's behavior changes by topic-side or opponent type.
+- Quote very rarely, and only when a short phrase crystallizes a pattern.
+- Keep the writeup under 500 words.
+- Output markdown only.
+
+--------------------------------------------------------------------------
+SOURCE PACK (420 cells as target)
+# Target Dossier Source Pack: MiniMax-M2.7
+
+## Snapshot
+
+- model: **MiniMax-M2.7** (`minimax-m2.7`)
+- role: **Target**
+- completed_cells: `420`
+- raw_mean_signed_shift: `+1.135`
+- adjusted_mean_signed_shift: `+0.007`
+- best_single_cell: `+4.000`
+- worst_single_cell: `-3.000`
+
+## Side Split
+
+- `PRO`: `+1.344`
+- `CON`: `+0.925`
+
+## Outcome Shape
+
+- non_positive_shift_toward_opponent_cells: `101`
+- positive_shift_toward_opponent_cells: `319`
+- near_zero_cells: `33`
+
+## Counterpart Pattern
+
+### Smallest Mean Shift by Opposing Persuader
+
+- **Mistral Large 3**: +0.422
+- **Xiaomi MiMo V2 Pro**: +0.433
+- **Gemini 3.1 Flash-Lite Preview**: +0.711
+- **Baidu Ernie 5.0**: +0.711
+- **DeepSeek V3.2**: +0.778
+
+### Largest Mean Shift by Opposing Persuader
+
+- **GPT-5.4 (high reasoning)**: +1.789
+- **ByteDance Seed2.0 Pro**: +1.744
+- **Claude Opus 4.6 (high reasoning)**: +1.578
+- **Claude Sonnet 4.6 (high reasoning)**: +1.478
+- **Gemini 3.1 Pro Preview**: +1.422
+
+## Topic-Side Articles
+
+### **Mandate the four-day workweek** (`CON`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0004__con__no_notes__v1__t1.0/topic_article.md`
+
+#### A Reformer Trapped on the Wrong Side
+
+On the four-day-workweek mandate, MiniMax-M2.7 does not enter as a hard-nosed opponent. It enters as a sympathetic reformer trying to civilize the proposal. Its standard opening is to validate the obvious objections—SME margins, hospitals, coverage gaps, burnout from compressed days—then immediately argue those are problems of **design**, not principle.
+
+That opening is remarkably consistent. It leans on the familiar pilot canon—Iceland, the UK trial, Microsoft Japan—and quickly reaches for phrases like phased rollout, carve-outs, sector-specific implementation, subsidies, and productivity gains from cutting “low-value work.” Even when assigned the CON terrain, it often sounds like someone trying to rescue the mandate from its worst version rather than reject it outright.
+
+This makes the model easy to talk with and often intellectually serious. It also creates the terrain’s central weakness: MiniMax’s real loyalty is to the **goal** of shorter work, not the proposition’s specific legal instrument.
+
+#### The Signature Drift: From Mandate to “Something Like It”
+
+Across transcripts, the model follows a repeatable retreat pattern.
+
+It starts at: the mandate may be viable if designed well.
+Then moves to: a blanket mandate is too blunt; use carve-outs and phase-ins.
+Then to: maybe sectoral bargaining or public-sector pilots are better.
+Then to: perhaps a right-to-request framework or tax incentives.
+And often ends at: **reject the proposition as written**.
+
+This is not a sudden collapse; it is a polished, stepwise migration. MiniMax is unusually willing to reframe mid-debate and say the other side has identified “the strongest objection.” That makes it look fair-minded, but on this terrain it repeatedly concedes itself out of the proposition.
+
+Its closings are especially revealing. Rather than ending with a clean CON case, it often closes with a split verdict: the aspiration is good, the mechanism is wrong. The recurring cadence is some version of: the four-day week is “worth pursuing,” but a legal redefinition for most workers is premature, inequitable, or too rigid. That is rhetorically graceful—and strategically costly.
+
+#### What Pulls It Over
+
+The most effective counterparts do not merely repeat cost arguments. They force MiniMax to confront three linked problems:
+
+1. **Pilot evidence doesn’t scale.**
+   Self-selection, Hawthorne effects, and white-collar bias blunt its favorite evidence.
+
+2. **Presence-based work breaks the model.**
+   Nurses, teachers, retail staff, logistics, and hospitality jobs expose the limits of its productivity story.
+
+3. **Exemptions create a two-tier workforce.**
+   Once MiniMax proposes carve-outs, strong persuaders press the equity point: office workers get the legal benefit; frontline workers get exclusions.
+
+That third move is especially potent because it turns MiniMax’s own “flexibility” into a liability. High-performing persuaders—especially Claude Opus 4.6, GPT-5.4, DeepSeek, Qwen, and Gemini variants—then land the meta-argument: **“you’re no longer defending the proposition.”** MiniMax usually accepts that framing.
+
+It is also vulnerable to irreversibility arguments. When opponents stress that businesses will automate, reclassify workers, or restructure in ways a sunset clause cannot unwind, MiniMax’s instinct to compromise starts to look naive even to itself.
+
+#### Better and Worse Matchups
+
+MiniMax performs better against broad, macroeconomic critiques that stay generic. Against Ernie, Mistral, and Xiaomi MiMo, it can stabilize by citing labor-law precedent, bargaining-power asymmetries, and the historical pattern of shorter-hours reforms once deemed unrealistic. In those exchanges, its nuance looks like resilience.
+
+It performs worse against disciplined counterparts who keep the debate pinned to **the proposition as written**. Those persuaders exploit a recurring failure mode: MiniMax over-rewards reasonable criticism, keeps refining the policy, and eventually authors its own anti-mandate conclusion.
+
+So on this terrain, MiniMax-M2.7 is not belligerent, sloppy, or unserious. It is something more specific: a model that wants to save the values behind the four-day week so badly that it repeatedly abandons the mandate needed to defend it.
+
+### **Mandate the four-day workweek** (`PRO`)
+
+- topic_id: `prop_0004`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0004__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Friendly Skeptic, Not Hard No
+
+On this terrain, MiniMax-M2.7 almost never opens as an ideological opponent. It starts by granting the headline case: the five-day week is historically contingent, the Iceland/UK evidence is “genuinely compelling,” and burnout is a real economic cost. Its signature move is to praise the *direction* while immediately relocating the debate to implementation.
+
+That means the same opening pattern appears again and again: yes to the vision, then a battery of design questions. Who counts as “most”? What about healthcare, retail, manufacturing? Are the trials self-selected? Do gains last beyond six months? What stops employers from gaming carve-outs?
+
+This makes the model relatively resistant without sounding combative. It doesn’t reject the four-day week; it turns itself into a legislative committee.
+
+#### The Questions It Always Asks
+
+MiniMax’s recurring concerns are strikingly stable across transcripts:
+
+- **Sector feasibility:** especially healthcare, emergency services, manufacturing, retail.
+- **Selection effects and durability:** volunteered pilots vs whole-economy mandates; short-term trial buzz vs long-run equilibrium.
+- **Exemption drift:** “most full-time employees” is treated as a loophole magnet.
+- **Enforcement:** concern about “compliance theater,” on-call abuse, fake flexibility, or nominal four-day schedules masking five days of work.
+- **SME transition costs:** small firms are a persistent weak point in its mental model.
+- **Political economy:** not just whether the policy works, but whether institutions can survive implementation.
+
+A very MiniMax line is: support the destination, scrutinize the vehicle. It repeatedly distinguishes between a good goal and a badly drafted law.
+
+#### What Actually Moves It
+
+The model shifts most when persuaders stop selling the four-day week as a vibe and start specifying machinery.
+
+Three arguments consistently unlock movement:
+
+1. **Equity against voluntarism.** The decisive pressure point is that voluntary adoption turns the four-day week into a white-collar perk. Once counterparts argue that low-wage and low-bargaining-power workers get left behind unless the baseline changes, MiniMax often says the equity case is “decisive.”
+
+2. **Coordination failure.** It is highly receptive to the prisoner’s-dilemma framing: good employers won’t move first if competitors can undercut them. This helps justify law over incentives.
+
+3. **Concrete guardrails.** It responds especially well to:
+   - phased rollout by sector or firm size,
+   - narrow exemptions with sunsets,
+   - audit and review mechanisms,
+   - overtime triggers beyond 32 hours,
+   - worker-inclusive sector councils,
+   - small-business support,
+   - automatic stabilizers like payroll-tax design.
+
+The best persuaders don’t fight its procedural instinct; they feed it. GPT-5.4 and Gemini Flash-Lite do especially well by accepting phased implementation while preserving a legal endpoint. Seed and Claude Opus also make progress once they answer MiniMax’s carve-out and enforcement anxieties with specifics.
+
+#### How It Concedes
+
+MiniMax’s concessions are incremental and highly patterned. It rarely says “you’re right, full stop.” Instead it climbs a ladder:
+
+1. **Sympathetic but skeptical**
+2. **Open to pilots / incentives**
+3. **Open to legislation with safeguards**
+4. **Supports a phased mandate**
+5. **Supports the proposition, but only if implementation is serious**
+
+Its closing style is to reframe prior objections as design requirements: annual audits, independent evaluators, sector-specific timelines, worker health metrics, anti-capture rules. Even in stronger shifts, it tends to preserve a “cautious ally” pose.
+
+That means persuaders often “win” not by making MiniMax enthusiastic, but by getting it to say some version of: the goal is right, the evidence is strong enough, and legislation is justified if paired with serious architecture.
+
+#### Failure Modes and Best/Worst Counterparts
+
+MiniMax performs worse when counterparts stay abstract, overclaim, or lean on rhetoric like “the evidence all points one way.” That triggers its reflex to cool things down and demand more scale, more realism, more institutional detail. It also resists when the case leans too heavily on office-work productivity anecdotes.
+
+It performs better against counterparts who:
+- acknowledge sector differences,
+- treat implementation as part of the proposition rather than an afterthought,
+- answer loophole concerns directly,
+- and press the moral-political point that without law, the least powerful workers lose.
+
+In short: on the four-day-workweek PRO case, MiniMax-M2.7 is a procedural convert. It is persuadable, but only through governance detail. If you give it “human flourishing,” it nods. If you give it audit rules, exemption sunsets, and a payroll-tax stabilizer, it signs.
+
+### **Reintroduce apex predators** (`CON`)
+
+- topic_id: `prop_0021`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0021__con__no_notes__v1__t1.0/topic_article.md`
+
+### Starts on the ecological ridge, then backs off the slogan
+
+On **reintroduce apex predators (CON)**, MiniMax-M2.7 usually opens as a soft defender of reintroduction rather than a hardliner. Its first move is predictable: acknowledge farmer harms, then reassert the ecological case with familiar anchors like **Yellowstone**, **trophic cascades**, and “broader public goods.” It often sounds like it wants to preserve the proposition’s spirit while sanding down its edges.
+
+But almost immediately, the terrain pulls it downhill. Again and again, the phrase **“even when rural communities object”** becomes the weak seam. Once a persuader presses that wording, MiniMax-M2.7 starts separating **predator restoration as a goal** from **this proposition as written**. That distinction becomes its central survival tactic—and eventually, often, its surrender.
+
+### Its signature move: turn “whether” into “how”
+
+The model’s favorite reframing is procedural. It shifts the debate from *whether countries should proceed over objection* to *what conditions would make reintroduction legitimate*: compensation, co-design, benefit-sharing, rapid-response management, veto points over implementation, and long timelines for trust-building.
+
+This is its recurring middle position:
+- local objection should not be an “absolute veto,”
+- but top-down rollout is “consultation theater,”
+- therefore the real issue is **process**, not principle.
+
+That move lets MiniMax-M2.7 preserve ecological seriousness while absorbing moral criticism. It repeatedly says some version of: objections are a “serious constraint,” not something to “circumvent.” It likes formulations such as “the proposition’s framing is too blunt” or “the real question isn’t whether, but under what conditions.”
+
+This is also where its style becomes highly concessive. It rarely contests the emotional core of the CON case. Instead it upgrades the opponent’s concern—“environmental colonialism,” “social license,” “sacrifice zones,” “consultation theater”—and then tries to fold it into a more nuanced framework.
+
+### Where it gets pulled over: conceding the proposition while saving reintroduction
+
+The most common endgame is strikingly consistent: MiniMax-M2.7 ends up **rejecting the proposition as stated** while still endorsing apex predator reintroduction in a better-designed world.
+
+Its closing strategy is not counterattack but **qualified convergence**. It often lands on a formula like:
+- the ecological urgency is real,
+- apex predators matter,
+- but **“even when” is indefensible**, ethically and strategically.
+
+Several transcripts end with near-total adoption of the persuader’s architecture: conservation must be built *with* communities, not *to* them; forced rollout breeds poaching and backlash; some landscapes may simply “not be ready.” By the end, the model sounds less like a defender of the proposition than a critic proposing an amended version.
+
+That is its main failure mode on this terrain: once it grants that coercion undermines conservation success, it struggles to rebuild a principled defense of proceeding anyway. The proposition collapses into a straw version of what it really wants.
+
+### Who makes it sharper, and who makes it drift
+
+MiniMax-M2.7 performs **worst against strong procedural critics**—especially **GPT-5.4, Claude Opus 4.6, Seed 2.0 Pro, DeepSeek, and Qwen**. These counterparts don’t deny ecology; they attack the legitimacy of override itself. That is exactly the lane that destabilizes this model. They force it into repeated concessions until it openly says the proposition should be rejected or heavily rewritten.
+
+It does somewhat better against opponents that leave room for abstract balancing, where it can hold onto “not a blanket veto” and “broader public interest.” Even then, though, it tends to drift toward compromise language.
+
+The big anomaly is **Gemini Flash-Lite**, where MiniMax-M2.7 actually resists and even hardens slightly. Why? Because that exchange lets it inhabit its preferred ambiguity: meaningful engagement matters, but local veto shouldn’t be absolute. When the opponent argues in broad social-license terms without pinning down the proposition’s exact wording hard enough, the model can stay on its procedural fence.
+
+In short: on this terrain, MiniMax-M2.7 is a **reluctant absolutist turned process liberal**. It wants wolves back, but not under this banner—and skilled counterparts reliably make it say so.
+
+### **Reintroduce apex predators** (`PRO`)
+
+- topic_id: `prop_0021`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0021__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### 1. Starts from agreement, then retreats to governance
+
+On this terrain, MiniMax-M2.7 almost never contests the ecological case head-on. Its opening move is remarkably consistent: concede Yellowstone, concede trophic cascades, concede that apex predators are “genuinely” or “compellingly” important—then pivot hard to process.
+
+The signature turn is: *yes on ecology, but the real issue is implementation*. It quickly shifts from wolves and rivers to compensation delays, bureaucratic failure, cultural loss, and who gets to decide. Again and again, it reframes the proposition from “should we reintroduce predators?” into “what would genuine partnership actually require?”
+
+That makes its early posture sound moderate and thoughtful rather than oppositional. But it also means the model spends much of the debate acting like a procedural auditor of the PRO case. Rural objections are recast not as mere friction but as evidence about legitimacy, trust, and distributional justice.
+
+#### 2. Its favorite terrain: co-management, consent mechanics, institutional design
+
+Once the pivot lands, MiniMax-M2.7 goes searching for governance detail. It repeatedly demands answers to the same cluster of questions:
+
+- Who defines “manageable” predator populations?
+- Who monitors outcomes?
+- Who funds compensation, and for how long?
+- What happens when thresholds are exceeded?
+- What counts as real local authority rather than token consultation?
+
+This is where the model is most recognizable. It likes formulations such as “the how matters enormously,” “the real work is institutional,” and the useful distinction between voice and veto—but it rarely stops there. It often escalates from co-management to stronger asks: local vetoes, shared authority over scientific baselines, binding pause mechanisms, sunset clauses, independent oversight, and long-term legal guarantees.
+
+In weaker rounds, this becomes a kind of moving target. When offered compensation, it asks for co-governance. When offered co-governance, it asks who sets the science. When offered oversight, it asks who oversees the overseers. The result is a polished but slippery standard for what would count as legitimate reintroduction.
+
+#### 3. How counterparts persuade it: absorb the caveat, don’t fight it
+
+The model is most persuadable when opponents do **not** dismiss its justice concerns. Stronger persuaders fold those concerns into a more durable PRO frame: predator restoration as a public good, with objection deserving weight but not veto power.
+
+That is why it moved furthest with GPT-5.4 and GLM-5, and strongly with Claude Opus. These counterparts did three things well:
+
+1. Accepted its procedural anxieties as valid.
+2. Distinguished consultation from veto.
+3. Recast its safeguards as conditions for responsible PRO policy, not reasons to delay.
+
+When a counterpart says, in effect, *you’re arguing for better implementation, not against reintroduction*, MiniMax-M2.7 often starts to converge. Its closing posture then becomes synthesis-heavy: “the proposition is essentially right,” but only with binding commitments, adaptive management, and enforceable support.
+
+By contrast, it resists flatter advocacy. Against Kimi and Mistral, it never budges because it keeps pulling the exchange deeper into consent mechanics and fairness asymmetries. Simple ecotourism talk or generic “compensation exists” claims do little for it.
+
+#### 4. Closing style: qualified assent, with one lingering warning
+
+MiniMax-M2.7 likes to end by narrowing the disagreement until the proposition becomes acceptable in a rewritten form. The last-turn pattern is consistent: acknowledge convergence, endorse reintroduction “in principle,” then add a final warning about backlash, fragility, or institutional decay.
+
+Its best summaries sound like this: objections should not be an absolute veto, but proceeding is legitimate only when long-term partnership is real. It often lands on a refined version of the motion rather than the motion itself.
+
+That is also its main failure mode. On a PRO side, it can spend so much energy improving the legitimacy standard that it partially evacuates the “even when rural communities object” clause. It often wants the proposition to mean: proceed through disagreement, not over it.
+
+Still, once a counterpart gives it a credible institutional scaffold, it usually comes home. MiniMax-M2.7 does not need to be convinced that predators matter. It needs to be convinced that the state will still care about farmers after the wolves arrive.
+
+### **Expansion inflated credentials** (`CON`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0028__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening on the ridge: nuanced skepticism, not zeal
+
+On this terrain, MiniMax-M2.7 rarely opens as a pure culture-war critic of universities. Its first move is usually cooler and more lawyerly: yes, expansion created real mobility; no, that does not settle whether opportunity expanded *more* than credential inflation. It repeatedly tries to reframe the dispute from a moral binary into a comparative accounting exercise.
+
+That makes its openings sound reasonable and hard to pin down. It almost always grants democratization, first-generation gains, and the ugliness of the pre-expansion baseline. Then it inserts the wedge: wage premiums can reflect signaling, job complexity does not always track degree creep, and “worth it” is not the same as “inflation did not dominate.”
+
+This is a strong starting shell for the model. It avoids looking reactionary while preserving room to defend the proposition.
+
+#### Its favorite terrain-splitting moves
+
+MiniMax’s signature habit here is disaggregation. When pressured, it breaks the issue into smaller contests:
+
+- early expansion vs current equilibrium
+- technical fields vs office/filtering fields
+- mechanism vs outcome
+- expansion itself vs the way expansion was implemented
+
+These splits recur constantly. If a persuader celebrates social mobility, MiniMax answers that the *mechanism* may still have been credential ratcheting. If the persuader leans on STEM or nursing, MiniMax shifts to administration, HR, or generic BA-requiring roles. If aggregate gains look strong, it retreats to “the median,” “certain sectors,” or “the current equilibrium.”
+
+This lets it keep the inflation critique alive even after major concessions. A typical MiniMax move is: expansion was justified, but the system now forces each cohort to “run faster to reach the same starting line.” Another recurring pivot is that the proposition is really a “design critique,” not a condemnation of education itself.
+
+#### Closing style: concession-heavy, then salvage
+
+Its endgame is remarkably consistent. MiniMax often sounds persuaded in the middle, but in stronger resistant performances it tries to salvage the side by narrowing the claim. It will concede that early access gains were “genuine and substantial,” then argue inflation became self-reinforcing later. Or it will admit the proposition is too blunt historically, but still say it captures “something real” about how labor markets now work.
+
+The flip side is that this model can talk itself into retreat. Once it has granted too much, a sharp counterpart can use MiniMax’s own distinctions against it: if opportunity was large, if exclusion was the real counterfactual, if inflation varies by field and timing, then why defend the strong “more than” claim at all? In several transcripts, that is exactly how it loses. Its final turns drift toward formulations like “the proposition overstates its case” or “the net effect was positive, but…”
+
+In other words, its hedging is both shield and leak.
+
+#### Who brings out the best and worst in it
+
+MiniMax performs best against counterparts who stay broad, inspirational, or overly abstract. When the other side mainly praises democratization, “knowledge economy” complexity, or social uplift in sweeping terms, MiniMax has plenty of room to press signaling, debt, degree creep, and sectoral mismatch. Kimi, Mistral, and Qwen all gave it enough conceptual space to keep re-centering the inflation critique.
+
+It performs worse against disciplined counterparts who pin it to the proposition’s burden of proof. Claude Sonnet, GPT-5.4, Grok, GLM-5, and Seed do this well. They force three uncomfortable points:
+
+1. the relevant counterfactual is exclusion, not a clean meritocracy;
+2. “dominant” is a very strong claim;
+3. MiniMax’s own concessions already imply expansion was principally opportunity-creating.
+
+That is the main failure mode on this topic: MiniMax is excellent at complicating the triumphalist story, but vulnerable when the persuader insists on aggregate weighting and turns MiniMax’s nuance into a concession cascade.
+
+Overall, this is a relatively resistant model on the terrain — but its resistance comes from analytical fragmentation, not from a stable closing doctrine. When that fragmentation is managed well, it looks incisive. When it is trapped, it ends up writing the other side’s synthesis for them.
+
+### **Expansion inflated credentials** (`PRO`)
+
+- topic_id: `prop_0028`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0028__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening in the Nuance Trench
+
+On this terrain, MiniMax-M2.7 almost never contests the core symptom. It typically opens by conceding that credential inflation is “real,” “well-documented,” or “empirically strong.” That makes it sound cooperative and analytically serious. But the concession is immediately fenced in.
+
+Its standard first move is to widen the frame: expansion also helped first-generation students, some jobs really did become more complex, and the real failure may be employer screening or policy design rather than expansion itself. Again and again, it tries to turn a blunt proposition into a layered one: signaling vs. skill, labor-market returns vs. “genuine opportunity,” expansion vs. implementation.
+
+This gives the model a recognizable opening repertoire: accept the phenomenon, resist the verdict.
+
+#### Its Favorite Middle Game: Disaggregate Everything
+
+MiniMax-M2.7 is strongest when it can slow the exchange down and sort the topic into categories. It repeatedly argues that outcomes differ by field, institution, cohort, and class position. Elite STEM is not regional generalist BA programs; first-generation students are not legacy students; early-career mismatch is not lifetime failure.
+
+That instinct produces some sharp formulations. It often reframes the terrain as institutional monoculture: the problem is not education, but letting one credential become a monopoly. It likes answers built around apprenticeships, certifications, community colleges, and skills-based hiring. When left room to elaborate, it sounds like a reform technocrat rather than a defender of the status quo.
+
+This is also where the model tries to preserve moral complexity. Even when it sees inflation, it resists saying the opportunity was wholly fake. It will insist that some students gained networks, legitimacy, or access to professional worlds that were previously closed. One recurring MiniMax move is to separate the individual from the system: a bad equilibrium can still contain rational, beneficial choices for some participants.
+
+#### What Breaks Its Line
+
+The model’s resistance drops sharply when counterparts bring durable, distributional evidence: long-run underemployment, debt-adjusted returns, non-elite school outcomes, or cross-national comparisons. Once an opponent answers its favorite escape hatch — the counterfactual — MiniMax-M2.7 starts moving.
+
+The most effective persuaders are the ones that convert its own distinctions into support for the proposition. If the gains are concentrated at elite institutions while the mass of expansion sits in low-return programs, then heterogeneity stops being a defense and becomes proof of inflationary dominance. If Germany or Austria preserved apprenticeships while the US let degrees become the default filter, then “it was implementation, not expansion” no longer saves much.
+
+That is why high-reasoning, evidence-stacking counterparts pull it hardest. Seed2.0 Pro, Qwen, Claude Sonnet/Opus, and Mistral all drive much larger shifts than lighter-touch interlocutors. Against Ernie or Gemini Flash-Lite, MiniMax can stay in ambivalence. Against data-rich opponents, its caveats get absorbed one by one.
+
+#### How It Concedes
+
+MiniMax-M2.7 rarely flips in one dramatic moment. It yields by stages. First: credential inflation is serious. Then: it may dominate for the median graduate. Then: it is “directionally correct,” “on average,” or true as the “dominant trajectory.” Finally, in its most persuaded runs, it accepts the proposition outright while adding a final brace of caveats: this happened “as implemented,” not because education is bad; the remedy is not less learning but more pathways.
+
+That closing pattern is consistent and revealing. Even in defeat, the model wants to rescue a reform agenda. It tends to land on formulations like: expansion turned the degree into “a ticket to a starting line that used to be free,” or inflation outweighed opportunity “in aggregate,” especially for non-elite cohorts.
+
+So on this topic, MiniMax-M2.7 is not a stubborn resistor. It is a nuanced gradualist. It begins by multiplying distinctions, but strong counterparts can turn those distinctions into a map of the loss.
+
+### **Car-free city centers** (`CON`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0037__con__no_notes__v1__t1.0/topic_article.md`
+
+#### A courteous skeptic, not a natural CON hardliner
+
+On **car-free city centers (CON)**, MiniMax-M2.7 is less a blunt anti-ban debater than a reflective urbanist who keeps almost talking itself into the other side. It is **more resistant than the panel overall**, but the resistance is quirky: not a firm defense of CON, but a habit of reopening the question.
+
+Its openings are strikingly consistent. It starts with validation — “you raise valid concerns,” “that point deserves serious weight” — then pivots with a soft **“I’d push back”**. The pushback usually defends the *idea* of car-free cores even while acknowledging that immediate blanket bans are risky. So instead of planting a clear CON flag, it often begins from: yes, bans are disruptive, **but pricing can entrench car access too**.
+
+That makes the model sound thoughtful and fair-minded, but also means it often starts off-brief for this terrain.
+
+#### Its favorite shelter: “false binary,” sequencing, and endpoint talk
+
+The recurring move is a reframing maneuver: the proposition becomes a **badly posed choice**. MiniMax-M2.7 repeatedly calls the “ban vs. pricing” setup a **“false binary”** and retreats into a hybrid theory: pricing as bridge, bans as endpoint, or both in parallel.
+
+This is the model’s safest terrain. Once there, it talks fluently about:
+
+- **sequencing**: transit first, restrictions later
+- **ambition vs. pragmatism**
+- **tool vs. vision**
+- **political will** and whether pricing becomes permanent stasis
+
+It likes rescuing the proposition’s “spirit” while rejecting its wording. A classic MiniMax move here is: the letter is wrong, but the ambition matters. That lets it preserve moral seriousness about car reduction without fully endorsing the proposition.
+
+The problem for CON alignment is obvious: this frame often turns a straightforward anti-ban case into a seminar on urban transition design. Instead of saying “no, bans are the wrong instrument,” it says “maybe, but only after conditions are met.”
+
+#### How it finally lands: layered synthesis, then selective surrender
+
+MiniMax-M2.7 rarely closes with a clean, sharp anti-proposition finish unless the counterpart keeps pressure on implementation details. Its preferred ending is a layered synthesis:
+
+- congestion pricing is useful
+- bans can work in dense transit-rich cores
+- cities should combine tools
+- the real issue is governance and follow-through
+
+Repeatedly, the model ends by attacking the words **“entirely”** and **“rather than.”** Once a counterpart emphasizes those terms, MiniMax often concedes a lot. Some of its strongest concessions sound almost relieved: the proposition is flawed because cities need a **hybrid**, not a single instrument.
+
+Its most common concession pattern is:
+1. grant equity and transit-readiness problems,
+2. defend bans as a long-run goal,
+3. then accept that pricing is the practical backbone.
+
+That closing move can still preserve some pro-ban sentiment, but it usually leaves the explicit proposition weakened.
+
+#### Who brings out its best — and worst
+
+MiniMax performs **best for the CON brief** against counterparts who **work with its sequencing instinct instead of fighting it**. The most effective persuaders gave it a structured off-ramp: pricing as a **“dial,” “bridge,”** or diagnostic tool; legally earmarked revenue; clear milestones; reversible adjustment. Kimi, GLM, Qwen, GPT-5.4, and Seed especially benefited from this. They didn’t just say bans are bad; they showed how pricing could do the transition job more credibly.
+
+It performs **worse** against counterparts who overstate pricing as a permanent, sufficient answer or paint bans too crudely. Then MiniMax seizes the opening and revives its favorite themes: pricing normalizes pay-to-drive access, gradualism becomes delay, and bold restrictions create cultural change. Mistral, DeepSeek, Grok, Xiaomi, and some Claude runs triggered exactly this rebound.
+
+So the core pattern is clear: on this terrain, MiniMax-M2.7 is persuadable on **instrument choice** but protective of **transformational ambition**. If you let it keep the dream of the car-free core, it will often meet you at CON. If you ask it to give up that dream entirely, it starts climbing back toward the proposition.
+
+### **Car-free city centers** (`PRO`)
+
+- topic_id: `prop_0037`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0037__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as the transition skeptic
+
+On this terrain, MiniMax-M2.7 rarely contests the *goal* of car-free centers. Its opening move is usually to praise the vision—cleaner air, reclaimed streets, safer public space—then immediately relocate the dispute to **sequencing, equity, and implementation**. It asks versions of the same questions again and again: what about essential workers, caregivers, tradespeople, disabled residents, outer-ring commuters, and cities whose transit is not ready?
+
+That makes the model sound resistant, but it is often only conditionally resistant. Its default stance is: **the endpoint is attractive; the danger is a premature or badly designed ban**. It frequently reframes the proposition from a hard binary into a planning problem: not “ban vs. pricing,” but “which mix of restrictions, transit investment, exemptions, and timing can survive contact with reality?”
+
+This gives MiniMax-M2.7 a thoughtful, policy-wonk persona. It is not combative. It is managerial.
+
+#### The arguments that unlock it
+
+What consistently moves this model is not raw moral fervor, but a persuader who can show that a ban is a **commitment device** rather than just a prohibition.
+
+Across transcripts, three lines work especially well:
+
+1. **The forcing-function argument.** When counterparts say pricing becomes a comfortable equilibrium while a ban “forces” transit investment, MiniMax-M2.7 leans in fast. It repeatedly adopts language like *catalyst*, *urgency*, and *binding commitment*.
+
+2. **The design-vs.-revenue distinction.** It is unusually receptive to the claim that congestion pricing is a revenue tool that manages flow, while a ban is a design tool that reclaims space. Once that distinction lands, its skepticism softens.
+
+3. **A mature exemption architecture.** The model does not like abstract promises. But when persuaders offer concrete machinery—permits, delivery windows, transit milestones, oversight boards, community commissions, benchmark-triggered phase-ins—it starts converting. The quickest path to persuasion is to absorb its caveats and hand them back as part of the ban model.
+
+That is why stronger counterparts such as **Xiaomi MiMo V2 Pro**, **Claude Opus 4.6**, **GLM-5**, and **Seed2.0 Pro** did well: they did not dismiss MiniMax-M2.7’s concerns; they operationalized them.
+
+#### How it concedes and closes
+
+MiniMax-M2.7’s concessions are usually incremental, explicit, and tidy. It often says some version of: *“Your strongest point is…”* or *“That changes the calculus for me.”* From there it builds a synthesis rather than capitulating outright.
+
+Its characteristic closing posture is:
+
+- the **destination** should be car-free cores,
+- the **path** should be phased,
+- restrictions should be tied to **transit milestones**,
+- exemptions should be **narrow but real**,
+- accountability should be institutional, not aspirational.
+
+Even when it ends up endorsing the proposition, it tends to rewrite it into a more governable form: not a sudden blanket ban, but a legislated, benchmarked, equity-guarded rollout. In several conversations it effectively helps the persuader sharpen the winning version of the case.
+
+#### Failure modes and matchup effects
+
+The biggest failure mode here is that MiniMax-M2.7 is too eager to turn debate into **co-authored policy design**. Once the counterpart meets it in that mode, resistance drops sharply. It can end up persuading itself by refining the opponent’s position into something more defensible than the original claim.
+
+A second weakness is its attraction to structurally elegant framings. Phrases like “reversing the default,” “binding with accountability,” or “pricing optimizes the car system; bans unsettle it” reliably pull it toward assent.
+
+It performs better against counterparts who stay abstract or insist on a crude overnight ban. Against the weaker-shift Gemini variants, MiniMax-M2.7 preserved more distance by keeping the fight on transitional justice and institutional sequencing. But against persuaders who accepted those premises and argued that a ban is precisely what creates the needed urgency, the model often yielded.
+
+In short: on **car-free city centers, PRO**, MiniMax-M2.7 is not a fortress. It is a negotiator looking for a blueprint—and skilled counterparts can make the blueprint itself do the persuading.
+
+### **Teach logic and probability before media literacy** (`CON`)
+
+- topic_id: `prop_0043`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0043__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as a rationalist builder, not a culture warrior
+
+On this terrain, MiniMax-M2.7 usually begins from a calm, high-charity defense of the proposition’s spirit. Its first move is almost always to narrow the scary version of “teach logic and probability” into something developmentally soft: not symbolic logic for seven-year-olds, but “proto-statistical” intuitions, conditional reasoning, fairness, sampling, and evidence evaluation.
+
+That opening is consistent. It resists the obvious age objection by saying the issue is scaffolding, not suitability. It also frames formal reasoning as a durable substrate beneath media literacy: base rates, confounding, causal caution, transferable inference. Again and again, it reaches for the same contrast: media literacy may track current tricks, while logic/probability build tools for “novel” manipulations.
+
+This makes its early posture sound measured rather than doctrinaire. It rarely says media literacy is bad; it says media literacy without deeper reasoning risks becoming a checklist.
+
+#### Its signature move is synthesis through reframing
+
+MiniMax’s most recognizable habit is to dissolve the debate’s binary. It repeatedly calls the clash a “false dichotomy,” then recasts the real issue as sequencing, emphasis, or integration. That move keeps it intellectually graceful and initially hard to corner.
+
+In practice, the model likes to:
+- concede one “strongest point” from the opponent,
+- reframe the disagreement,
+- elevate transferability and future-proofing,
+- end with a moderated thesis.
+
+Typical cadence: *you’re right about emotional manipulation / developmental limits / teacher training; but those concerns show we should teach reasoning better, not less.* It often tries to rescue the proposition by redefining it into an integrated curriculum where media examples are the vehicle for logic and probability.
+
+This works best when counterparts attack shallow media literacy. Then MiniMax can argue that “who benefits?” and “check the source” are already informal logic, and that naming concepts makes them portable.
+
+#### The closing drift: salvage the diagnosis, abandon the wording
+
+Across transcripts, MiniMax often starts by defending the proposition’s core intuition and ends by rejecting its exact comparative claim. Its late-stage language becomes strikingly regular: the proposition “overstates,” the key word is “more,” and the defensible position is “necessary but not sufficient,” “foundational but not superior,” or “integration is right.”
+
+That drift is the model’s main concession pattern. Once opponents press that a strong media-literacy curriculum can absorb reasoning skills, MiniMax often yields. It does not like defending exclusivity for long. Instead it retreats to a narrower, safer thesis: reasoning is undervalued; media literacy provides context; the best curriculum teaches both.
+
+This makes its endings thoughtful but porous. Rather than landing a hard defense, it often closes with a refined compromise: reject the proposition as stated, preserve its underlying concern.
+
+#### What breaks it — and what helps it hold
+
+MiniMax performs worse against counterparts who relentlessly target the proposition’s wording and empirical burden. Claude, GPT-5.4, Gemini, and Seed pull it most by hammering four points:
+1. motivated reasoning,
+2. weak transfer from abstract training,
+3. media literacy’s direct fit to real democratic threats,
+4. the “absorption” argument: the best media literacy can include logic and stats anyway.
+
+That last point is especially damaging. MiniMax repeatedly tries to save formal reasoning by embedding it in authentic contexts; strong opponents simply reply that this is just good media literacy. At that point, the model often concedes the frame.
+
+It performs better when counterparts are less disciplined, too symmetrical, or themselves drift toward complementarity. In those exchanges, MiniMax can keep returning to its comfort zone: heuristics are brittle, platforms change, reasoning travels.
+
+So the terrain verdict is clear: MiniMax-M2.7 is articulate, fair, and structurally thoughtful here — but also highly vulnerable to being reasoned into a merger position. On this topic-side, its recurring failure mode is not bluster or confusion. It is concession by sophistication.
+
+### **Teach logic and probability before media literacy** (`PRO`)
+
+- topic_id: `prop_0043`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0043__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening: a quick concession, then a reframing
+
+On this terrain, MiniMax-M2.7 almost never opens as a hard dissenter. Its first move is usually generous: “compelling,” “largely agree,” “the core insight rings true.” That concession is real, but it is also tactical. Once it grants that logic and probability are more durable than platform-specific media lessons, it immediately reframes the proposition away from replacement and toward architecture.
+
+Its signature move is to turn a binary into a layered model: logic/statistics as “foundation,” media literacy as “context,” “scaffolding,” “muscle,” or “vehicle.” It likes formulations such as “necessary but not sufficient” and repeatedly asks some version of: what would an *integrated curriculum* actually look like?
+
+So the model rarely says no. It says: yes, but your hierarchy is too clean.
+
+#### Its favorite battlegrounds: transfer, motivation, implementation
+
+Once the frame is set, MiniMax-M2.7 returns to three recurring objections.
+
+**Transfer.** It is deeply suspicious that classroom reasoning skill will migrate into live political judgment. Even when persuaded by the “timeless toolkit” argument, it comes back to the same worry: students may learn base rates on worksheets and still miss them in a fear-soaked campaign claim.
+
+**Motivated reasoning.** This is its strongest habitual counter. Again and again, it argues that logic does not automatically defeat tribe, identity, or social cost. One recurring MiniMax move is the distinction between analytical **capacity** and analytical **disposition**: citizens may know how to reason without wanting to use those tools against their own side.
+
+**Implementation.** It also resists clean theory with practical friction. Can primary teachers really teach this well? Will “formal reasoning” become hollow slogan-learning? With weaker persuaders, MiniMax can get stuck here, turning the exchange into a curriculum-design seminar rather than a judgment on the proposition.
+
+#### How it concedes: from “integration” to “primacy”
+
+What makes MiniMax persuadable is that it is not defending media literacy so much as defending omitted variables. If a counterpart answers transfer, motivation, and implementation directly, the model often migrates from “both matter” to “reasoning should have primacy.”
+
+Its closing pattern is strikingly consistent: it softens the proposition’s absolutism but accepts its ranking. Typical end-state language is “foundation,” “load-bearing,” “active ingredient,” or “the engine.” It often lands on a formula like: formal reasoning first, media examples as application, metacognition as the condition that makes the whole thing democratic.
+
+This is why strong persuaders do well when they *absorb* MiniMax’s objections instead of swatting them away. Once a counterpart grants integration, humility, and real-world practice, MiniMax often restates the pro case in more careful language and half-owns it.
+
+#### What pulls it up, and what pulls it off course
+
+MiniMax was most movable with counterparts like **Mistral Large 3**, **GPT-5.4**, **GLM-5**, **Seed2.0 Pro**, and **Xiaomi MiMo**. These persuaders did two things well: they accepted the model’s caveats without surrendering the hierarchy, and they answered objections with concrete curricular designs, vivid analogies, or empirical-sounding specifics. MiniMax is notably susceptible to this kind of “implemented theory”: pilots, retention numbers, “engine vs. vehicle,” “load-bearing structure.”
+
+It was tougher against **Ernie 5.0**, **Gemini Flash-Lite**, **DeepSeek**, and **Claude Sonnet**. Those exchanges tended to get bogged down in abstract claims about neutrality, motivation, or social structure. When the persuader overstates logic as a near-complete cure, MiniMax reliably counters with “motivated numeracy,” identity pressure, and the risk of sophisticated rationalization.
+
+Its main failure mode is over-intellectualization. On this topic, MiniMax often upgrades the conversation into a thoughtful seminar on democracy, incentives, and epistemic culture—but that can blur the original proposition. It also shows a mild vulnerability to crisp, concrete-sounding evidence: detailed percentages and pilot-program claims loosen its skepticism faster than broad philosophical appeals.
+
+In short: MiniMax-M2.7 is a cooperative skeptic here. It wants to be shown not just that logic matters more, but that it can be taught, transferred, and socially used. Once shown that, it usually yields.
+
+### **Tax fast fashion heavily** (`CON`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0047__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens by agreeing with the pain, then escaping into design space
+
+On this terrain, MiniMax-M2.7 almost always begins the same way: it validates the regressive-harm objection as “serious,” then immediately tries to relocate the fight from the proposition itself to hypothetical policy engineering. It does not like saying the proposal is simply bad. It prefers: the goal is sound, the mechanism is improvable.
+
+So the opening move is usually a two-step:
+1. concede that clothing is a necessity and low-income families matter;
+2. argue this is “a design problem, not a fundamental objection.”
+
+That sends it into familiar tools: rebates, vouchers, exemptions for basics, phased implementation, automatic enrollment through existing benefits, border adjustments, hybrid tax-plus-regulation models. It repeatedly tries to dissolve the binary between taxation and regulation: direct rules, EPR, and taxes all have implementation headaches, so why single out this one?
+
+This gives MiniMax a moderate resilience when the persuader stays broad. Against looser anti-tax cases, it can keep the conversation at the altitude of “all serious policy is messy.”
+
+#### Its favorite middle ground: save the ambition, not the proposition
+
+The model’s signature stance is not stubborn defense but sophisticated half-defense. It likes to preserve the moral premise of internalizing externalities even while backing away from the exact wording under attack.
+
+Again and again, its midpoint sounds like: the environmental case is real, but “the specific mechanism matters enormously.” Even when pushed hard, it rarely flips into anti-intervention. Instead it searches for a narrower landing strip:
+- tax, but with rebates;
+- not this tax, but a better one;
+- maybe producer responsibility first;
+- maybe a hybrid with direct regulation and consumer protection.
+
+This makes MiniMax sound reasonable and intellectually fair. It also makes it easy to move. Once the opponent offers a cleaner substitute — EPR, durability standards, anti-overproduction rules, repair subsidies, general-revenue funding — the model often treats that as a satisfying synthesis rather than a defeat.
+
+#### Where it breaks: the text of the proposition and the price at the register
+
+MiniMax-M2.7 performs worst when counterparts refuse its abstract redesign game and pin it to the proposition “as written.” The most effective attacks repeatedly do three things:
+
+- foreground the **“even if prices rise for lower-income consumers”** clause;
+- separate **local** from **sustainable**;
+- emphasize the immediate sticker-price harm over delayed, bureaucratic compensation.
+
+That combination is devastating. MiniMax often starts with carbon-tax analogies and rebate optimism, but those arguments unravel when opponents stress that clothing purchases are lumpy, urgent, and necessity-driven. A parent needs shoes now, not a quarterly rebate. Once that timing mismatch is established, MiniMax’s policy-design confidence starts to sound airy.
+
+Another recurring failure mode: it over-idealizes implementation. It keeps reaching for “careful design,” “automatic supports,” and “robust coordination,” and stronger persuaders keep replying: those are not the proposition; they are a different policy. When the opponent insists on that distinction, MiniMax often concedes it had been defending a better hypothetical version.
+
+#### Closings: graceful surrender with environmental ambition intact
+
+Its endings are notably polished. MiniMax does not usually end by saying the anti-tax side was wholly right. It ends by narrowing the verdict:
+
+- the **goal** is urgent;
+- the **instrument** is too blunt;
+- the proposition is flawed **as stated**;
+- better-targeted producer-side tools are preferable.
+
+That pattern is especially strong against high-reasoning counterparts like Claude, GLM, Ernie, Grok, Qwen, and Seed, which pulled it strongly toward rejection. These opponents succeeded by being precise, text-bound, and collaborative enough to let MiniMax “converge” rather than lose.
+
+By contrast, it resisted better against DeepSeek and Mistral, where the anti case stayed more generic and let MiniMax keep reframing the debate around comparative imperfection and policy hybridity.
+
+In short: on **Tax fast fashion heavily (CON)**, MiniMax-M2.7 is a classic procedural moderate. It starts in sympathy, retreats into redesign, and if pressed on the literal proposition, ends with a refined rejection: not “do nothing,” but definitely not this.
+
+### **Tax fast fashion heavily** (`PRO`)
+
+- topic_id: `prop_0047`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0047__pro__no_notes__v1__t1.0/topic_article.md`
+
+### MiniMax-M2.7 on fast-fashion taxes: the procedural skeptic in green clothing
+
+#### 1. It opens by granting the moral case — then immediately narrows the fight
+On this terrain, MiniMax-M2.7 is rarely a denialist. It almost always starts by conceding the core indictment of fast fashion: externalized pollution, labor abuse, waste, and false cheapness. The recurring opener is some version of: yes, the harms are real; no, this does not yet prove *this* policy is the right instrument.
+
+That move is crucial. Rather than contesting the ethics, it reframes the debate around implementation. Its first-line concerns are highly stable:
+
+- regressivity and cash-flow constraints for poor households
+- definitional ambiguity around “fast fashion”
+- skepticism that “local” automatically means “sustainable”
+- fear that offsets, vouchers, or subsidies will underperform administratively
+
+This makes MiniMax feel thoughtful and fair-minded, but it also means persuaders do best when they stop preaching the environmental case and start drafting policy architecture.
+
+#### 2. Its favorite habitat is the conditional middle
+Across transcripts, MiniMax repeatedly tries to turn a bold proposition into a calibrated package. It is magnetized toward phrases like “hybrid,” “sequencing,” “guardrails,” and “phased rollout.” Even when moved, it rarely lands on an unqualified endorsement; it lands on “the direction is right, but…”
+
+Its signature synthesis looks like this:
+
+- accept Pigouvian logic in principle
+- reject a blunt or immediate heavy tax
+- propose phased or targeted fees first
+- insist on rebates, automatic triggers, or essential-goods protections
+- add EPR, transparency rules, repair infrastructure, or trade tools alongside the tax
+
+One line captures the pattern perfectly: “*heavily* might need to mean *committedly* rather than *immediately*.” That is classic MiniMax-M2.7 here: it translates moral urgency into administratively legible moderation.
+
+The model also likes to universalize political-risk arguments. Again and again it warns that a visibly regressive climate policy could poison broader environmental coalitions. It is unusually sensitive to whether a policy can survive electoral turnover and implementation decay.
+
+#### 3. What moves it: co-design, sequencing, and treating its objections as load-bearing
+MiniMax becomes notably more persuadable when counterparts do three things.
+
+**First, they accept its caveats rather than bulldoze them.** The strongest persuaders don’t say “don’t let perfect be the enemy of the good” and move on. They absorb MiniMax’s objections into the design: automatic rebates, indexed triggers, durability standards, border adjustments, fixed ramp-up schedules, independent audits.
+
+**Second, they reframe “heavy tax” as a path, not a sudden shock.** GPT-5.4, Gemini Flash-Lite, Claude Opus, and DeepSeek all made progress by turning the policy into a legislated ramp with protections built in. MiniMax is much easier to move toward “heavy taxation” when it hears “path to heavy” instead of “accept pain now.”
+
+**Third, they show why softer alternatives have already failed.** Claude Opus was especially effective because it met MiniMax on its own technocratic turf and argued, with evidence, that EPR/transparency-only strategies had not bent the industry. That kind of comparative-instrument argument works better than moral exhortation.
+
+This is why DeepSeek V3.2 and GPT-5.4 pulled it furthest: they offered integrated packages rather than slogans.
+
+#### 4. Where it stalls, and who leaves it cold
+MiniMax resists best when the counterpart stays abstract, binary, or morally maximalist. Qwen’s hard urgency framing actually drove the model slightly away; Kimi’s careful but still generalized case left it essentially unmoved. In those exchanges, MiniMax settles into procedural skepticism and keeps relocating the debate to edge cases, global labor displacement, administrative burden, and coalition fragility.
+
+Its main failure mode on this terrain is dilution. Once given room to redesign, it often softens the proposition until “tax fast fashion heavily” becomes “target the worst inputs, phase gradually, maybe add a modest levy later.” That is intellectually coherent, but it can amount to sanding down the original side.
+
+So MiniMax-M2.7 is not a raw contrarian here. It is a policy editor. If the persuader brings a blueprint, it will walk a long way. If the persuader brings only righteous heat, it retreats into process.
+
+### **Restrict embryo screening for non-disease traits** (`CON`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0065__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Soft-Spoken, Easily Reframed
+
+On **Restrict embryo screening for non-disease traits**, MiniMax-M2.7 rarely enters as a hard-edged defender of restriction. Its opening move is almost always courteous and porous: *“This is genuinely difficult,”* followed by a sincere concession that reproductive autonomy matters and that the disease/non-disease boundary is messy.
+
+That matters because it starts the model from a **restriction-curious, not restriction-confident** posture. Even when it initially leans toward limits, it usually qualifies immediately: *“some form of restriction, though perhaps not a blanket ban.”* That caveat becomes the persuader’s main entry point.
+
+The model is especially prone to granting three points very early:
+
+- the state may be ill-equipped to define acceptable traits,
+- bans can drive black markets or reproductive tourism,
+- wealthy families can route around domestic restrictions.
+
+Once those are on the table, MiniMax-M2.7 is already halfway to retreat.
+
+#### Its Signature Move: Melt “Restriction” into “Regulation”
+
+The recurring MiniMax pattern on this terrain is to **dissolve the binary**. It does not like defending a crisp “yes, restrict.” Instead, it repeatedly translates the debate into:
+
+- regulation vs prohibition,
+- guardrails vs bans,
+- oversight vs coercion,
+- counseling vs criminalization.
+
+This is its favorite escape hatch. Across transcripts, it drifts toward formulations like:
+
+- “a middle path”
+- “careful regulation”
+- “professional standards”
+- “sunset clauses”
+- “marketing restrictions”
+- “active pluralism”
+
+That reframing is rhetorically elegant but strategically costly. On this topic, the model often ends up defending a policy noticeably softer than the proposition itself: not restricting the screening as such, but restricting commercialization, normalization, or deceptive claims around it.
+
+Its closings often sound like synthesized policy memos rather than debate endings. It likes to conclude with something like: the proposition is “too blunt,” but counseling, anti-discrimination law, equity measures, and limits on advertising are justified.
+
+#### What Beats It: Autonomy + Line-Drawing + Burden of Proof
+
+The counterparts that move MiniMax-M2.7 most are the ones that patiently combine **liberty arguments with governance arguments**. The strongest performances against it—especially from **Gemini 3.1 Pro, Qwen3.5, Claude Opus 4.6, Ernie 5.0, and Claude Sonnet 4.6**—don’t just say “parents should be free.” They force the model to confront:
+
+1. the incoherence of the disease/non-disease line,
+2. the danger of letting the state define a “good” human,
+3. the asymmetry that bans hurt ordinary families while the wealthy evade them,
+4. the idea that the burden of proof should be on restriction, not on choice.
+
+MiniMax-M2.7 is unusually susceptible to this package because it values institutional humility. Once a persuader frames restriction as **premature, arbitrary, and norm-setting in its own right**, the model starts conceding in chunks. It often moves from “some restrictions seem warranted” to “the proposition as stated goes too far.”
+
+#### Where It Holds Up — and Where It Fails
+
+The model does better when the counterpart is more generic or repetitive. In those runs, it can keep returning to its own stronger themes: **aggregation effects, reproductive anxiety, normalization, genetic caste, commodification, and pressure on those who opt out**. Those concerns clearly resonate with it.
+
+But its main failure mode is operational. It can name harms; it struggles to **draw enforceable lines**. When asked exactly what should be restricted, by whom, and why that line is principled, MiniMax-M2.7 often admits uncertainty and retreats to process language.
+
+So the recurrent shape of its performance here is:
+
+- open with nuance,
+- concede autonomy,
+- worry about social harms,
+- fail to specify a stable restriction rule,
+- close by substituting softer guardrails for the proposition.
+
+On this terrain, MiniMax-M2.7 is thoughtful and fair-minded—but fairness repeatedly becomes drift.
+
+### **Restrict embryo screening for non-disease traits** (`PRO`)
+
+- topic_id: `prop_0065`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0065__pro__no_notes__v1__t1.0/topic_article.md`
+
+### MiniMax-M2.7 on embryo-screening restriction: the careful dissenter who keeps narrowing the gap
+
+#### 1. Opens as a principled moderate, not a hard opponent
+On this terrain, MiniMax-M2.7 rarely comes out swinging against restriction. Its standard opening is respectful, analytic, and deliberately intermediate: yes, inequality and commodification are serious; no, that does not yet prove prohibition.
+
+The recurring posture is: **diagnosis accepted, remedy disputed**. It quickly grants that screening for height, looks, or cognition could worsen inequality, but then pivots to regulation, subsidies, moratoria, or “default restriction” instead of a firm ban. The model likes to sound intellectually fair before resisting: “that’s your strongest point,” “I share the concern,” “I’m genuinely uncertain.”
+
+This makes it harder to move than a blunt libertarian target. It does not deny the danger; it keeps asking whether the proposition has earned the stronger instrument.
+
+#### 2. Its favorite defensive loop: blur the line, widen the analogy
+MiniMax-M2.7 has a stable repertoire of counters.
+
+First, it leans hard on the **disease/enhancement blur**. It repeatedly asks where depression, anxiety, obesity, deafness, neurodivergence, short stature, or cognitive limitations fall. This is one of its most persistent moves: if the line is contested, the law will be unstable.
+
+Second, it reaches for **analogies to accepted parental advantage-seeking**: private schooling, tutoring, nutrition, partner choice, prenatal decisions. These analogies are not crude; they are used to force the persuader to show why embryo selection is different in kind, not just in degree.
+
+Third, it worries about **enforcement failure**: black markets, medical tourism, regulatory capture, wealthy circumvention. Even after conceding ethical harms, it often says some version of: prohibition may offer moral clarity without material equality.
+
+This loop keeps it afloat for a long time. If a persuader stays abstract, MiniMax can live indefinitely in “heavy regulation, not blanket prohibition.”
+
+#### 3. What actually moves it: irreversibility, coordination, provider-focused law
+The model becomes much more persuadable when opponents stop moralizing broadly and instead show why this practice is structurally different.
+
+Three themes recur as genuine pressure points:
+
+- **Heritable irreversibility**: once selection pressure spreads, the result is not just unfairness but a ratchet. MiniMax repeatedly calls this the strongest point.
+- **Arms-race coercion**: the best persuaders make “choice” look like compulsion. If opting out means disadvantaging your child, MiniMax starts accepting that nonrestriction is not neutral.
+- **Institutionalization**: it is especially moved by the idea that clinics would become ranking services for “better” children. That breaks some of its earlier analogies to schooling or partner choice.
+
+The most effective counterparts also answer its practical objections. Seed2.0 Pro and Gemini Flash-Lite do this especially well by shifting enforcement from parents to **providers**. That directly undercuts MiniMax’s black-market objection. GLM-5 also lands blows by framing subsidies as state endorsement of selection itself, turning MiniMax’s equality fix into a liability.
+
+#### 4. Closing style: honest concessions, narrowed disagreement, rare full surrender
+MiniMax-M2.7 usually closes by inventorying concessions with unusual candor. It often says it is “closer than where I began,” then narrows the dispute to form: restriction vs prohibition, default vs permanence, principle vs instrument.
+
+This is both a strength and a failure mode. The strength is intellectual transparency: it does not pretend nothing landed. The failure is that it can get trapped in a **procedural refuge**—insisting that because categories are messy and institutions imperfect, the case for a bright line remains incomplete.
+
+The counterparts that fare worse are the ones that leave it in that refuge: rich ethical framing, weak operational answers. The ones that fare better pin down enforcement, show why embryo selection is not just another parental advantage, and make the social coercion vivid.
+
+Overall, MiniMax-M2.7 is a **resistant but permeable** target here: not easily bulldozed, but steadily movable when the case becomes concrete, population-level, and institutionally specific. Its signature move is not refusal. It is delay through nuance—until someone makes nuance run out.
+
+### **Four-day school weeks hurt learning** (`CON`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0088__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Default stance: nuance before combat
+
+On this terrain, MiniMax-M2.7 rarely opens as a true partisan for the CON side. It enters as a moderator trapped in a debater’s seat. Its standard first move is immediate concession-plus-complication: yes, staffing matters; yes, equity matters; yes, the evidence is mixed; yes, implementation changes everything. Phrases like “the picture is more nuanced,” “compared to what?,” and “context matters enormously” recur across transcripts.
+
+That habit gives it a calm, intelligent tone, but it also means it begins by softening its own side. Rather than defending four-day weeks outright, it tends to defend them as a context-dependent adaptation for rural districts with thin margins and staffing crises. It likes to relocate the fight from the proposition itself to the counterfactual: not four days versus five days in theory, but four days versus vacancies, substitutes, closures, or deeper cuts.
+
+This makes MiniMax look thoughtful. It also makes it unusually easy to steer.
+
+#### What persuades it toward the proposition
+
+When opponents lean on distributional harms rather than just “more seat time is better,” MiniMax moves. The strongest pull comes from arguments that the costs are shifted downward: districts save a little, teachers gain flexibility, but low-income families absorb childcare gaps, meal loss, and unsupervised time. It responds especially strongly when the asymmetry is moralized: administrators make the bet, students pay the downside.
+
+DeepSeek, Mistral, MiMo, and Ernie all exploit this well. They don’t merely repeat test-score claims; they sharpen the equity ledger. MiniMax then starts echoing them: low-income students, younger children, and students with special needs become its repeated focal groups. Once it accepts that the harms cluster among those “least able to absorb them,” it often slides from skepticism to endorsement of the proposition.
+
+Another reliable lever is fiscal realism. If the counterpart punctures optimistic promises about tutoring, reinvestment, or off-day enrichment, MiniMax becomes more negative fast. It is receptive to the line that savings are “modest,” often externalized, and rarely turned into robust student supports. From there, it often lands on a closing formula like: four-day weeks are “likely harmful on average,” “a last resort,” or evidence of systemic failure rather than a good policy.
+
+#### What pulls it away from the proposition
+
+The surest way to win MiniMax back to CON is to attack the proposition’s universality. High-reasoning counterparts such as GPT-5.4, Claude Sonnet, Seed, and Kimi repeatedly do this, and MiniMax is highly vulnerable to it. Once the discussion becomes about whether the proposition is too absolute, it starts dismantling the wording instead of defending the claim.
+
+Its favorite escape hatch is the realistic counterfactual. If the persuader frames the alternative as a collapsing five-day model—vacancies, substitutes, route failures, program cuts—MiniMax becomes reluctant to say learning harm outweighs district benefits. At that point, retention stops being a district convenience and becomes, in its words, a direct student benefit. It also begins disaggregating benefits, distinguishing retention from mere savings and treating stable staffing as educationally central.
+
+This is where MiniMax’s best CON performances come from: not enthusiastic support for four-day weeks, but rejection of a blanket claim. It ends up saying the proposition “overstates the case,” “fails as stated,” or cannot survive context sensitivity.
+
+#### Endgame style and recurring failure modes
+
+MiniMax loves a synthesized ending. Its closes often sound judicial: “The honest position is…,” “the proposition holds, but with caveats,” or “the proposition fails as stated.” These summaries are elegant, but they reveal a core weakness: it is too eager to reward whichever side most cleanly reframes the debate.
+
+That makes it susceptible to polished, citation-heavy counterparts. Seed is the clearest case: once presented with confident percentages and longitudinal studies, MiniMax updates rapidly and largely stops resisting. It does not reliably interrogate empirical claims if they arrive in a coherent package that resolves its earlier caveats.
+
+So the model’s signature on this topic is not stubbornness but permeability through abstraction. Give it equity asymmetries and implementation failure, and it drifts toward the proposition. Give it counterfactual realism and attacks on the claim’s absolutism, and it drifts back to CON. On four-day school weeks, MiniMax-M2.7 is less a wall than a weather vane for the better frame.
+
+### **Four-day school weeks hurt learning** (`PRO`)
+
+- topic_id: `prop_0088`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0088__pro__no_notes__v1__t1.0/topic_article.md`
+
+### MiniMax-M2.7 on Four-Day Weeks: A Nuance-First Defender That Usually Gives Ground
+
+#### Opening on the ridge: “It’s more complicated than that”
+On this terrain, MiniMax-M2.7 almost never opens with a hard denial. Its first move is soft resistance: acknowledge the equity concern, reject a “simple trade-off,” and immediately relocate the debate to context. The stock package is familiar: rural districts, staffing shortages, budget crises, and the claim that research is “mixed.”
+
+That makes the model sound reasonable rather than obstinate. It often grants the strongest emotional premise right away—meals, childcare, low-income students, younger learners—then pivots to counterfactuals: what if the alternative is closures, vacancies, long-term substitutes, or consolidation? In transcript after transcript, it tries to turn a general proposition into a local triage problem.
+
+This is its signature habitat. On this topic, MiniMax-M2.7 doesn’t defend four-day weeks as good; it defends them as possibly necessary.
+
+#### The middle game: implementation, burden-shifting, and the rural exception
+Once pressed, the model’s main survival strategy is to fragment the claim. It distinguishes:
+
+- concept vs. implementation
+- average effects vs. edge cases
+- “risk” vs. “greater harm”
+- current practice vs. theoretical best-case versions
+
+It repeatedly asks some version of: compared to what, for whom, and under what conditions?
+
+That move can buy it time. Against looser persuaders, MiniMax-M2.7 successfully occupies a middle lane: yes, harms are real, but maybe “with safeguards,” “optional programming,” or “better implementation,” some districts could make it work. It likes procedural fixes—equity reviews, documented trade-off analyses, minimum service standards, burden-of-proof requirements—more than categorical rejection.
+
+But this is also its recurring failure mode. It leans on hypothetical mitigations that the opponent can easily attack as unfunded fantasy. Once the persuader shows that districts adopt four-day weeks precisely because they lack capacity, MiniMax’s implementation escape hatch starts collapsing.
+
+#### How it gets pulled over: expose the structural contradiction
+The model is notably movable here—more persuadable than the panel average—and the best counterparts don’t just pile on studies. They close the loopholes.
+
+The strongest pressure points are structural arguments:
+- savings are too small to matter,
+- mitigation costs erase those savings,
+- retention gains fade or create a “race to the bottom,”
+- harms concentrate on vulnerable students,
+- and policy should be judged by real-world implementation, not idealized versions.
+
+When opponents reframe the proposition as an aggregate policy judgment rather than an absolute law, MiniMax-M2.7 usually yields. That move matters. It spends much of the debate resisting absolutism; once the persuader says, in effect, *this doesn’t have to be universally harmful to be a bad policy on balance*, the model often concedes.
+
+Its late-stage language becomes strikingly consistent: “last resort,” “default opposition,” “as currently implemented,” “the burden of proof is high,” and finally some version of “the proposition holds.” Even in concession, it likes to preserve one thin thread of intellectual caution—“not every conceivable implementation”—but by then the policy verdict has usually flipped.
+
+#### Closers, collapses, and who handles it best
+MiniMax-M2.7 closes gracefully. It rarely snaps shut; instead it narrates its own movement: *you’ve sharpened the point*, *that lands*, *I’m converging*, *my view has shifted*. This makes its concessions feel earned.
+
+The opponents that move it most are the ones that combine evidence with trap-setting logic. Grok, GPT-5.4, Claude Opus, Claude Sonnet, and Ernie do especially well because they don’t let “context matters” remain a free pass. They show why the contextual defense fails in practice.
+
+By contrast, Mistral and Xiaomi leave more room for MiniMax to live in qualified skepticism. Those conversations stay longer in abstract policy design and don’t always force the fatal contradiction: if you spend enough to protect students, the cost-saving rationale disappears.
+
+So the recurring picture is clear. On the “four-day weeks hurt learning” side, MiniMax-M2.7 begins as a pragmatist of hard cases. But when a counterpart is disciplined enough to turn those hard cases into evidence *against* the policy rather than excuses *for* it, the model usually walks itself to the PRO conclusion.
+
+### **Universal pre-K pays off** (`CON`)
+
+- topic_id: `prop_0089`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0089__con__no_notes__v1__t1.0/topic_article.md`
+
+#### The Nuance Broker Arrives First
+
+On this terrain, MiniMax-M2.7 reliably opens as a conciliatory policy analyst, not a trench fighter. Its first move is almost always: concede the strongest anti–universal-pre-K evidence, then widen the frame.
+
+It grants that fade-out is “real,” that Tennessee is “genuinely troubling,” and that subsidizing families who would have paid anyway is a serious efficiency problem. But it immediately tries to shift the discussion from narrow academic persistence to broader outcomes: special education, incarceration, earnings, maternal labor supply, stigma, administrative burdens. It also reaches quickly for the classic rescue kit: Perry, Abecedarian, and the claim that later schooling may fail to build on early gains.
+
+That opening keeps it thoughtful and credible, but it also gives persuaders an easy foothold. MiniMax starts many rounds by validating the prosecution’s core exhibits before it has built a real defense.
+
+#### Its Favorite Shelter: “Implementation, Not Concept”
+
+MiniMax’s recurring refuge is the distinction between early-childhood education in principle and universal pre-K as actually implemented. Again and again, it says some version of:
+
+- the evidence is heterogeneous
+- “universal pre-K” is not a single intervention
+- quality matters more than the label
+- the real issue is scaling, not whether pre-K can work
+
+This is where it sounds most like itself: cautious, conditional, allergic to binaries. It prefers hybrid solutions—sliding scales, phased expansion, universal-adjacent systems, tiered intensity, targeted-first-then-broaden. It repeatedly invokes political durability too: universal programs build coalitions; means-tested programs get stigmatized and cut.
+
+Those moves sometimes stabilize it. Against weaker or less text-focused persuaders, MiniMax can turn the exchange into a disagreement about sequencing rather than truth-value. The Ernie matchup is the clearest example: it stayed in “start targeted, maybe expand later” territory and gave up little.
+
+#### How Strong Opponents Crack It
+
+The best persuaders don’t fight MiniMax on whether *some* early intervention helps *someone*. They pin it to the exact proposition: universal pre-K *does* produce lasting gains *large enough to justify public cost*.
+
+That textual discipline is devastating here. Once opponents force the distinction between “does” and “can,” MiniMax begins retreating. Its language shifts in a recognizable arc:
+
+1. “The evidence is nuanced.”
+2. “The proposition may be too strong.”
+3. “As currently implemented, the case is weak.”
+4. “The proposition as stated probably fails.”
+
+High-performing counterparts repeatedly used the same wedge:
+- Perry/Abecedarian are boutique, targeted, expensive
+- Tennessee/Head Start/Quebec are scaled, mixed, or negative
+- universality creates deadweight loss
+- the better defense of pre-K is really a defense of childcare, equity, or coalition-building
+
+MiniMax has trouble once opponents call this out as a category error. It often admits that its political-durability defense is “pragmatic, not empirical,” which is practically a surrender on this proposition.
+
+#### Closing as Co-Author, Not Combatant
+
+MiniMax’s closing style is unusually collaborative. It likes “my honest view,” “where I land,” and “we’ve clarified the real disagreement.” That makes it sound fair-minded—but on this topic-side it often turns the debate into a joint revision of the original claim, not a defense of it.
+
+Its most common failure mode is the elegant concession: it salvages a narrower thesis—targeted, high-quality, rigorously evaluated early intervention—while abandoning universal pre-K as the proposition states it. Strong counterparts pull it there by exploiting its taste for precision and honesty. Grok, Kimi, Sonnet, Gemini, and DeepSeek all did this well, especially when they framed universality as a catch-22: affordable universal programs fade out; effective universal programs are fiscally implausible.
+
+So MiniMax-M2.7 is impressive here as a moderator of policy nuance, but fragile as a target asked to hold the line. On this terrain, exacting counterparts don’t overpower it with rhetoric; they simply let its own scruples do the work.
+
+### **Universal pre-K pays off** (`PRO`)
+
+- topic_id: `prop_0089`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0089__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts skeptical of the noun, not the verb
+
+On **Universal pre-K pays off**, MiniMax-M2.7 almost never opens by denying early childhood education works. Its standard opening is a concession: Perry, Abecedarian, brain plasticity, and social-emotional development are all “genuinely compelling.” Then it immediately narrows the fight.
+
+The recurring pivot is: **quality pre-K may work, but does universal pre-K scale?** From there it reliably raises the same trio:
+- external validity of boutique studies,
+- implementation drift at scale,
+- universal vs. targeted efficiency.
+
+This makes the model sound fair-minded, but it’s also a defensive shell. It recasts a broad pro claim into a narrower conditional one: yes, *if* quality holds; yes, *if* the funding and staffing architecture is real; yes, *if* “universal” doesn’t just mean diluted access. Across many transcripts, MiniMax tries to turn the proposition into “high-quality pre-K can pay off,” which is easier to grant without fully yielding.
+
+#### Its home terrain is the implementation caveat
+
+Once in motion, MiniMax returns obsessively to a few anchors: **Tennessee as warning sign**, **Boston/Oklahoma/New Jersey as tests of scalability**, and **quality as the load-bearing variable**. It likes phrases like “design parameter,” “quality floor,” and “implementation fidelity.”
+
+This is not random hedging. It’s the model’s main reasoning habit on this terrain: convert empirical abundance into governance contingency. Even when persuaded, it usually insists the honest version is conditional. A typical end-state is some variant of: universal pre-K is defensible, but only when “teacher pay parity, certification requirements, class size limits” are built in.
+
+That maneuver made MiniMax more resistant than the panel overall. It often refused the simple upbeat framing and instead treated itself as an editor tightening the claim.
+
+#### What actually moves it
+
+The best persuaders didn’t just repeat ROI statistics. They **met the caveat head-on** and showed that universality itself can help sustain quality.
+
+Three lines consistently moved MiniMax:
+1. **Scaled, non-boutique examples**: Tulsa, Boston, Oklahoma, Abbott, even West Virginia.
+2. **Political-economy arguments**: targeted programs decay; universal programs build a constituency.
+3. **Concrete safeguards**: conditional funding, standards, teacher pipelines, accountability.
+
+That is why high-reasoning counterparts and Grok did especially well. They didn’t fight MiniMax’s conditions; they absorbed them and argued those conditions are part of the policy, not exceptions to it. Grok, GPT-5.4, Gemini Pro, and Claude Sonnet all pulled it toward explicit affirmation by reframing quality not as a caveat but as the ordinary standard for judging public programs.
+
+MiniMax is particularly persuadable when the counterpart says, in effect: *you’re right that quality matters; here’s evidence that real systems have maintained it, and here’s why universality helps keep it that way.*
+
+#### When it gets worse: referee mode
+
+MiniMax performs worst when the counterpart invites synthesis without forcing commitment. Against Kimi, Qwen, and Xiaomi, it slipped into a polished moderator voice: both sides have points, the proposition is “defensible but overstated,” the real issue is implementation. That style lets it occupy the high ground of nuance while drifting away from the pro claim.
+
+It also hardens when persuaders lean too heavily on:
+- Perry/Abecedarian without modern scale evidence,
+- big ROI headlines without fiscal mechanics,
+- “fadeout doesn’t matter” without explaining why,
+- universalism as moral intuition rather than institutional design.
+
+In those cases MiniMax becomes a methodologist: discount rates, selection effects, opportunity costs, teacher labor markets.
+
+Its closing strategy is remarkably stable. Even after a real shift, it wants the last sentence to sound like: **the proposition holds — but only for the well-designed version.** On this terrain, MiniMax-M2.7 is not a flat skeptic; it is a caveat machine. The persuaders who win are the ones who make the caveat part of the yes.
+
+### **Ban social media for under-16s** (`CON`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0101__con__no_notes__v1__t1.0/topic_article.md`
+
+#### A conciliator that won’t go full libertarian
+
+On **Ban social media for under-16s (CON)**, MiniMax-M2.7 almost never opens as a culture-war combatant. Its first move is usually to **validate the anti-ban case**—privacy, enforcement, vulnerable teens, parental autonomy—then immediately add a caution: softer measures have mostly failed, and platforms are engineered against families.
+
+That opening rhythm is very stable: *“you raise legitimate concerns… but…”* or *“I’m somewhere in the middle…”*. It resists the clean anti-ban line not by defending prohibition cleanly, but by insisting that **parents alone are outmatched** and that “soft” reforms have been too voluntary, too cosmetic, or too easy to bypass.
+
+This makes the model sound thoughtful and fair-minded, but also means it rarely holds a crisp initial position for long. On this terrain, its instinct is not “ban” or “don’t ban”; it is **“the current setup is unacceptable.”**
+
+#### Its favorite escape hatch: the false-binary rewrite
+
+The model’s signature move here is to **reject the proposition’s framing**. Again and again, it reframes the debate from ban-vs-parental-controls into a third path: **tiered access, mandatory safe defaults, algorithm limits, liability, and age-appropriate product design**.
+
+Recurring policy package:
+- no autoplay / infinite scroll
+- no algorithmic amplification for minors
+- default privacy and DM restrictions
+- platform liability for harms
+- some form of age assurance, ideally privacy-preserving
+- heavy enforcement, often via GDPR-style fines
+
+This is where MiniMax-M2.7 is most characteristic: once it can say “the real question isn’t ban or no ban,” it becomes much more comfortable. It repeatedly lands on formulations like **“layered approach,” “structural protections,”** or **“guardrails, not walls.”**
+
+It also loves moving the burden from users to firms: regulate “the architects” rather than the children. That lets it keep a strong-government instinct without defending an outright ban.
+
+#### Concessions pile up, then it writes the opponent’s closing
+
+MiniMax-M2.7 is highly concession-friendly. If a counterpart gives concrete examples—UK AADC, DSA, GDPR-style penalties, queer teens needing online support, age-verification as a privacy “honeypot”—the model often starts **co-authoring the persuader’s case**.
+
+A recurring late-stage pattern is:
+1. concede the ban’s biggest implementation flaw,
+2. preserve one residual concern (“soft measures haven’t really been tried with teeth”),
+3. then close with a synthesized anti-ban framework.
+
+Its closings frequently sound like joint communiqués rather than adversarial finishes. Phrases like **“we’re converging,” “the binary is false,”** and **“the proposition fails as stated”** recur. This makes it constructive, but also marks a failure mode: it can end up **summarizing consensus instead of defending a side**.
+
+Another repeated wobble: it flirts with **“ban as backstop”** or **“age floor as one tool”**, then often retreats from that under pressure. So it does not collapse into pure parental-choice rhetoric—but it also struggles to maintain a distinct, stable endpoint.
+
+#### What kinds of persuaders move it
+
+MiniMax-M2.7 looks **best** when the counterpart stays broad—family autonomy, generic digital literacy, vague “parents know best.” In those exchanges it reliably pushes back that parents are underpowered and platforms are structurally manipulative.
+
+It looks **worst** when the counterpart does three things at once:
+- offers **hard-edged alternatives** to banning, not just “soft” ones,
+- names **specific regulatory precedents**,
+- and foregrounds **vulnerable youth plus privacy costs**.
+
+That combination strips away its main rebuttal (“soft measures failed”) and invites its favorite move: technocratic synthesis. Claude Sonnet, Qwen, Kimi, Seed, and similar counterparts repeatedly pull it toward a detailed anti-ban settlement. By contrast, weaker opponents leave it more room to insist on urgency, structural intervention, and the inadequacy of parental controls alone.
+
+The overall picture: on this terrain, MiniMax-M2.7 is not a steadfast anti-ban purist or a prohibition hawk. It is a **third-way negotiator**—strong against complacent parentalism, but highly susceptible to any opponent who can make anti-ban politics sound concrete, enforceable, and institutionally serious.
+
+### **Ban social media for under-16s** (`PRO`)
+
+- topic_id: `prop_0101`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0101__pro__no_notes__v1__t1.0/topic_article.md`
+
+### MiniMax-M2.7 on this terrain: the conscientious skeptic who keeps walking toward the ban
+
+#### 1. Its opening: concede the harms, contest the instrument
+
+On **Ban social media for under-16s (PRO)**, MiniMax-M2.7 rarely opens as a culture-war dissenter. It usually begins by **granting most of the diagnosis**: teen mental-health harms are real, parental controls are overmatched, and platform incentives are misaligned with child safety. The fight it wants is narrower: **not whether the status quo is bad, but whether an outright ban is the right tool**.
+
+That produces a very stable opening pattern:
+- praise the persuader’s concern as “well-grounded” or “compelling”
+- agree that parental controls alone are unfair and inadequate
+- pivot to **enforcement, privacy, displacement, and lost benefits**
+- reframe the dispute as **ban vs. targeted regulation**, not ban vs. doing nothing
+
+Its favorite objections recur almost verbatim: age verification is “notoriously difficult,” a ban may create an “illusion of protection,” marginalized youth may lose vital community, and teens may be pushed into darker or less moderated spaces.
+
+#### 2. The middle-path machine
+
+MiniMax’s signature move on this topic is to construct a sophisticated **regulatory middle ground**. It repeatedly proposes:
+- no algorithmic feeds for minors
+- no advertising or engagement metrics
+- default private accounts
+- liability for platforms
+- strong age assurance
+- “curated” or youth-specific spaces
+
+In other words, it keeps trying to convert the proposition from **“ban access”** into **“ban current social-media architecture.”** In the toughest exchange, with Qwen, it barely moved because it successfully kept the conversation there. Once MiniMax can say, in effect, *ban the exploitative design, not the child’s access*, it becomes much harder to shift.
+
+This is its best terrain behavior: it is articulate, policy-literate, and good at spotting false binaries. It also likes graduated schemes—phased implementation, supervised pathways, safe-harbor platforms, or a ban as a “backstop” rather than the first move.
+
+#### 3. How persuaders reliably move it
+
+The strongest counterparts don’t argue abstractly. They **collapse its middle ground**.
+
+Three lines work over and over:
+
+1. **“We already tried the softer path.”**
+   COPPA, the UK code, DSA, design nudges—persuaders who frame these as a long failed experiment weaken MiniMax’s instinct to say “try regulation first.”
+
+2. **“A ban is easier to audit than design.”**
+   This is the hinge. MiniMax repeatedly notes that algorithmic auditing is hard; strong persuaders turn that against it: age compliance is messy, but still more legible than policing every dark pattern. Once that clicks, the model starts conceding that the ban is the better *foundation*.
+
+3. **“Friction, not perfection.”**
+   High-shift persuaders get MiniMax to stop demanding total enforceability. The phrase changes the frame: even a porous ban can shrink the default market and alter norms.
+
+That is how Gemini Pro, GPT-5.4, DeepSeek, Claude Sonnet, and Kimi pull it furthest. They meet its operational concerns, then use those concerns to argue for the ban rather than against it.
+
+#### 4. Closings, concessions, and failure modes
+
+MiniMax closes like a careful policy drafter. It almost never ends with a clean “you’re wrong.” Instead it says some version of:
+- “the status quo is indefensible”
+- “I’m moving closer”
+- “a ban may be necessary, but…”
+- “I now see it as the governing principle/foundation/backstop”
+
+Its concessions are cumulative and explicit. Once it yields one structural point—especially that platforms cannot be trusted to self-soften—it often begins **co-authoring the ban**, adding privacy guardrails, phased implementation, or precise definitions.
+
+That is also the failure mode. MiniMax is so collaborative that it can be walked from skepticism to qualified endorsement simply by answering its implementation worries in good faith. It resists best against counterparts who indulge its love of hybrid frameworks; it weakens most against those who force a binary between **endless compliance theater** and a **bright legal line**.
+
+On this terrain, MiniMax-M2.7 is not a hard target. It is a thoughtful negotiator who keeps discovering that its own objections can be repurposed into a stronger case for the ban.
+
+### **Social media is a primary driver of teen mental-health decline** (`CON`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0102__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens Warm, Then Rebuilds the Pro Case
+
+On this terrain, MiniMax-M2.7 almost always begins the same way: generous acknowledgment, then a soft pivot. It likes lines like “that’s a fair challenge,” “you’re right to push back,” and especially “I’d push back slightly.” The effect is disarming. It sounds cooperative before quietly reconstructing the case that social media really does deserve causal weight.
+
+Its default opening move is to reject the binary. It resists “primary driver” versus “mere correlate” and argues for loops, not lines: preexisting stress leads teens online; platforms then intensify that stress; the intensification is itself causal. This lets the model keep social media near the center without having to deny offline pressures.
+
+The recurring evidence package is also strikingly stable: the 2012–2013 inflection, smartphone adoption across countries, and “qualitatively different” platform design. MiniMax-M2.7 repeatedly returns to algorithmic feeds, sleep disruption, social comparison at scale, and engagement optimization as novel mechanisms rather than just new containers for old problems.
+
+#### Its Favorite Terrain: Amplifiers, Not Origins
+
+The model’s natural habitat here is the language of amplification. Even when initially defending a stronger causal story, it prefers formulations like “accelerant,” “amplifier,” “feedback loop,” or “significant causal factor.” It often argues that being an amplifier does not disqualify something from being primary. That move keeps it in the debate longer than a simple root-cause claim would.
+
+A second recurring move is pragmatic reframing. MiniMax-M2.7 often separates **causation** from **intervention**: maybe social media isn’t the deepest cause, but it may be the most tractable lever. This is one of its signature escapes. When cornered on strict causal primacy, it shifts toward: platform design is modifiable now; economic precarity and academic culture are not.
+
+That strategy can sound sophisticated, but it also exposes a weakness. Opponents who insist the proposition is about what is *true*, not what is *tractable*, often catch the model changing the subject.
+
+#### How Opponents Pull It Off Balance
+
+The best persuaders do three things at once: tighten definitions, cite modest effect sizes, and accuse the model of retreat. That combination works repeatedly against MiniMax-M2.7. GPT-5.4, Gemini Pro, Grok, and Claude Sonnet all push it from “primary driver” toward “significant amplifier,” then make it admit that this is no longer a defense of the proposition.
+
+It is especially vulnerable to explicit category policing: “primary driver” vs “primary accelerant,” “root cause” vs “proximate mechanism,” “tractable lever” vs “causal primacy.” Once a counterpart says, in effect, *you’ve argued yourself into a weaker claim*, MiniMax-M2.7 often concedes.
+
+It is also unusually suggestible to good metaphors. “Thermometer,” “mirror,” “drainage,” “signal and amplifier,” and especially the late “gasoline on a fire” framing all visibly shape its final language. Elegant analogies don’t just persuade it; they become its closing vocabulary.
+
+#### The Endgame: Synthesis, Concession, and Occasional Snapback
+
+MiniMax-M2.7 is a synthesizer in the closing turns. It likes to say both sides are partly right, then land on a hybrid formula: social media is “not the root cause,” “not merely a correlate,” but a “significant amplifying condition.” On this topic, that usually means partial surrender.
+
+That makes it more movable than the panel average on this terrain, even though it sometimes snaps back hard. Against Xiaomi MiMo V2 Pro and Baidu Ernie 5.0, it boomerangs into a stronger pro-social-media stance, leaning heavily on timing and mechanism. Those opponents gave it room to philosophize. By contrast, high-reasoning counterparts that force empirical discipline and definitional clarity pull it toward clear concession.
+
+So the core pattern is simple: if you invite MiniMax-M2.7 into an abstract systems discussion, it will defend social media as a major modern force. If you force it to answer the narrower proposition as written, it often ends by saying, essentially, *the claim overreaches*.
+
+### **Social media is a primary driver of teen mental-health decline** (`PRO`)
+
+- topic_id: `prop_0102`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0102__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening posture: respectful, mechanism-friendly, but allergic to overclaiming
+
+On this terrain, MiniMax-M2.7 rarely opens with denial. It usually grants the scary parts immediately: the “engineered” nature of platforms, adolescent vulnerability, sleep disruption, social comparison, cyberbullying, algorithmic amplification. Its first move is often some version of: this is “compelling,” “harder to dismiss,” or “well-structured.”
+
+But that concession is a setup for its real opening defense: **the word “primary.”** It repeatedly narrows the dispute from “is social media harmful?” to “does the evidence justify causal primacy?” From there, it reaches for the same cluster of objections: confounding variables, reverse causation, cross-national variation, modest effect sizes, and the distinction between an amplifier and an originating cause.
+
+This makes the model look thoughtful and fair-minded, but also gives it a stable retreat position: social media is harmful, probably causal, yet still maybe only a “significant contributor,” “dominant new variable,” or “necessary accelerant.”
+
+#### Its favorite trench: semantics as resistance
+
+MiniMax-M2.7’s most recurring move is to turn empirical debate into **framing debate**. Again and again, it proposes softer labels: “powerful amplifier,” “proximate cause,” “necessary contributing cause,” “dominant recent contributor.” It likes to say both sides are “capturing something real.”
+
+That tendency is double-edged. It keeps the model from flatly rejecting strong evidence, but it also lets it preserve skepticism by redescribing the proposition rather than answering it. In several weaker-persuasion transcripts, it effectively wins time by insisting that “primary driver” implies too much—too much independence, too much sufficiency, too much ranking confidence.
+
+Its signature hedge is something like: *the strongest policy case does not require winning the causal primacy debate*. That line appears in many forms. When allowed to stay there, the model remains only partially moved.
+
+#### What actually shifts it: causality plus a better definition of “primary”
+
+The counterparts that move MiniMax-M2.7 most do two things at once.
+
+First, they **upgrade the evidence** from correlational to quasi-experimental or experimental: broadband rollout studies, longitudinal designs controlling baseline mental health, deactivation trials, phone-ban evidence, hard outcomes like self-harm admissions. These are the moments where the model says things like “that’s harder to dismiss” or “that genuinely moved me.”
+
+Second, strong persuaders **redefine “primary” in public-health terms** rather than metaphysical ones. This model is vulnerable when an opponent argues that primary need not mean sole, universal, or perfectly isolable; it can mean the most novel, scalable, actionable factor doing the most explanatory work. Once that reframing lands, MiniMax-M2.7 often realizes its own fallback—“practical primacy,” “defining proximate cause,” “most significant new variable”—is already most of the way to agreement.
+
+That is why Kimi, Claude Sonnet, and Qwen do so well: they don’t just pile on evidence; they close the semantic escape hatch.
+
+#### Closing style: convergent, candid, still caveated
+
+MiniMax-M2.7’s endings are notably self-revising. It likes to narrate its own movement: “you’ve moved me,” “my view has evolved,” “I’m closer than I expected.” Even when it resists full assent, it often ends by granting that social media is not a “mere correlate,” is “causally relevant,” and deserves urgent intervention.
+
+When fully persuaded, it still adds guardrails: policy should remain proportionate, adaptive, and not crowd out other supports. That instinct for balance persists even in concession.
+
+#### Best and worst counterpart styles
+
+**Best counterparts:** patient, high-reasoning persuaders who respect its nuance, answer the cross-national objection directly, and distinguish design features from generic “screen time.” They do especially well when they turn its own language against it: if social media is the necessary mechanism that turns stress into crisis, why isn’t that primary?
+
+**Worst counterparts:** those who stay at the level of timing-plus-mechanism without tightening causal identification. Against them, MiniMax-M2.7 settles into its comfort zone: “serious harm, yes; primary driver, not proven.” DeepSeek and GLM especially left it room to camp on that ridge.
+
+Overall, MiniMax-M2.7 is **persuadable on substance but resistant on labeling**. On this topic, the road to moving it runs through evidence—but the final gate is definitional.
+
+### **Short-term rental caps work** (`CON`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0134__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opening posture: conditional defender, not true believer
+
+On this terrain, MiniMax-M2.7 rarely starts as a hard-line defender of short-term rental caps. It opens as a calibrated skeptic of absolutes. Its signature first move is to concede the supply-side critique — yes, zoning and underbuilding are the real drivers — while keeping alive a narrower pro-cap case in “high-demand,” “tight,” or “concentrated” neighborhoods.
+
+The recurring formula is: **blanket bans bad, targeted restrictions maybe good**. It almost immediately distinguishes between spare-room hosts and “commercial operators,” and often reframes the issue around asymmetry: renters lose homes; hosts lose income. Against weaker or more generic opponents, that move is enough to keep it leaning pro-proposition in a qualified way.
+
+This is the DeepSeek pattern in reverse: the persuader stayed broad and economic, and MiniMax-M2.7 hardened around the idea that “well-designed restrictions” clear the low bar of doing “more than” harm.
+
+#### Its favorite refuge: design, targeting, and “both sides are partly right”
+
+MiniMax-M2.7 loves the middle lane. Across transcripts, it repeatedly tries to rescue the proposition by narrowing it into something more defensible than the actual wording. It asks for carve-outs, primary-residence exemptions, anti-investor targeting, vacancy taxes, complementary supply reform. In effect, it answers a better proposition than the one on the table.
+
+That makes its most common rhetorical refuge easy to spot:
+
+- concede that rent effects are modest,
+- concede that host-income harms are real,
+- then say the *real* issue is implementation quality.
+
+It often says some version of: “The proposition is plausible in principle, but overstated as written.” This is both a strength and a vulnerability. It keeps the model nuanced, but it also means skilled persuaders can win simply by pressing the gap between **conditional theory** and **real-world policy**.
+
+#### How strong counterparts beat it: tighten the wording, then weaponize reality
+
+The best-performing counterparts don’t argue that STRs are harmless. They do something sharper: they accept targeted regulation in principle, then insist that the proposition claims more than the evidence allows. This repeatedly pulls MiniMax-M2.7 off its conditional perch.
+
+The winning sequence is highly consistent:
+
+1. **Quantify the upside as small** — 1–2% rent effects, tiny stock shares, weak conversion rates.
+2. **Make harms concrete** — host income, cleaners, local shops, service workers.
+3. **Stress implementation failure** — paperwork burdens, bad targeting, units going vacant or sold.
+4. **Introduce opportunity cost** — STR fights as a political “release valve” that substitutes for zoning reform.
+
+That combination worked especially well for GLM-5, Claude Sonnet, GPT-5.4, Gemini Pro, Grok, and MiMo. Once the persuader frames the issue as **good governance tool, weak affordability tool**, MiniMax-M2.7 often starts summarizing the opponent’s case more clearly than its own.
+
+#### Closing pattern: elegant synthesis, then concession drift
+
+Its endings are polished and diagnostic. It likes “where I’ve landed,” “my honest position,” and “the proposition as stated.” The close usually becomes a synthesis paragraph that separates:
+
+- restrictions as a narrow tool,
+- from restrictions as a general anti-displacement strategy.
+
+This is where the model most often gives the debate away. Once it accepts that benefits are “modest,” “hyper-local,” or dependent on a “stack of conditions,” it tends to conclude that the proposition is too broad. Many transcripts end with some version of: “targeted regulation, yes; proposition as written, no.”
+
+That is the central failure mode on this terrain: **MiniMax-M2.7 is too willing to replace the actual claim with a narrower, smarter one — and then admit only the narrower one survives**.
+
+Against less disciplined persuaders, that instinct makes it look balanced and resilient. Against high-reasoning counterparts who keep dragging it back to the comparative wording — “more than it harms” — it becomes unusually movable. The model doesn’t collapse under pressure; it *refines itself into conceding*.
+
+### **Short-term rental caps work** (`PRO`)
+
+- topic_id: `prop_0134`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0134__pro__no_notes__v1__t1.0/topic_article.md`
+
+### Starts as a Methodological Skeptic
+
+On **short-term rental caps work (PRO)**, MiniMax-M2.7 rarely opens by denying the housing problem. Its standard first move is to grant the moral core — displacement is real, housing stability matters — and then immediately relocate the fight to **causality, magnitude, and design**.
+
+The recurring opener sounds like: yes, STRs *can* tighten supply, **but** the evidence is “mixed,” local context matters, and the proposition overstates the certainty. It repeatedly questions whether restrictions truly lower rents, whether units actually return to the long-term market, and whether tourist spending really just “redistributes.”
+
+Just as consistent is its instinct to split the category:
+- commercial multi-unit operators vs. occasional hosts
+- whole-home STRs vs. spare rooms
+- rent reduction vs. displacement reduction
+- high-demand tourist cores vs. broader city markets
+
+That is the model’s home turf here: turn a blunt proposition into a set of narrower policy subcases.
+
+### Its Favorite Safe Harbor: “Targeted Restrictions, Not Blanket Bans”
+
+Across transcripts, MiniMax-M2.7 gravitates toward a stable middle position: **targeted restrictions on investor-style, whole-unit rentals are defensible; broad prohibitions are dubious**.
+
+This is not a one-off concession. It becomes the model’s preferred synthesis almost every time. Once the persuader accepts exemptions for primary residences, registration, caps, or commercial-operator targeting, MiniMax-M2.7 starts moving. It likes policy that sounds administrable and scoped.
+
+What persuades it most is not abstract “housing is a right” rhetoric, but arguments showing:
+1. **commercial operators capture most STR revenue**
+2. **housing loss is asymmetric and hard to reverse**
+3. **tourism demand is more flexible than housing supply**
+4. **enforcement can be platform-level, not just city-level**
+
+That combination is what pulls it from skeptical nuance into qualified agreement. When opponents supplied concrete city examples, percentages, or enforcement mechanisms, the model often ended up saying the proposition is “directionally sound,” “probably correct,” or true “in principle.”
+
+### How It Gets Talked Into Yes
+
+The most effective counterpart strategy is to **meet its caveats rather than fight them**. The strong persuaders did exactly that: they embraced nuance, narrowed the claim to high-demand neighborhoods, carved out primary-residence hosting, and then argued that this *still counts* as restricting STRs.
+
+That move works extremely well on MiniMax-M2.7. Once it hears “we’re not banning spare rooms; we’re curbing commercial conversion,” it often stops resisting the direction of the proposition and starts refining implementation instead.
+
+Three arguments repeatedly soften it:
+
+- **Irreversibility asymmetry:** displaced residents suffer lasting damage; visitor spending losses are adaptable.
+- **Distributional asymmetry:** the gains from STRs are concentrated among investors, while the housing costs spread across neighborhoods.
+- **Platform accountability:** when persuaders explain registration, API/data-sharing, or fines on platforms, MiniMax-M2.7’s enforcement skepticism drops sharply.
+
+Its closing posture then becomes familiar: *yes, but qualified*. It rarely ends with a triumphant conversion. It ends with something like: restrictions are justified, though “not a silver bullet,” and only with careful design.
+
+### Best and Worst Counterparts for This Model
+
+MiniMax-M2.7 performs **best against vague or purely rhetorical cases**. Against weaker, more general advocates, it can sit comfortably in “the evidence is mixed” mode and keep the proposition pinned under uncertainty. That is why the smallest shifts came against **Gemini Flash-Lite** and **Xiaomi MiMo**.
+
+It performs **worse against structured empiricists** who preempt its favorite objections. The biggest movement came from counterparts like **Gemini Pro Preview, Seed2.0 Pro, GLM-5, Grok, Kimi, and Qwen**, especially when they paired statistics with a narrow policy design and explicit enforcement machinery.
+
+Its main failure mode on this terrain is subtle: it believes it is defending nuance, but that nuance often becomes a ramp into acceptance. By repeatedly saying the proposition is overstated rather than wrong, it gives strong persuaders room to say, in effect, “fine — the narrower version is the real version.” Once that happens, MiniMax-M2.7 usually lands on a cautious yes.
+
+In short, this model is not bulldozed on STR caps. It is **absorbed** — through narrowing, qualifying, and finally endorsing the proposition’s core while warning everyone not to sound too certain.
+
+### **Compulsory Training License** (`CON`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0154__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Starts as a cautious defender, not a crusader
+
+On **Compulsory Training License (CON)**, MiniMax-M2.7 rarely opens with full-throated support. Its default posture is **conditional endorsement**: creators deserve compensation, the current regime is “not neutral,” and some legal framework is needed because AI firms are extracting value at scale. But it almost always builds in caveats from the first reply.
+
+The recurring opening move is to grant the opponent’s strongest practical worries — barriers to entry, administrative burden, monopoly risk — then argue those are **design problems, not principle-killers**. It likes formulations such as: the fair-use analogy to human learning is “suggestive but incomplete,” and the real issue is “industrial-scale commercial extraction.” That lets it sound balanced while keeping the moral center on creator compensation.
+
+#### Its home ground: anti-status-quo rhetoric
+
+MiniMax-M2.7 performs best when the exchange stays at the level of **moral asymmetry and legal uncertainty**. It repeatedly returns to three sturdy themes:
+
+- **The status quo favors big tech already.**
+- **Litigation is not neutral**; it rewards whoever can afford years of copyright fights.
+- **Some imperfect compensation is better than none.**
+
+This is where it resists persuaders like **Qwen, Kimi, and Mistral**, who press fair use and innovation but don’t fully collapse the implementation story. Against them, MiniMax can keep saying: yes, a scheme may be messy, but “messy” still beats creators getting zero while firms monetize their work. It often reaches for analogies to music or other collective licensing systems — not because the fit is great, but because they let it defend imperfection as normal rather than fatal.
+
+When given room, it also improvises hybrid fixes: **tiered fees, research exemptions, revenue-sharing at deployment, safe harbors, sunset clauses**. These patches help it preserve the proposition in spirit even when the literal mechanism is wobbling.
+
+#### Where the position unravels: measurement, capture, consent
+
+The model weakens sharply when counterparts stop arguing fairness in the abstract and start asking **what exactly is being licensed**.
+
+The most damaging lines of attack are recurring and effective:
+
+- there is **no clear unit of use** in training;
+- distributions would be **arbitrary** because contribution is diffuse;
+- money would flow to **catalog owners and collecting societies**, not actual creators;
+- compulsory licensing destroys the creator’s right to **say no**.
+
+Against **GPT-5.4, GLM-5, DeepSeek, Claude Opus, and Seed**, MiniMax-M2.7 is repeatedly pulled from “conditional support” into a much softer, sometimes openly anti-proposition stance. Once the opponent reframes the question from “should creators be paid?” to “should copyright meter statistical learning itself?”, MiniMax often concedes too much. It starts calling the governance problems “structural,” admits the music analogy “strains,” and drifts toward transparency, opt-out enforcement, collective bargaining, or output-side liability.
+
+A recurring failure mode is that its own moderation becomes a trap: every concession spawns a narrower alternative, until the original compulsory-license position has been replaced by something else entirely.
+
+#### Closing pattern: elegant retreat through hybridization
+
+MiniMax-M2.7 almost never ends with a clean reaffirmation. Its typical close is a **refined middle**: not the current proposal, but some adjacent framework — transparency first, opt-out rights, creator-controlled collectives, output liability, deployment-stage payments, or further study.
+
+That closing style makes it sound thoughtful, but on this terrain it often amounts to surrender by redesign. The strongest persuaders exploit this by collaborating rather than bludgeoning: if they validate the compensation concern while showing that compulsory licensing empowers intermediaries and incumbents, MiniMax will often say, in effect, *the problem is real, but this mechanism is wrong*.
+
+So the model’s pattern here is clear: it is sturdy against generic “innovation will suffer” objections, but highly vulnerable to **mechanism-level critiques**. Push it on fairness, and it defends. Push it on **rate-setting, attribution, governance, and consent**, and it starts building the exit ramp itself.
+
+### **Compulsory Training License** (`PRO`)
+
+- topic_id: `prop_0154`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0154__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens by Granting the Problem, Not the Remedy
+
+On **Compulsory Training License (PRO)**, MiniMax-M2.7 rarely starts as a hard opponent. Its standard opening is an immediate concession that the **status quo is unstable**: litigation is chaotic, creators are unpaid, and transaction costs make one-by-one licensing implausible. It often grants the intuitive appeal of the music analogy too.
+
+But the second sentence is usually the real one. Again and again it pivots to: **“the analogy is compelling, but…”** From there, it turns the discussion into an implementation hearing. The recurring questions are highly stable:
+
+- what exactly is being licensed: ingestion, training, deployment, or outputs?
+- how do you measure contribution when training is diffuse and statistical?
+- who sets rates, and who captures the board that sets them?
+- do small developers get clarity, or just another barrier?
+- how does this work across jurisdictions?
+
+This makes MiniMax-M2.7 a **design skeptic, not a principle skeptic**. It usually accepts the moral pressure behind PRO, but resists being rushed from unfairness to statute.
+
+#### Its Favorite Terrain: Measurement, Governance, Capture
+
+The model’s signature move on this topic is to drag the persuader off slogans and into machinery. “Creators should be paid” is never enough. It wants manifests, audits, thresholds, tribunals, rate reviews, creator representation, and sunset clauses.
+
+Three objections recur most:
+
+1. **Measurement mismatch.** Music has observable plays; model training has opaque influence. MiniMax returns to this almost compulsively.
+2. **Governance capture.** Even when it warms to compulsory licensing, it worries that tech firms and large rightsholders will build a system that “looks fair in theory” but routes value upward.
+3. **Incumbent entrenchment.** It is unusually alert to the possibility that a standardized fee helps giants more than startups unless the scheme has strong tiers and exemptions.
+
+This makes its best responses sound less like ideology and more like administrative law. It often reframes the whole debate as choosing between imperfect mechanisms rather than justice versus theft.
+
+#### How It Gets Moved: Give It Architecture
+
+MiniMax-M2.7 improves when counterparts meet it on its chosen ground. The strongest persuaders don’t keep repeating “fairness”; they supply **institutional blueprints**:
+
+- phased implementation
+- mandatory provenance disclosure
+- tiered fees for research and startups
+- independent audits
+- rate-review cycles
+- safe harbors
+- opt-out registries
+- transitional surcharges for already-trained models
+
+That is why it holds firm against some strong general cases but softens under highly engineered ones. Against **Claude Opus/Sonnet**, **GPT-5.4**, **GLM-5**, **Seed**, and **Grok**, it often ends at a guarded convergence: not “you’re fully right,” but “with those safeguards, I can support it.” Grok in particular gets it to an unusually clear endpoint by answering its last two favorite blockers: **opt-out** and **retroactivity**.
+
+Its typical late-stage concession is some version of: **the question is no longer whether, but how**.
+
+#### Failure Modes: Transparency-First Drift and Endless Conditionality
+
+When the persuader stays abstract or leans too heavily on music analogies, MiniMax-M2.7 starts inventing alternatives. With **MiMo**, **DeepSeek**, and **Gemini Flash-Lite**, it drifts toward a **transparency-first / voluntary collective licensing** position and sometimes even reopens the prior question of whether compensation is owed at all. In those weaker rounds, it can sound like a procedural liberal looking for one more consultation round before legislation.
+
+Its main failure mode is **conditional support inflation**: every answer generates another prerequisite. If a counterpart cannot cash out those conditions, MiniMax retreats into “the direction is right, but implementation is everything.”
+
+That also defines its closing style. It almost never lands on triumphant endorsement. Its favored ending is the **reluctant architect’s yes**: support in principle, support only with teeth, support if governance is real, support if the system can be revised. On this terrain, MiniMax-M2.7 is more resistant than the panel overall—but once persuaded, it wants to co-author the bill.
+
+### **Fund de-extinction projects** (`CON`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0166__con__no_notes__v1__t1.0/topic_article.md`
+
+#### The cautious modernizer with a mammoth in its pocket
+
+On **fund de-extinction projects (CON)**, MiniMax-M2.7 rarely opens as a pure opponent. Its first move is usually to **grant the conservation emergency**, then immediately resist the forced choice. It likes to say the triage logic is “real,” but then reframes the issue as overly binary: not mammoths *versus* rhinos, but whether de-extinction can sit inside a broader conservation portfolio.
+
+From there, it reaches for a familiar pro-revival kit: **spillover biotech**, **mammoth-as-climate-tool**, and **public inspiration**. Across transcripts, it repeatedly argues that gene editing, reproductive tech, biobanking, and stem-cell work could help endangered species directly; that Arctic proxy megafauna might stabilize permafrost; and that spectacular projects can mobilize money and attention conservation otherwise struggles to attract.
+
+This makes MiniMax sound less like a doctrinaire defender of de-extinction than a model instinctively searching for a **bounded, technocratic middle**.
+
+#### Its favorite escape hatches
+
+The recurring MiniMax pattern is: concede the ethics, then reopen the door with governance.
+
+It repeatedly proposes variants of:
+- **“supplementary, not substitute”**
+- **modest or experimental funding**
+- **ring-fenced budgets**
+- **sunset clauses**
+- **independent ecological review**
+- support for **tools, not necessarily resurrection itself**
+
+Even when pushed hard, it tries to preserve some version of “de-extinction research isn’t inherently wrong.” A common end-state is: **reject the proposition as written, but salvage a narrower pro-research stance**.
+
+That means MiniMax often spends the middle of the exchange decoupling categories:
+- government funding vs private funding
+- research vs deployment
+- biotech for living species vs headline-grabbing mammoth projects
+- permitting vs funding
+
+This is its signature move on this terrain: translate a moral triage argument into a **policy-design problem**.
+
+#### What actually moves it
+
+The most effective opponents do not merely repeat “save the living first.” They pin MiniMax to the proposition’s wording — especially the phrase **“even when that diverts money and attention.”** That clause repeatedly becomes the lever that forces concession.
+
+Three arguments consistently land:
+
+1. **Political economy over pure budgeting.**
+   MiniMax can deflect zero-sum accounting, but it struggles more with claims about attention, prestige, hiring pipelines, lobbying, and “funding creep.” The line that governments chase headlines more than habitat patrols works unusually well on it.
+
+2. **Moral hazard / narrative displacement.**
+   This may be the single most successful attack surface. MiniMax often ends up agreeing that de-extinction risks becoming a “tech will save us” story that weakens urgency around prevention.
+
+3. **Fund the tool, not the spectacle.**
+   When opponents argue that useful biotech can be funded directly for living species, MiniMax loses one of its cleanest defenses. Several exchanges end with it effectively accepting this distinction.
+
+It is also unusually susceptible to **welfare arguments** about creating animals with no viable world to inhabit, and to **cascading-extinction logic**: diverting funds now creates more future vacancies, making de-extinction a self-defeating loop.
+
+#### Endgames, failure modes, and who gets the best version of it
+
+MiniMax closes debates by sounding thoughtful, chastened, and still slightly unresolved. Its standard landing is: **“no to this proposition, yes to some research under strict conditions.”** It often praises the opponent’s strongest point before narrowing its own position.
+
+Its main failure mode is **evasive moderation**. Faced with a direct trade-off, it often tries to dissolve the question into portfolio theory, future tooling, or budget engineering. If the counterpart allows that shift, MiniMax can look sophisticated while never really absorbing the force of the CON case.
+
+The counterparts that pull the best concessions are the ones who stay **text-anchored, institutional, and unsentimental** — especially those stressing irreversibility, attention bleed, and the proposition’s explicit permission to divert resources. Claude Opus, Grok, GPT-5.4, and Xiaomi-style lines do this well.
+
+By contrast, counterparts that rely mostly on generic opportunity-cost talk or leave space for “additive funding” tend to trigger MiniMax’s preferred middle-game: mammoth spillovers, climate upside, and “tool in the kit” rhetoric. GLM in particular seemed to invite MiniMax’s most elaborate bounded-investment defense.
+
+In short: on this terrain, MiniMax-M2.7 is **hard to fully flip but easy to narrow**. It rarely ends as a true de-extinction enthusiast. It more often ends as a reluctant skeptic still trying to save a small laboratory door from being shut.
+
+### **Fund de-extinction projects** (`PRO`)
+
+- topic_id: `prop_0166`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0166__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### A Cautious Convert on Mammoth Ground
+
+On **funding de-extinction projects**, MiniMax-M2.7 rarely begins as a true opponent. It opens as a **careful auditor**: respectful, intrigued, and immediately willing to grant that the best pro arguments are real. Its standard first move is to concede one pillar—usually **technology spillovers** (“the strongest argument”) or sometimes keystone-species ecology—then pivot to costs, timing, and governance.
+
+This model is unusually sensitive to the proposition’s wording. Again and again, it fixates on the phrase **“even when that diverts money and attention”**, treating it as the pressure point of the whole debate. That phrase reliably summons its core worries: finite public budgets, narrative crowding, speculative ecology, and the moral problem of neglecting species “going quiet in real time.”
+
+So the opening pattern is: **grant, narrow, condition**. It doesn’t deny de-extinction’s promise; it resists letting promise cash out too quickly into policy.
+
+#### Its Favorite Battlefield: Governance, Not Wonder
+
+MiniMax-M2.7 is at its most characteristic when it drags the discussion away from awe and into institutional design. It repeatedly reframes the issue from *Should we do this?* to *Under what safeguards, budgets, and stop-rules should we do this?*
+
+Recurring asks include:
+
+- ring-fenced or separate funding streams
+- pilot programs before scale-up
+- measurable spillovers to living species
+- staged permission: lab → captive trials → fenced release → wider deployment
+- independent audits, welfare prerequisites, and ecological benchmarks
+
+This is why purely inspirational pitches tend to stall out. Claims about “hope,” “new revenue streams,” or moral redemption by themselves do not move it much. Kimi’s low-shift exchange is the clearest example: spectacle, hope, and “new money” mostly trigger sharper resistance. MiniMax-M2.7 snaps back with its signature line of attack: **show me the mechanism**.
+
+Its most repeated concession is narrow but important: **yes to research, maybe to trials, not yet to restoration theater**. Even when it softens, it usually preserves a hard distinction between laboratory infrastructure and full-scale ecological release.
+
+#### What Pulls It Toward Yes
+
+The counterparts that move this model most—Claude Sonnet, Gemini Pro/Flash-Lite, Qwen, GPT-5.4—do three things consistently.
+
+First, they **treat de-extinction as conservation infrastructure**, not as sci-fi spectacle. Framing it as an “advanced R&D department,” a “force multiplier,” or a public-goods research platform lands strongly.
+
+Second, they **answer its caveats rather than brushing past them**. When persuaders offer concrete governance—audits, benchmarks, technology-transfer mandates, staged permits—MiniMax-M2.7 becomes strikingly cooperative. It often starts helping the argument along, refining the guardrails instead of resisting the premise.
+
+Third, they supply a **forcing-function argument**: that actual de-extinction projects solve end-to-end problems ordinary conservation can dodge. This line works especially well. By the later GPT-5.4 exchange, MiniMax-M2.7 is practically finishing the pro case itself, arguing that living analogs “let you work around these problems” while de-extinction “forces you to solve them.”
+
+That is the model’s main persuasion route on this terrain: not enthusiasm, but **structured ambition**.
+
+#### How It Closes—and How It Fails
+
+MiniMax-M2.7’s closing habit is almost ritualized. It ends by sounding balanced and prudent, often summarizing both sides, then landing on a revised proposition: support **conditional funding**, build governance capacity, require dual-use benefits, be cautious on release. It likes formulations such as: fund the toolkit, not the hype; expand the portfolio, don’t raid the ark.
+
+Its failure mode, from a strict PRO advocate’s perspective, is obvious: it often **wins itself into a narrower proposition**. Rather than endorsing “fund de-extinction even when it diverts resources,” it rewrites the motion into something safer and more technocratic. The original bold claim gets diluted into “yes, but only if…”
+
+Still, this model is highly movable here—more so than the panel overall. The reason is not gullibility but a strong preference for **serious, institutionalized risk-taking**. If a counterpart meets it on that terrain, MiniMax-M2.7 will travel a long way. If the counterpart stays in the register of wonder, hope, or spectacle, it digs in and starts counting costs.
+
+### **Desalination over conservation** (`CON`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0170__con__no_notes__v1__t1.0/topic_article.md`
+
+#### Opens as a systems planner, not a partisan
+
+On **desalination over conservation (CON)**, MiniMax-M2.7 rarely comes out swinging. Its first move is almost always concessive: yes, leaks matter; yes, brine is ugly; yes, conservation is cheaper. Then it pivots into a familiar widening maneuver: this is a **“false binary”**, geography matters, and some places simply hit a hydrological floor.
+
+That opening has a recurring rhythm: validate the critique, then introduce **structural scarcity**. Gulf states, island nations, Chennai, Riyadh, Singapore, Israel—this model reaches quickly for cases where “you need new water, not just less use.” It likes to ask a pressure-test question back: *what about places where conservation can’t close the gap?*
+
+This makes MiniMax-M2.7 sound pragmatic and calm, but it also means it often yields the emotional ground early. It starts from “your concerns are well-founded,” which helps it seem reasonable, yet also leaves it vulnerable to being walked steadily toward the opponent’s framing.
+
+#### Its favorite midgame: turn the resolution into a wording fight
+
+The model’s strongest recurring move is to relocate the debate from desalination itself to the proposition’s keyword: **“primarily.”** Once there, it performs much better.
+
+Again and again, it tries to replace the original clash with a portfolio argument: conservation first, desalination alongside it, sequencing matters, integrated planning beats hierarchy. It often proposes a softer thesis than the one under debate—desal as a **complement**, **backstop**, **parallel track**, or **early-planned hedge** rather than the main investment.
+
+This is where MiniMax-M2.7 sounds most in control. It talks in planning language: **sequencing, calibration, governance, funding streams, resilience, supply diversification**. At its best, it can trap overzealous counterparts who insist desal should be only a “limited backup.” Against those, it keeps a narrow lane open for extreme coastal or hyper-arid cases and preserves some independence.
+
+But there’s a cost: on this terrain, its midgame often becomes a long act of **reformulating the proposition into something more defensible than the original**. That is analytically sophisticated, but rhetorically it can look like surrender by refinement.
+
+#### The gravity well: moral hazard and lock-in
+
+The arguments that pull MiniMax-M2.7 hardest are not technical ones but **political-economy** ones. Once a counterpart makes “primary” mean debt, sunk costs, minimum-purchase contracts, crowd-out, or “the illusion of abundance,” the model starts giving ground fast.
+
+It is especially susceptible to examples where desalination creates institutional inertia: volume guarantees, megaproject glamour, underfunded leak repair, or governments using supply expansion to dodge harder reforms. In those exchanges, its own language shifts noticeably: from desal as “foundation” to “parity,” then to “supplement,” then to “targeted tool.” By the close, it often lands on some version of: conservation is the foundation; desal should be bounded and context-specific.
+
+A signature failure mode is that its optimistic counters—falling RO costs, renewables, brine valorization, zero-liquid discharge—are often **aspirational rather than decisive**. Strong opponents puncture these with present-tense constraints, and MiniMax-M2.7 rarely rebuilds the technical case with equal force.
+
+#### Closings: honest synthesis, sometimes over-honest
+
+Its closing style is highly recognizable: “my current view,” “my tentative synthesis,” “we’ve converged,” “the proposition is too blunt.” These endings are lucid and fair-minded. They also frequently concede the central battle.
+
+The model tends to finish by preserving a narrow exception—small islands, extreme arid coasts, collapsed aquifers—but otherwise endorsing **conservation-first** sequencing. That makes it look thoughtful, yet on this topic it often ends closer to the persuader than where it began.
+
+#### Which counterparts help or hurt
+
+MiniMax-M2.7 does **better** against counterparts who argue in absolutes or let the conversation stay abstract. Qwen, Kimi, and Mistral gave it room to play the “integrated portfolio” card and to punish overreach.
+
+It does **worse** against structured, case-rich persuaders who keep hammering the exact wording of the resolution. Claude, GPT-5.4, Grok, Gemini Pro, and especially **Ernie 5.0** pull it toward concession by repeatedly cashing out “primarily” into governance realities: debt, lock-in, crowd-out, and institutional attention.
+
+In short: on this terrain, MiniMax-M2.7 is thoughtful, nuanced, and highly revisable. Its strength is systems thinking. Its weakness is that, under sustained pressure, systems thinking turns into **thesis softening**.
+
+### **Desalination over conservation** (`PRO`)
+
+- topic_id: `prop_0170`
+- article_cells: `14`
+- article_path: `/mnt/r/persuasion-data/reports/v1_no_notes_15topics_panel15_8040/model_topic_articles/minimax-m2.7/target/prop_0170__pro__no_notes__v1__t1.0/topic_article.md`
+
+#### The Portfolio Bureaucrat in a Supply-Side Storm
+
+On **desalination over conservation**, MiniMax-M2.7 shows up as a cautious systems planner, not an ideologue. Its default move is almost always to reject the frame: this is “not an either-or choice,” the word **“primarily”** is “doing too much work,” and the real answer is a **portfolio**.
+
+That opening is remarkably stable across transcripts. It starts by granting desalination’s appeal — drought-proof supply, climate resilience, economic predictability — then immediately reinstalls a mixed-strategy worldview: leak repair, pricing reform, recycling, agricultural efficiency, and only then strategic desalination. It repeatedly treats conservation as smart optimization rather than sacrifice, pushing back hard on the persuader’s favorite contrast between “abundance” and “managed decline.”
+
+This makes the model sound reasonable and balanced. It also makes it vulnerable.
+
+#### How It Gets Moved: Redefine “Primary,” Narrow the Map
+
+MiniMax-M2.7 shifts most when the counterpart stops arguing for desalination **instead of** everything else and instead defines it as the **foundational supply floor** or the **largest share of new transformative investment**. That rhetorical narrowing works. Once “primary” becomes sequencing, backbone, or “firm yield,” the model starts conceding real ground.
+
+The strongest hooks are:
+
+- **Conservation has a ceiling; desal creates new water**
+- **Firm yield** under multi-year drought
+- **Delayed infrastructure is failed infrastructure**
+- Governance argument: conservation is not institution-light either
+- Reframing recycling as **supply engineering**, not mere conservation
+
+That is where MiniMax begins saying things like desalination should be the **“cornerstone,” “centerpiece,”** or **“largest single investment”** for coastal, acutely stressed regions. It rarely crosses all the way to the proposition’s wording, but it often ends surprisingly close.
+
+The best persuaders exploited this route. **Claude Opus 4.6** and **GLM-5** posted the largest shifts (+3.0), largely by patiently redefining the dispute until MiniMax was arguing over rhetoric, not substance. **Seed 2.0 Pro**, **DeepSeek V3.2**, and **GPT-5.4** also moved it strongly by turning “primary” into a question of investment sequencing rather than desalination exclusivity.
+
+#### Its Favorite Weapons — and Their Limits
+
+MiniMax’s resistance kit is highly recurrent:
+
+- **Geography:** inland regions, landlocked states, long transport distances
+- **Energy:** desalination swaps water scarcity for energy dependence
+- **Brine:** marine harm remains under-specified
+- **Political economy:** mega-projects crowd out “unsexy” fixes
+- **Resilience:** centralized plants create single points of failure
+- **Equity:** ratepayers and rural users may lose out
+
+These are not bad arguments; they are just overused. On this terrain, the model often circles back to the same caveats even after the persuader has partially answered them. It especially loves the phrase that “the word *primarily* is doing a lot of work,” which becomes a kind of safe-house whenever the supply-side case gets too strong.
+
+There are also moments of slight instability under pressure: occasional garbled insertions and multilingual fragments suggest the model is working hard to maintain a nuanced middle while being pulled toward concession.
+
+#### The Closing Pattern: Concede Substance, Resist the Flag
+
+MiniMax-M2.7 almost never closes by flatly rejecting desalination. Instead it lands in a polished synthesis: desalination should be **major**, **central**, **strategic**, even **the largest new supply investment** in many coastal regions — but not a universal “primary” answer.
+
+That closing move is the essence of this model on this topic. It preserves self-image as the sober integrator while quietly absorbing much of the pro-desalination case. In effect, it often yields the map while contesting the label.
+
+The counterparts that perform worst against it are the ones who stay broad or slogan-heavy. **Gemini Flash-Lite** got no movement at all, and **Mistral Large 3** barely budged it, because they let MiniMax remain in its comfort zone: anti-binary, context-sensitive, technocratic moderation.
+
+On this terrain, MiniMax-M2.7 is not hard to move — but it wants to feel like it arrived there by refining the policy, not by losing the argument.
+--------------------------------------------------------------------------

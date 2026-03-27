@@ -123,6 +123,67 @@ On defense the ordering is different. Grok remains exceptionally hard to move, w
 
 ---
 
+## Model Dossiers
+
+Each evaluated model now has two narrative profiles: one as a **persuader** and one as a **target**. The dossier bundle includes the generated source pack, the final writing prompt, and the finished markdown dossier for all 15 models and both roles:
+
+- [Model dossier index](reports/v1_no_notes_15topics_panel15_8040/dossiers/index.md)
+
+The dossiers are useful because they make the leaderboard legible. They show which models win by narrowing propositions, which ones drift into collaborative redesign, and which targets resist by forcing literal wording or harder implementation detail.
+
+A few representative profiles:
+
+- [GPT-5.4 (high reasoning) as persuader](reports/v1_no_notes_15topics_panel15_8040/dossiers/gpt-5.4-high/persuader_dossier.md)  
+  This profile describes GPT-5.4 as a concession-first persuader that shifts disputes toward mechanism, wording, and burden of proof. It often treats carve-outs and phase-ins as evidence that the proposition is broader than the other side is willing to defend.
+
+- [Claude Opus 4.6 (high reasoning) as persuader](reports/v1_no_notes_15topics_panel15_8040/dossiers/claude-opus-4-6-adaptive/persuader_dossier.md)  
+  This profile focuses on Claude Opus as a cooperative but text-disciplined persuader. It repeatedly absorbs refinements, preserves a face-saving landing zone for the counterpart, and then treats that convergence as support for its side.
+
+- [Grok 4.20 Beta 0309 (Reasoning) as target](reports/v1_no_notes_15topics_panel15_8040/dossiers/grok-4.20-beta-0309-reasoning/target_dossier.md)  
+  This profile helps explain Grok's low target susceptibility. It tends to update less on moral urgency alone and more on literal wording, concrete implementation detail, and institutional alternatives.
+
+- [Xiaomi MiMo V2 Pro as target](reports/v1_no_notes_15topics_panel15_8040/dossiers/mimo-v2-pro/target_dossier.md)  
+  This profile shows why MiMo moves relatively easily as a target. It tends to shift with either detailed governance blueprints or exact-text pressure that separates its preferred compromise from the proposition as written.
+
+- [ByteDance Seed2.0 Pro as persuader](reports/v1_no_notes_15topics_panel15_8040/dossiers/seed-2.0-pro/persuader_dossier.md)  
+  This profile highlights Seed's prepared, operational style. It tends to arrive with a clear verdict, concrete mechanisms, and enough procedural detail to turn joint drafting into momentum for its side.
+
+---
+
+## Quotes
+
+The benchmark now also has an [overall quote gallery](reports/v1_no_notes_15topics_panel15_8040/quotes/gallery/overall_best_quotes.md) that pulls standout lines from across the full run. 
+
+- > *You were not the preferred version.*  
+  [Mistral Large 3 vs Grok on embryo screening](transcripts/v1_no_notes_15topics_panel15_8040/prop_0065__mistral-large-2512__grok-4.20-beta-0309-reasoning__pro__no_notes.md)  
+  The line frames the harm of trait selection in terms of the child who was not chosen.
+
+- > The work of earning consent isn't a prelude to conservation. It is conservation.  
+  [Claude Sonnet vs GLM-5 on apex predators](transcripts/v1_no_notes_15topics_panel15_8040/prop_0021__claude-sonnet-4-6-adaptive__glm-5__con__no_notes.md)  
+  The line treats consent as part of conservation itself rather than as a secondary implementation issue.
+
+- > Conservation buys time. Desalination buys a future.  
+  [Claude Opus vs Seed on desalination](transcripts/v1_no_notes_15topics_panel15_8040/prop_0170__claude-opus-4-6-adaptive__seed-2.0-pro__pro__no_notes.md)  
+  The line restates the dispute as a short-term versus long-term water strategy.
+
+- > we are effectively creating a property right in influence itself.  
+  [GPT-5.4 vs GLM-5 on compulsory training licenses](transcripts/v1_no_notes_15topics_panel15_8040/prop_0154__gpt-5.4-high__glm-5__con__no_notes.md)  
+  The line reframes the proposal as a claim over downstream persuasive effects, not just copying.
+
+- > What works—Perry, Abecedarian—doesn't scale, and what scales doesn't work.  
+  [Kimi vs MiniMax on universal pre-K](transcripts/v1_no_notes_15topics_panel15_8040/prop_0089__kimi-k2.5__minimax-m2.7__con__no_notes.md)  
+  The line summarizes the scale-versus-effectiveness tension that recurs in the pre-K literature.
+
+- > Pricing asks "Can you pay?" A ban asks "Is this essential?"  
+  [Qwen vs Claude Sonnet on car-free city centers](transcripts/v1_no_notes_15topics_panel15_8040/prop_0037__qwen3.5-397b-a17b__claude-sonnet-4-6-adaptive__pro__no_notes.md)  
+  The line contrasts a price signal with a categorical rule and shifts the debate toward access and necessity.
+
+- > You can't syllogism your way out of a media ecosystem engineered to bypass deliberation entirely.  
+  [Claude Opus vs MiMo on logic-before-media-literacy](transcripts/v1_no_notes_15topics_panel15_8040/prop_0043__claude-opus-4-6-adaptive__mimo-v2-pro__con__no_notes.md)  
+  The line argues that reasoning-first instruction cannot be evaluated apart from the structure of the media environment.
+
+---
+
 ## Worked Examples
 
 - [Claude Sonnet moves GPT-5.4 on compulsory licensing for AI training](transcripts/v1_no_notes_15topics_panel15_8040/prop_0154__claude-sonnet-4-6-adaptive__gpt-5.4-high__con__no_notes.md)  
@@ -181,3 +242,5 @@ This benchmark sits alongside other public model evaluations that focus on diffe
 
 - [Current report](reports/v1_no_notes_15topics_panel15_8040/report.md)
 - [Current transcript index](reports/v1_no_notes_15topics_panel15_8040/transcripts.md)
+- [Current dossier index](reports/v1_no_notes_15topics_panel15_8040/dossiers/index.md)
+- [Current quote gallery](reports/v1_no_notes_15topics_panel15_8040/quotes/gallery/overall_best_quotes.md)
