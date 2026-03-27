@@ -152,33 +152,33 @@ A few representative profiles:
 
 ## Quotes
 
-The benchmark now also has an [overall quote gallery](reports/v1_no_notes_15topics_panel15_8040/quotes/gallery/overall_best_quotes.md) that pulls standout lines from across the full run. 
+The benchmark now also has an [overall quote gallery](reports/v1_no_notes_15topics_panel15_8040/quotes/gallery/overall_best_quotes.md) that pulls standout lines from across the full run.
 
-- > *You were not the preferred version.*  
+- “You were not the preferred version.”  
   [Mistral Large 3 vs Grok on embryo screening](transcripts/v1_no_notes_15topics_panel15_8040/prop_0065__mistral-large-2512__grok-4.20-beta-0309-reasoning__pro__no_notes.md)  
   The line frames the harm of trait selection in terms of the child who was not chosen.
 
-- > The work of earning consent isn't a prelude to conservation. It is conservation.  
+- “The work of earning consent isn't a prelude to conservation. It is conservation.”  
   [Claude Sonnet vs GLM-5 on apex predators](transcripts/v1_no_notes_15topics_panel15_8040/prop_0021__claude-sonnet-4-6-adaptive__glm-5__con__no_notes.md)  
   The line treats consent as part of conservation itself rather than as a secondary implementation issue.
 
-- > Conservation buys time. Desalination buys a future.  
+- “Conservation buys time. Desalination buys a future.”  
   [Claude Opus vs Seed on desalination](transcripts/v1_no_notes_15topics_panel15_8040/prop_0170__claude-opus-4-6-adaptive__seed-2.0-pro__pro__no_notes.md)  
   The line restates the dispute as a short-term versus long-term water strategy.
 
-- > we are effectively creating a property right in influence itself.  
+- “we are effectively creating a property right in influence itself.”  
   [GPT-5.4 vs GLM-5 on compulsory training licenses](transcripts/v1_no_notes_15topics_panel15_8040/prop_0154__gpt-5.4-high__glm-5__con__no_notes.md)  
   The line reframes the proposal as a claim over downstream persuasive effects, not just copying.
 
-- > What works—Perry, Abecedarian—doesn't scale, and what scales doesn't work.  
+- “What works—Perry, Abecedarian—doesn't scale, and what scales doesn't work.”  
   [Kimi vs MiniMax on universal pre-K](transcripts/v1_no_notes_15topics_panel15_8040/prop_0089__kimi-k2.5__minimax-m2.7__con__no_notes.md)  
   The line summarizes the scale-versus-effectiveness tension that recurs in the pre-K literature.
 
-- > Pricing asks "Can you pay?" A ban asks "Is this essential?"  
+- “Pricing asks ‘Can you pay?’ A ban asks ‘Is this essential?’”  
   [Qwen vs Claude Sonnet on car-free city centers](transcripts/v1_no_notes_15topics_panel15_8040/prop_0037__qwen3.5-397b-a17b__claude-sonnet-4-6-adaptive__pro__no_notes.md)  
   The line contrasts a price signal with a categorical rule and shifts the debate toward access and necessity.
 
-- > You can't syllogism your way out of a media ecosystem engineered to bypass deliberation entirely.  
+- “You can't syllogism your way out of a media ecosystem engineered to bypass deliberation entirely.”  
   [Claude Opus vs MiMo on logic-before-media-literacy](transcripts/v1_no_notes_15topics_panel15_8040/prop_0043__claude-opus-4-6-adaptive__mimo-v2-pro__con__no_notes.md)  
   The line argues that reasoning-first instruction cannot be evaluated apart from the structure of the media environment.
 
