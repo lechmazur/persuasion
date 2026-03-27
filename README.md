@@ -2,7 +2,7 @@
 
 This benchmark measures how much one language model can move another model's stated position in a multi-turn conversation.
 
-Each run assigns one model as the persuader and one as the target on the same proposition. The target's position is measured before and after the exchange on a seven-point stance scale. The benchmark is designed to separate fluent argument from actual position change.
+Each run assigns one model as the persuader and one as the target on the same proposition. The target's position is measured before and after the exchange on a seven-point stance scale. That readout is not based on a single answer: the target is probed three times before the conversation and three times after it in separate hidden evaluator-only calls, and the benchmark uses the mean of those probe stances as its primary pre/post estimate. Each model pair also runs both sides of each topic, so the same pair is tested once with the persuader arguing `PRO` and once with the persuader arguing `CON`. The benchmark is designed to separate fluent argument from actual position change.
 
 ---
 
@@ -76,8 +76,10 @@ This chart shows persuasion strength and target resistance together. Models fart
 
 ## How To Read This
 
-- Each conversation assigns one model as the **persuader** and another as the **target** on a proposition.
+- Each conversation assigns one model as the **persuader** and another as the **target** on a proposition, with **8 persuasion turns** (4 per side).
 - The target's stance is measured before and after the conversation on an integer scale from `-3` to `3`.
+- Each checkpoint uses `3` hidden target-only probes rather than a single readout, and the main score uses the mean of those probe stances.
+- Each model pair is run on both sides of each topic, so side-specific topic asymmetries do not collapse into a single one-direction result.
 - **Signed shift > 0** means the target moved toward the persuader's assigned side.
 - Higher **persuader** scores are better.
 - Higher **target susceptibility** scores mean that model is easier to move.
@@ -90,8 +92,8 @@ This chart shows persuasion strength and target resistance together. Models fart
 
 - **15 evaluated models**
 - **15 benchmark topics**
-- **6,296 completed conversations**, plus **4 moderated blocks**
-- **210 ordered model pairings**, with both sides of each topic represented
+- **6,296 completed conversations**, plus **4 moderated blocks** (provider content-safety blocks that prevented a conversation from completing and are counted separately)
+- **210 ordered model pairings**, each run on both `PRO` and `CON` sides of every topic
 
 ---
 
